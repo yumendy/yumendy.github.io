@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"yumendy.cn","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="双十一又要来了，为剁手党萌做了一点微小的事情  涉及最简单的页面分析 简单的多进程编程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="京东评论爬虫一则">
+<meta property="og:url" content="http://yumendy.cn/2016/11/ckmcs7iy9002yt1qmdjm3865m/index.html">
+<meta property="og:site_name" content="听雨轩">
+<meta property="og:description" content="双十一又要来了，为剁手党萌做了一点微小的事情  涉及最简单的页面分析 简单的多进程编程">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://yumendy.cn/2016/11/ckmcs7iy9002yt1qmdjm3865m/1.png">
+<meta property="og:image" content="http://yumendy.cn/2016/11/ckmcs7iy9002yt1qmdjm3865m/2.png">
+<meta property="article:published_time" content="2016-11-03T06:42:02.000Z">
+<meta property="article:modified_time" content="2018-06-01T11:32:29.000Z">
+<meta property="article:author" content="雨翌">
+<meta property="article:tag" content="技术">
+<meta property="article:tag" content="开发">
+<meta property="article:tag" content="Python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yumendy.cn/2016/11/ckmcs7iy9002yt1qmdjm3865m/1.png">
+
+<link rel="canonical" href="http://yumendy.cn/2016/11/ckmcs7iy9002yt1qmdjm3865m/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>京东评论爬虫一则 | 听雨轩</title>
+  
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?cf0de9f21095dfd8477c7bc1f80b3999";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">听雨轩</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">雨翌的部落格</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">44</span></a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">14</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">8</span></a>
+
+  </li>
+        <li class="menu-item menu-item-book-list">
+
+    <a href="/book-list/" rel="section"><i class="fa fa-book fa-fw"></i>书单</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yumendy.cn/2016/11/ckmcs7iy9002yt1qmdjm3865m/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="雨翌">
+      <meta itemprop="description" content="关于一点代码、烹饪和养猫的点滴">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="听雨轩">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          京东评论爬虫一则
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2016-11-03 14:42:02" itemprop="dateCreated datePublished" datetime="2016-11-03T14:42:02+08:00">2016-11-03</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2018-06-01 19:32:29" itemprop="dateModified" datetime="2018-06-01T19:32:29+08:00">2018-06-01</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/%E5%BC%80%E5%8F%91/" itemprop="url" rel="index"><span itemprop="name">开发</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>双十一又要来了，为剁手党萌做了一点微小的事情</p>
+<ul>
+<li>涉及最简单的页面分析</li>
+<li>简单的多进程编程</li>
+</ul>
+<span id="more"></span>
+
+<p>转眼又到了双十一，分享一个之前爬京东商品评论的爬虫，为剁手党萌提供一些微小的帮助。</p>
+<p>每每想到要在网上购买商品，第一个想到的就是要去看看买家们怎么说，但是难以避免的，在页面上一次只能看到10条评论，频繁的翻页操作真的是好麻烦。再者有时候对于（没钱的我）[划掉]选择困难症患者来说总有这么一个闹心事，比如我想买一部手机，我同时看好水果牌的某一款，我也看好大菊花的某两款，我还看好大法的某一款，那么当我逐一看某一款的评论时，都会给我一个感觉“哇，好棒，买买买。”相反在现实里，小伙伴们一起讨论的话就会是另外一番场景了：A：“水果好看。”B：“支持国产。”C：“坚定信仰。”A：“水果做工好。”B：“我用麒麟。”C：“坚定信仰。”通过这样的交替看评论，反而能使人更客观一点。但是我们在一个京东的页面里面显然是不可能看见友商竞品的评论了。我们总不能开好几个标签手动看吧。鉴于此，这点小事是难不倒程序猿的。写个爬虫存起来，想怎么看就怎么看<em>(:зゝ∠)</em></p>
+<p>说干就干，必然还是人生苦短我用python。</p>
+<p>第一步必然是分析页面，随时打开一个评论页面，比如以<code>http://item.jd.com/3717578.html</code>这个地址为例。在第一条评论的位置右键审查元素，可以看到这样的信息：</p>
+<img src="/2016/11/ckmcs7iy9002yt1qmdjm3865m/1.png" class="">
+
+<p>发现很明显，所有的评论内容都是在一个类为<code>p-comment</code>的div中。随手在下面的console中敲一下<code>$(&#39;.p-comment&#39;)</code>一看返回结果刚好是10条评论的数组。一看到这个，不由的让人想到，这下好办了pyquery几乎可以不费什么功夫就把所有的内容抓到了。</p>
+<p>但是根据我的经验，这样的页面一般评论都是异步加载的，可能会有更简单的办法来处理这件事情。比如挖掘一下有没有评论接口什么的。戳回商品信息页面，在Chrome的Developer Tools的Network标签里禁用缓存，刷新页面然后戳一下商品评论，发现又发起了81个请求，那么很有可能评论就藏在这里面。在filter中选择XHR发现居然是空的，那么评论没有直接使用json传回来，一定被藏起来了。这样真的是有点不太友好哇<em>(:зゝ∠)</em></p>
+<p>不过这样的事情难不倒段喵喵，把filter切到js看看这些请求回来的js有没有什么异常。为嘛会想到js呢。对于这个问题可以去查一下JSON到底是什么。往下翻几个就看到了一个请求名字是<code>productPageComments.action</code>戳开一看果然是一个函数调用包着一个大的json。那么我们要找的json就在这里了，可是还得处理一下外面这一层。看起来似乎不太好办，但是再回头看一眼这个请求本身最后带着一个查询参数是<code>callback=fetchJSON_comment98vv2125</code>发现和respose中包着这个json的函数调用名字一样。这样的话，如果我们把这个参数去掉发一个请求试试。</p>
+<p>一个完整的JSON文件get√，看看上面的查询参数，我们只要修改对于的productId就可以得到不同商品的评论了，当然还有page和pageSize参数。分别是评论的第几页和每页的评论数。但是不知道为嘛这个pageSize参数是个咸鱼，不管你填多少都只能拿到10条评论。</p>
+<p>接下来的事情简单了，分析一下json文件，先格式化了，然后简单折叠一下。就可以看到这样的结构了：</p>
+<img src="/2016/11/ckmcs7iy9002yt1qmdjm3865m/2.png" class="">
+
+<p><code>productCommentSummary</code>是产品评论总结，里面有一些好评率，评论总数之类的东西，<code>hotCommentTagStatistics</code>标签信息，<code>maxPage</code>最大页码数，<code>comments</code>评论列表。</p>
+<p>剩下的内容就无比简单了，urllib2和json两个包的使用，为了效率高可以用multiprocessing多进程处理，为了容错和高效维护数据，内容直接写入MySQL就OK了。</p>
+<p>多的不用说了，直接上代码了w</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> MySQLdb</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> Pool</span><br><span class="line"></span><br><span class="line"><span class="comment"># db config</span></span><br><span class="line">HOST = <span class="string">&quot;127.0.0.1&quot;</span></span><br><span class="line">PORT = <span class="number">3306</span></span><br><span class="line">USERNAME = <span class="string">&#x27;admin&#x27;</span></span><br><span class="line">PASSWORD = <span class="string">&#x27;test&#x27;</span></span><br><span class="line">DB = <span class="string">&#x27;jd_comment&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># project config</span></span><br><span class="line"></span><br><span class="line">MAX_PAGE = <span class="number">9999</span></span><br><span class="line">PROCESS_NUM = <span class="number">8</span></span><br><span class="line">product_id_list = [<span class="number">3717578</span>, <span class="number">1856584</span>, <span class="number">3110721</span>, <span class="number">2473905</span>, <span class="number">2978567</span>, <span class="number">3742076</span>, <span class="number">2777805</span>, <span class="number">1750526</span>, <span class="number">10429992152</span>, <span class="number">2203531</span>]</span><br><span class="line"></span><br><span class="line">_url_template = <span class="string">&#x27;http://sclub.jd.com/comment/productPageComments.action?productId=%s&amp;score=0&amp;sortType=3&amp;page=%s&amp;pageSize=10&#x27;</span></span><br><span class="line">_sql_template = <span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">INSERT INTO items(product_id, product_name, score, content) VALUES (%s, %s, %s, %s);</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line">con = MySQLdb.connect(host=HOST, port=PORT, user=USERNAME, passwd=PASSWORD, charset=<span class="string">&#x27;utf8&#x27;</span>)</span><br><span class="line">cur = con.cursor()</span><br><span class="line">con.select_db(DB)</span><br><span class="line"></span><br><span class="line">err = <span class="built_in">open</span>(<span class="string">&#x27;err.log&#x27;</span>, <span class="string">&#x27;w&#x27;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_project_comments_by_id</span>(<span class="params">project_id</span>):</span></span><br><span class="line">    first_page_data = get_page(<span class="number">0</span>, project_id)</span><br><span class="line">    total_pages = first_page_data.get(<span class="string">&#x27;maxPage&#x27;</span>, <span class="number">1</span>) <span class="keyword">if</span> first_page_data.get(<span class="string">&#x27;maxPage&#x27;</span>, <span class="number">1</span>) &lt; MAX_PAGE <span class="keyword">else</span> MAX_PAGE</span><br><span class="line">    save_page_to_db(first_page_data)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> page_number <span class="keyword">in</span> xrange(<span class="number">1</span>, total_pages):</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            data = get_page(page_number, project_id)</span><br><span class="line">            save_page_to_db(data)</span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save_page_to_db</span>(<span class="params">data</span>):</span></span><br><span class="line">    comments_list = get_comments_list(data)</span><br><span class="line">    save_comments_list_to_db(comments_list)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_page</span>(<span class="params">page_number, project_id</span>):</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">return</span> json.load(urllib2.urlopen(_url_template % (project_id, page_number)), encoding=<span class="string">&#x27;gbk&#x27;</span>)</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_comments_list</span>(<span class="params">data</span>):</span></span><br><span class="line">    comments_list = data.get(<span class="string">&#x27;comments&#x27;</span>, [])</span><br><span class="line">    <span class="keyword">return</span> [[item.get(<span class="string">&#x27;referenceId&#x27;</span>, <span class="string">&#x27;&#x27;</span>), item.get(<span class="string">&#x27;referenceName&#x27;</span>, <span class="string">&#x27;&#x27;</span>), item.get(<span class="string">&#x27;score&#x27;</span>, <span class="number">0</span>), item.get(<span class="string">&#x27;content&#x27;</span>, <span class="string">&#x27;&#x27;</span>)]</span><br><span class="line">            <span class="keyword">for</span> item <span class="keyword">in</span> comments_list]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save_comments_list_to_db</span>(<span class="params">comments_list</span>):</span></span><br><span class="line">    <span class="built_in">map</span>(save_to_db, comments_list)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save_to_db</span>(<span class="params">args_list</span>):</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        sql = _sql_template % <span class="built_in">tuple</span>(<span class="built_in">map</span>(<span class="keyword">lambda</span> x: <span class="string">&quot;\\&#x27;%s\\&#x27;&quot;</span> % x, args_list))</span><br><span class="line">        cur.execute(sql)</span><br><span class="line">        con.commit()</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        processing_pool = Pool(PROCESS_NUM)</span><br><span class="line">        processing_pool.<span class="built_in">map</span>(get_project_comments_by_id, product_id_list)</span><br><span class="line">        processing_pool.close()</span><br><span class="line">        processing_pool.join()</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line">    <span class="keyword">finally</span>:</span><br><span class="line">        cur.close()</span><br><span class="line">        con.close()</span><br><span class="line">        err.close()</span><br></pre></td></tr></table></figure>
+
+<p>代码放在GITHUB上，如果你觉得不错的话，欢迎点赞投喂w</p>
+<p><a href="">https://github.com/yumendy/jd_comments_spyder</a></p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>请我喝杯奶茶</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="雨翌 微信支付">
+        <p>微信支付</p>
+      </div>
+
+  </div>
+</div>
+
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag"># 技术</a>
+              <a href="/tags/%E5%BC%80%E5%8F%91/" rel="tag"># 开发</a>
+              <a href="/tags/Python/" rel="tag"># Python</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2016/10/ckmcs7iyc0036t1qm5swj8mzi/" rel="prev" title="朋友圈里的九图脚本">
+      <i class="fa fa-chevron-left"></i> 朋友圈里的九图脚本
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2017/01/ckmcs7iyf003et1qm6r0mg79w/" rel="next" title="逃课日记">
+      逃课日记 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="雨翌"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">雨翌</p>
+  <div class="site-description" itemprop="description">关于一点代码、烹饪和养猫的点滴</div>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/yumendy" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;yumendy" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:yumendy@163.com" title="E-Mail → mailto:yumendy@163.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">粤ICP备2020132655号-1 </a>
+      <img src="http://www.beian.gov.cn/portal/download?token=c7181259-5a4c-4be1-91d5-aed11406ce94" style="display: inline-block;"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030602005287" rel="noopener" target="_blank">粤公网安备 44030602005287号 </a>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 2014 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">雨翌</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">42k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:16</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
