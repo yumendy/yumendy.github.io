@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>One more time, one more chance</title>
-    <url>/2014/04/ckniy86tk0003u4xbeync293m/</url>
+    <url>/2014/04/ckohxn5pd0003toud3izs12w6/</url>
     <content><![CDATA[<p><em>一首有故事的歌。据说喜欢的人都是有故事的人。</em></p>
 <span id="more"></span>
 
@@ -91,7 +91,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-00</title>
-    <url>/2014/10/ckniy86tn0006u4xbb3wed9sp/</url>
+    <url>/2014/10/ckohxn5pf0006toudh9bd73zw/</url>
     <content><![CDATA[<p>Python challenge 00</p>
 <p>主要内容：</p>
 <ul>
@@ -102,7 +102,7 @@
 <p>关卡地址：<a href="">http://www.pythonchallenge.com/pc/def/0.html</a></p>
 <p>第0关属于是让大家熟悉游戏玩法的关卡，没有任何的难度，就是让大家知道，游戏进入下一关是通过修改url的方式。对。。就是直接改地址栏里的地址进入下一关。</p>
 <p>这是一个典型的图片题，屏幕上的文字就是答案。2的38次方。可以用Python直接计算。对没有错的，对于Python来说99的99次方都是可以直接计算的。更何况这个呢。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="number">2</span> ** <span class="number">38</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="number">2</span> ** <span class="number">38</span>)</span><br></pre></td></tr></table></figure>
 
 <p>答案是<code>274877906944</code>。修改地址，顺利进入下一关。</p>
 ]]></content>
@@ -118,7 +118,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-01</title>
-    <url>/2014/11/ckniy86to0008u4xbdga77eyt/</url>
+    <url>/2014/11/ckohxn5ph0008toudex7ta1lv/</url>
     <content><![CDATA[<p><em>Python string库相关内容。</em></p>
 <span id="more"></span>
 
@@ -132,7 +132,7 @@
 <p>一定是姿势不对~~~</p>
 <p>没错。。。。。</p>
 <p>其实正确的做法应该是这样的：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> string</span><br><span class="line"></span><br><span class="line">text = raw_input()</span><br><span class="line"></span><br><span class="line">table = string.maketrans(string.ascii_lowercase,string.ascii_lowercase[<span class="number">2</span>:]+string.ascii_lowercase[:<span class="number">2</span>])</span><br><span class="line"></span><br><span class="line">print(string.translate(text,table))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> string</span><br><span class="line"></span><br><span class="line">text = raw_input()</span><br><span class="line"></span><br><span class="line">table = string.maketrans(string.ascii_lowercase,string.ascii_lowercase[<span class="number">2</span>:]+string.ascii_lowercase[:<span class="number">2</span>])</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(string.translate(text,table))</span><br></pre></td></tr></table></figure>
 
 <p>没错！！真的只需要四行就可以搞定这个问题了，但是这些代码又是什么意思呢？</p>
 <p>一起来看看吧~</p>
@@ -176,7 +176,7 @@
   </entry>
   <entry>
     <title>The Secret</title>
-    <url>/2014/03/ckniy86tp0009u4xbh9jiadya/</url>
+    <url>/2014/03/ckohxn5pi0009toudakaxbkgd/</url>
     <content><![CDATA[<p><em>一本和生活态度息息相关的书。。。</em></p>
 <span id="more"></span>
 
@@ -217,7 +217,7 @@
   </entry>
   <entry>
     <title>Ubuntu更新时提示/boot空间不足解决方案</title>
-    <url>/2014/10/ckniy86ts000cu4xbgwa0b1xy/</url>
+    <url>/2014/10/ckohxn5pk000ctoud25jz08f1/</url>
     <content><![CDATA[<p><em>卸载Linux旧版内核相关</em></p>
 <span id="more"></span>
 
@@ -245,7 +245,7 @@
   </entry>
   <entry>
     <title>无题</title>
-    <url>/2014/11/ckniy86tt000eu4xbbukw1jau/</url>
+    <url>/2014/11/ckohxn5pm000etoudfs63hczs/</url>
     <content><![CDATA[<p><em>感恩节随感</em></p>
 <span id="more"></span>
 
@@ -270,7 +270,7 @@
   </entry>
   <entry>
     <title>随感（一）</title>
-    <url>/2014/09/ckniy86tu000gu4xbe26shp4h/</url>
+    <url>/2014/09/ckohxn5pn000gtoudelaz458z/</url>
     <content><![CDATA[<p> <em>就是一篇生活的随感</em></p>
 <span id="more"></span>
 
@@ -303,7 +303,7 @@
   </entry>
   <entry>
     <title>随感（二）</title>
-    <url>/2014/10/ckniy86tx000iu4xbgvphfxtx/</url>
+    <url>/2014/10/ckohxn5po000itoudbo05evtz/</url>
     <content><![CDATA[<p><em>一篇旅途归来的随感。。</em></p>
 <p>四天的旅途，终究还是要结束了。我现在应该怎么来描述我的心情呢？</p>
 <p>还记得辉导说我是一只装得太满的水杯。</p>
@@ -330,7 +330,7 @@
   </entry>
   <entry>
     <title>OpenWrt ipv6 NAT配置</title>
-    <url>/2015/12/ckniy86tz000ku4xbhd29htey/</url>
+    <url>/2015/12/ckohxn5pp000ktoudbakc3ajx/</url>
     <content><![CDATA[<p>一个折磨了我三年的问题</p>
 <p>通过这篇文章，你可以了解到：</p>
 <ul>
@@ -352,16 +352,16 @@
 </ul>
 <p>这些都是ipv6的支持组件，如果安装正确的话现在路由器已经可以获取到ipv6的地址了，但是还不能分配下去，也不能做路由转发。</p>
 <p>接下来就是比较关键的步骤了，我们先进入接口页面记录下我们获取到的ipv6地址。</p>
-<img src="/2015/12/ckniy86tz000ku4xbhd29htey/1.png" class="">
+<img src="/2015/12/ckohxn5pp000ktoudbakc3ajx/1.png" class="">
 
 <p>这里的前缀的80位是我们以后要用到的，需要记录下来。</p>
 <p>所谓的80位，指的是80个bit也就是你看到的前5节，第五节被我打码了。</p>
 <p>在全局网络选项中的IPv6 ULA前缀设置为刚才记录下的前80位，并写明长度为80.</p>
-<img src="/2015/12/ckniy86tz000ku4xbhd29htey/2.png" class="">
+<img src="/2015/12/ckohxn5pp000ktoudbakc3ajx/2.png" class="">
 
 <p>记录下这个地址，然后点击LAN口编辑，ipv6分配长度改为禁用。</p>
 <p>DHCP高级中设置如图：</p>
-<img src="/2015/12/ckniy86tz000ku4xbhd29htey/3.png" class="">
+<img src="/2015/12/ckohxn5pp000ktoudbakc3ajx/3.png" class="">
 
 <p>现在我们需要给路由器的LAN像ipv4一样设置一个IPV6的地址用来做网关，然后进行NAT转发，不要试图使用上图中的那几个框框设置ipv6的地址，因为我们想往下划分的是一个80位的子网，在这里如果直接设置的话一定会挂掉的，所以我们需要另行其道。</p>
 <p>其实也不是什么复杂的办法，直接在系统-启动项的本地启动脚本中加一行ip配置就可以了。</p>
@@ -372,10 +372,10 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip6tables -P FORWARD  ACCEPT</span><br><span class="line">ip6tables -t nat -I POSTROUTING -s 2001:DA8:B800:1A02:XXXX::/80 -j MASQUERADE</span><br></pre></td></tr></table></figure>
 
 <p>重启路由器，重启电脑，看看效果。</p>
-<img src="/2015/12/ckniy86tz000ku4xbhd29htey/4.png" class="">
+<img src="/2015/12/ckohxn5pp000ktoudbakc3ajx/4.png" class="">
 
 <p>如果还是不放心的话，ping一下试试呗~</p>
-<img src="/2015/12/ckniy86tz000ku4xbhd29htey/5.png" class="">
+<img src="/2015/12/ckohxn5pp000ktoudbakc3ajx/5.png" class="">
 
 <p>嗯~就是这样，可以愉快的在宿舍挂PT惹~~</p>
 ]]></content>
@@ -392,7 +392,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-02</title>
-    <url>/2015/01/ckniy86u2000nu4xbau7ca7lz/</url>
+    <url>/2015/01/ckohxn5pr000ntoud6f9edmxt/</url>
     <content><![CDATA[<p><em>Python频繁元素统计</em></p>
 <span id="more"></span>
 
@@ -423,7 +423,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-03</title>
-    <url>/2015/01/ckniy86u3000qu4xbflpg5re5/</url>
+    <url>/2015/01/ckohxn5pt000qtoud9hrvbtkd/</url>
     <content><![CDATA[<p><em>Python re包的使用</em></p>
 <span id="more"></span>
 
@@ -446,7 +446,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-04</title>
-    <url>/2015/01/ckniy86u5000su4xb7bhc36dc/</url>
+    <url>/2015/01/ckohxn5pu000stoude9q6dibi/</url>
     <content><![CDATA[<p><em>Python urllib</em></p>
 <span id="more"></span>
 
@@ -471,7 +471,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-05</title>
-    <url>/2015/01/ckniy86u7000uu4xb0uh7h88e/</url>
+    <url>/2015/01/ckohxn5pw000utoudeqlzaz5e/</url>
     <content><![CDATA[<p><em>python pickle模块，数据持久化。</em></p>
 <span id="more"></span>
 
@@ -484,14 +484,14 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pickle</span><br><span class="line">fp = <span class="built_in">open</span>(<span class="string">&#x27;banner.p&#x27;</span>,<span class="string">&#x27;rb&#x27;</span>)</span><br><span class="line">banner = pickle.load(fp)</span><br><span class="line">fp.close()</span><br><span class="line"><span class="built_in">print</span> banner</span><br></pre></td></tr></table></figure>
 
 <p>于是就能看见输出：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">[[(&#39; &#39;, 95)], [(&#39; &#39;, 14), (&#39;#&#39;, 5), (&#39; &#39;, 70), (&#39;#&#39;, 5), (&#39; &#39;, 1)], [(&#39; &#39;, 15), (&#39;#&#39;, 4), (&#39; &#39;, 71), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 15), (&#39;#&#39;, 4), (&#39; &#39;, 71), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 15), (&#39;#&#39;, 4), (&#39; &#39;, 71), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 15), (&#39;#&#39;, 4), (&#39; &#39;, 71), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 15), (&#39;#&#39;, 4), (&#39; &#39;, 71), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 15), (&#39;#&#39;, 4), (&#39; &#39;, 71), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 15), (&#39;#&#39;, 4), (&#39; &#39;, 71), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 6), (&#39;#&#39;, 3), (&#39; &#39;, 6), (&#39;#&#39;, 4), (&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 9), (&#39;#&#39;, 3), (&#39; &#39;, 7), (&#39;#&#39;, 5), (&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 5), (&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 10), (&#39;#&#39;, 3), (&#39; &#39;, 7), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 3), (&#39;#&#39;, 2), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 7), (&#39; &#39;, 5), (&#39;#&#39;, 2), (&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 6), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 7), (&#39; &#39;, 3), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 7), (&#39; &#39;, 5), (&#39;#&#39;, 3), (&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 5), (&#39;#&#39;, 3), (&#39; &#39;, 2), (&#39;#&#39;, 5), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 3), (&#39;#&#39;, 4), (&#39; &#39;, 4), (&#39;#&#39;, 5), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 5), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 5), (&#39;#&#39;, 3), (&#39; &#39;, 3), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 1), (&#39;#&#39;, 3), (&#39; &#39;, 11), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 6), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 1), (&#39;#&#39;, 3), (&#39; &#39;, 11), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 10), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 7), (&#39;#&#39;, 3), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39;#&#39;, 4), (&#39; &#39;, 11), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 2), (&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 4), (&#39; &#39;, 7), (&#39;#&#39;, 3), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39;#&#39;, 4), (&#39; &#39;, 11), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 3), (&#39;#&#39;, 10), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 14), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39;#&#39;, 4), (&#39; &#39;, 11), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 4), (&#39; &#39;, 12), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39;#&#39;, 4), (&#39; &#39;, 11), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 4), (&#39; &#39;, 12), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 1), (&#39;#&#39;, 3), (&#39; &#39;, 11), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 12), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 6), (&#39;#&#39;, 2), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 6), (&#39;#&#39;, 2), (&#39; &#39;, 3), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 3), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 2), (&#39; &#39;, 3), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 3), (&#39;#&#39;, 11), (&#39; &#39;, 3), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 2), (&#39;#&#39;, 4), (&#39; &#39;, 5), (&#39;#&#39;, 4), (&#39; &#39;, 4), (&#39;#&#39;, 3), (&#39; &#39;, 4), (&#39;#&#39;, 2), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 1)], [(&#39; &#39;, 6), (&#39;#&#39;, 3), (&#39; &#39;, 5), (&#39;#&#39;, 6), (&#39; &#39;, 4), (&#39;#&#39;, 5), (&#39; &#39;, 4), (&#39;#&#39;, 2), (&#39; &#39;, 4), (&#39;#&#39;, 4), (&#39; &#39;, 1), (&#39;#&#39;, 6), (&#39; &#39;, 4), (&#39;#&#39;, 11), (&#39; &#39;, 4), (&#39;#&#39;, 5), (&#39; &#39;, 6), (&#39;#&#39;, 3), (&#39; &#39;, 6), (&#39;#&#39;, 6)], [(&#39; &#39;, 95)]]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[[(&#x27; &#x27;, 95)], [(&#x27; &#x27;, 14), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 70), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 15), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 71), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 15), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 71), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 15), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 71), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 15), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 71), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 15), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 71), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 15), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 71), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 15), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 71), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 6), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 6), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 9), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 7), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 10), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 7), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 2), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 7), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 2), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 6), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 7), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 7), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 1), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 11), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 6), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 1), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 11), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 10), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 7), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27;#&#x27;, 4), (&#x27; &#x27;, 11), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 2), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 7), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27;#&#x27;, 4), (&#x27; &#x27;, 11), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 10), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 14), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27;#&#x27;, 4), (&#x27; &#x27;, 11), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 12), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27;#&#x27;, 4), (&#x27; &#x27;, 11), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 12), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 1), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 11), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 12), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 6), (&#x27;#&#x27;, 2), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 6), (&#x27;#&#x27;, 2), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 3), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 2), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 11), (&#x27; &#x27;, 3), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 2), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 2), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1)], [(&#x27; &#x27;, 6), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 5), (&#x27;#&#x27;, 6), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 2), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 4), (&#x27; &#x27;, 1), (&#x27;#&#x27;, 6), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 11), (&#x27; &#x27;, 4), (&#x27;#&#x27;, 5), (&#x27; &#x27;, 6), (&#x27;#&#x27;, 3), (&#x27; &#x27;, 6), (&#x27;#&#x27;, 6)], [(&#x27; &#x27;, 95)]]</span><br></pre></td></tr></table></figure>
 
 <p>一看这样一个列表里套列表的，然后每个列表里又是元组，想到的就是字符画。</p>
 <p>一个列表就对应于一行。这样的话就好办多了。挨着打出来就可以了，小小的修正一下程序：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pickle</span><br><span class="line"></span><br><span class="line">fp = <span class="built_in">open</span>(<span class="string">&#x27;banner.p&#x27;</span>,<span class="string">&#x27;rb&#x27;</span>)</span><br><span class="line">banner = pickle.load(fp)</span><br><span class="line">fp.close()</span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> banner:</span><br><span class="line">    s = <span class="string">&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">for</span> tmp <span class="keyword">in</span> line:</span><br><span class="line">        s += tmp[<span class="number">0</span>] * tmp[<span class="number">1</span>]</span><br><span class="line">    print(s)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pickle</span><br><span class="line"></span><br><span class="line">fp = <span class="built_in">open</span>(<span class="string">&#x27;banner.p&#x27;</span>,<span class="string">&#x27;rb&#x27;</span>)</span><br><span class="line">banner = pickle.load(fp)</span><br><span class="line">fp.close()</span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> banner:</span><br><span class="line">    s = <span class="string">&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">for</span> tmp <span class="keyword">in</span> line:</span><br><span class="line">        s += tmp[<span class="number">0</span>] * tmp[<span class="number">1</span>]</span><br><span class="line">    <span class="built_in">print</span>(s)</span><br></pre></td></tr></table></figure>
 
 <p>然后就看到了最终的答案：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">              #####                                                                      ##### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">      ###      ####   ###         ###       #####   ###    #####   ###          ###       #### </span><br><span class="line">   ###   ##    #### #######     ##  ###      #### #######   #### #######     ###  ###     #### </span><br><span class="line">  ###     ###  #####    ####   ###   ####    #####    ####  #####    ####   ###     ###   #### </span><br><span class="line"> ###           ####     ####   ###    ###    ####     ####  ####     ####  ###      ####  #### </span><br><span class="line"> ###           ####     ####          ###    ####     ####  ####     ####  ###       ###  #### </span><br><span class="line">####           ####     ####     ##   ###    ####     ####  ####     #### ####       ###  #### </span><br><span class="line">####           ####     ####   ##########    ####     ####  ####     #### ##############  #### </span><br><span class="line">####           ####     ####  ###    ####    ####     ####  ####     #### ####            #### </span><br><span class="line">####           ####     #### ####     ###    ####     ####  ####     #### ####            #### </span><br><span class="line"> ###           ####     #### ####     ###    ####     ####  ####     ####  ###            #### </span><br><span class="line">  ###      ##  ####     ####  ###    ####    ####     ####  ####     ####   ###      ##   #### </span><br><span class="line">   ###    ##   ####     ####   ###########   ####     ####  ####     ####    ###    ##    #### </span><br><span class="line">      ###     ######    #####    ##    #### ######    ###########    #####      ###      ######</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">              #####                                                                      ##### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">               ####                                                                       #### </span><br><span class="line">      ###      ####   ###         ###       #####   ###    #####   ###          ###       #### </span><br><span class="line">   ###   ##    #### #######     ##  ###      #### #######   #### #######     ###  ###     #### </span><br><span class="line">  ###     ###  #####    ####   ###   ####    #####    ####  #####    ####   ###     ###   #### </span><br><span class="line"> ###           ####     ####   ###    ###    ####     ####  ####     ####  ###      ####  #### </span><br><span class="line"> ###           ####     ####          ###    ####     ####  ####     ####  ###       ###  #### </span><br><span class="line">####           ####     ####     ##   ###    ####     ####  ####     #### ####       ###  #### </span><br><span class="line">####           ####     ####   ##########    ####     ####  ####     #### ##############  #### </span><br><span class="line">####           ####     ####  ###    ####    ####     ####  ####     #### ####            #### </span><br><span class="line">####           ####     #### ####     ###    ####     ####  ####     #### ####            #### </span><br><span class="line"> ###           ####     #### ####     ###    ####     ####  ####     ####  ###            #### </span><br><span class="line">  ###      ##  ####     ####  ###    ####    ####     ####  ####     ####   ###      ##   #### </span><br><span class="line">   ###    ##   ####     ####   ###########   ####     ####  ####     ####    ###    ##    #### </span><br><span class="line">      ###     ######    #####    ##    #### ######    ###########    #####      ###      ######</span><br></pre></td></tr></table></figure>
 
 <p>下一关的地址：<strong>channel</strong>。</p>
 ]]></content>
@@ -507,7 +507,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-06</title>
-    <url>/2015/01/ckniy86u9000xu4xbgpyj53vr/</url>
+    <url>/2015/01/ckohxn5py000xtoud541l3p6m/</url>
     <content><![CDATA[<p><em>python zip相关操作</em></p>
 <span id="more"></span>
 
@@ -524,7 +524,7 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> zipfile</span><br><span class="line"></span><br><span class="line">num = <span class="string">&#x27;90052&#x27;</span></span><br><span class="line">failname = num + <span class="string">&#x27;.txt&#x27;</span></span><br><span class="line">myzip = zipfile.ZipFile(<span class="string">&#x27;channel.zip&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> <span class="number">1</span>:</span><br><span class="line">	<span class="built_in">print</span> myzip.getinfo(failname).comment,</span><br><span class="line">	fp = <span class="built_in">open</span>(failname,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line">	S = fp.readline()</span><br><span class="line">	num = S.split()[-<span class="number">1</span>]</span><br><span class="line">	failname = num + <span class="string">&#x27;.txt&#x27;</span></span><br><span class="line">	fp.close()</span><br><span class="line"></span><br><span class="line">myzip.close()</span><br></pre></td></tr></table></figure>
 
 <p>看看接下来输出了神马= =b</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </span><br><span class="line">* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </span><br><span class="line">* *                                                                                                                         * * </span><br><span class="line">* *       O O         O O         X X             Y Y Y Y         G G         G G     E E E E E E   N N             N N     * * </span><br><span class="line">* *       O O         O O     X X X X X X       Y Y Y Y Y Y       G G       G G       E E E E E E     N N         N N       * * </span><br><span class="line">* *       O O         O O   X X X     X X X   Y Y Y       Y Y     G G   G G           E E               N N     N N         * * </span><br><span class="line">* *       O O O O O O O O   X X         X X   Y Y                 G G G               E E E E E           N N N N           * * </span><br><span class="line">* *       O O O O O O O O   X X         X X   Y Y                 G G G               E E E E E             N N             * * </span><br><span class="line">* *       O O         O O   X X X     X X X   Y Y Y       Y Y     G G   G G           E E                   N N             * * </span><br><span class="line">* *       O O         O O     X X X X X X       Y Y Y Y Y Y       G G       G G       E E E E E E           N N             * * </span><br><span class="line">* *       O O         O O         X X             Y Y Y Y         G G         G G     E E E E E E           N N             * * </span><br><span class="line">* *                                                                                                                         * * </span><br><span class="line">* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </span><br><span class="line">  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </span><br><span class="line">* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </span><br><span class="line">* *                                                                                                                         * * </span><br><span class="line">* *       O O         O O         X X             Y Y Y Y         G G         G G     E E E E E E   N N             N N     * * </span><br><span class="line">* *       O O         O O     X X X X X X       Y Y Y Y Y Y       G G       G G       E E E E E E     N N         N N       * * </span><br><span class="line">* *       O O         O O   X X X     X X X   Y Y Y       Y Y     G G   G G           E E               N N     N N         * * </span><br><span class="line">* *       O O O O O O O O   X X         X X   Y Y                 G G G               E E E E E           N N N N           * * </span><br><span class="line">* *       O O O O O O O O   X X         X X   Y Y                 G G G               E E E E E             N N             * * </span><br><span class="line">* *       O O         O O   X X X     X X X   Y Y Y       Y Y     G G   G G           E E                   N N             * * </span><br><span class="line">* *       O O         O O     X X X X X X       Y Y Y Y Y Y       G G       G G       E E E E E E           N N             * * </span><br><span class="line">* *       O O         O O         X X             Y Y Y Y         G G         G G     E E E E E E           N N             * * </span><br><span class="line">* *                                                                                                                         * * </span><br><span class="line">* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </span><br><span class="line">  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *</span><br></pre></td></tr></table></figure>
 
 <p>hockey？</p>
 <p>输入之后出现一个提示“it’s in the air. look at the letters.”</p>
@@ -544,7 +544,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-07</title>
-    <url>/2015/01/ckniy86ua000zu4xb621w46oo/</url>
+    <url>/2015/01/ckohxn5pz000ztoud89dp60h5/</url>
     <content><![CDATA[<p><em>Python经典图像处理库PIL的使用</em></p>
 <span id="more"></span>
 
@@ -580,7 +580,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-08</title>
-    <url>/2015/01/ckniy86uc0014u4xb3bx7go7v/</url>
+    <url>/2015/01/ckohxn5q00014toude6rddpak/</url>
     <content><![CDATA[<p><em>Python bz2 模块</em></p>
 <span id="more"></span>
 
@@ -603,7 +603,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-09</title>
-    <url>/2015/01/ckniy86ud0017u4xbelzu5q6w/</url>
+    <url>/2015/01/ckohxn5q20017toud9q388xoh/</url>
     <content><![CDATA[<p><em>Python zip函数 turtle绘图</em></p>
 <span id="more"></span>
 
@@ -625,7 +625,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-10</title>
-    <url>/2015/01/ckniy86ue001au4xb5spxhvmd/</url>
+    <url>/2015/01/ckohxn5q4001atoud9b6waso4/</url>
     <content><![CDATA[<p><em>Python找规律</em></p>
 <span id="more"></span>
 
@@ -648,7 +648,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-11</title>
-    <url>/2015/01/ckniy86uf001du4xb64nxg2qi/</url>
+    <url>/2015/01/ckohxn5q5001dtoud1wup502y/</url>
     <content><![CDATA[<p><em>Python PIL图像处理</em></p>
 <span id="more"></span>
 
@@ -658,7 +658,7 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"></span><br><span class="line">fp = <span class="built_in">open</span>(<span class="string">&#x27;data.out&#x27;</span>,<span class="string">&#x27;w&#x27;</span>)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;cave.jpg&#x27;</span>)</span><br><span class="line">w, h = im.size</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> xrange(h):</span><br><span class="line">	<span class="keyword">for</span> j <span class="keyword">in</span> xrange(w):</span><br><span class="line">		p = (j,i)</span><br><span class="line">		fp.write(<span class="built_in">str</span>(im.getpixel(p)))</span><br><span class="line">	fp.write(<span class="string">&#x27;\\n&#x27;</span>)</span><br><span class="line">fp.close()</span><br></pre></td></tr></table></figure>
 
 <p>这样就能把每一个像素点的信息写在这个data.out的文件里了，用文本编辑器打开一看立刻就知道是怎么回事了。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(0, 20, 0)(142, 180, 105)(0, 20, 0)(139, 177, 100)(0, 20, 0)(143, 180, 103)(0, 20, 0)(138, 175, 98)(0, 19, 0)(153, 186, 115)(0, 18, 0)(151, 183, 116)</span><br><span class="line">(148, 186, 111)(0, 20, 0)(148, 186, 109)(0, 21, 0)(144, 181, 104)(0, 20, 0)(144, 181, 104)(0, 20, 0)(146, 180, 106)(0, 18, 0)(152, 185, 114)(0, 22, 0)</span><br><span class="line">(0, 20, 0)(158, 195, 118)(0, 20, 0)(148, 185, 108)(0, 22, 0)(152, 189, 112)(0, 19, 0)(150, 184, 110)(0, 19, 0)(160, 193, 124)(0, 17, 0)(162, 192, 128)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">(0, 20, 0)(142, 180, 105)(0, 20, 0)(139, 177, 100)(0, 20, 0)(143, 180, 103)(0, 20, 0)(138, 175, 98)(0, 19, 0)(153, 186, 115)(0, 18, 0)(151, 183, 116)</span><br><span class="line">(148, 186, 111)(0, 20, 0)(148, 186, 109)(0, 21, 0)(144, 181, 104)(0, 20, 0)(144, 181, 104)(0, 20, 0)(146, 180, 106)(0, 18, 0)(152, 185, 114)(0, 22, 0)</span><br><span class="line">(0, 20, 0)(158, 195, 118)(0, 20, 0)(148, 185, 108)(0, 22, 0)(152, 189, 112)(0, 19, 0)(150, 184, 110)(0, 19, 0)(160, 193, 124)(0, 17, 0)(162, 192, 128)</span><br></pre></td></tr></table></figure>
 
 <p>可以看出来，奇数行的奇数点是无意义的，偶数行的偶数点是无意义的，他们有着不同的G值，也就是绿色值。但是其他的点应该是包含着信息的。</p>
 <p>那么我们就应该把这些干扰点去掉来看一下效果，最简单的办法就是用黑色像素点把这些遮盖掉。</p>
@@ -678,7 +678,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-12</title>
-    <url>/2015/01/ckniy86uh001gu4xbdbdeclj7/</url>
+    <url>/2015/01/ckohxn5qa001gtoudcvia6ryv/</url>
     <content><![CDATA[<p><em>Python文件处理</em></p>
 <span id="more"></span>
 
@@ -689,7 +689,7 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">fp = <span class="built_in">open</span>(<span class="string">&#x27;evil2.gfx&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line">sub = fp.read(<span class="number">100</span>)</span><br><span class="line"><span class="built_in">print</span> sub</span><br><span class="line"></span><br><span class="line"><span class="comment"># &#x27;\\xff\\x89G\\x89\\xff\\xd8PIP\\xd8\\xffNFN\\xff\\xe0G8G\\xe0\\x00\\r7\\r\\x00\\x10\\na\\n\\x10J&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>其实看这个字符串。。。一下子感觉看到了很多熟悉的名字。比如GIF、PNG神马的。还有一个更要命的就是对称！每五个一组的对称！那么稍微处理一下刚才得到的东西：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">\\xff \\x89 G   \\x89 \\xff</span><br><span class="line">\\xd8 P    I   P    \\xd8</span><br><span class="line">\\xff N    F   N    \\xff</span><br><span class="line">\\xe0 G    8   G    \\xe0</span><br><span class="line">\\x00 \\r   7   \\r   \\x00</span><br><span class="line">\\x10 \\n   a   \\n   \\x10</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\\xff \\x89 G   \\x89 \\xff</span><br><span class="line">\\xd8 P    I   P    \\xd8</span><br><span class="line">\\xff N    F   N    \\xff</span><br><span class="line">\\xe0 G    8   G    \\xe0</span><br><span class="line">\\x00 \\r   7   \\r   \\x00</span><br><span class="line">\\x10 \\n   a   \\n   \\x10</span><br></pre></td></tr></table></figure>
 
 <p>好了，这个题目基本上没有什么问题了，可以确定这个文件就是几个图片拼起来的，而且是不同格式的图片，一共是五张。中间的三张是PNG、GIF、PNG，那么第一和第四章应该是什么呢？随手把一张jpg拖到文本编辑器里，看到开头的一串都是“FFD8 FFE0 0010”.接下来的工作就简单了，分离呗。纯文件操作了。</p>
 <p>需要注意的是这个地方处理的都是二进制的文件，所以写入的时候一定要使用wb模式，不然就有的windows用户哭的了。</p>
@@ -709,7 +709,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-13</title>
-    <url>/2015/01/ckniy86ui001ku4xbfxudevn1/</url>
+    <url>/2015/01/ckohxn5qc001ktoud4ble21be/</url>
     <content><![CDATA[<p><em>Python xmlrpclib使用</em></p>
 <span id="more"></span>
 
@@ -746,7 +746,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-14</title>
-    <url>/2015/01/ckniy86ul001ou4xb9vlsfum4/</url>
+    <url>/2015/01/ckohxn5qe001otoud52wab0jt/</url>
     <content><![CDATA[<p><em>Python PIL图像操作</em></p>
 <span id="more"></span>
 
@@ -771,7 +771,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-15</title>
-    <url>/2015/01/ckniy86un001su4xbbp2d2a7u/</url>
+    <url>/2015/01/ckohxn5qg001stoud8okidj65/</url>
     <content><![CDATA[<p><em>Python datetime模块</em></p>
 <span id="more"></span>
 
@@ -803,7 +803,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-16</title>
-    <url>/2015/01/ckniy86up001wu4xbdvkse8lu/</url>
+    <url>/2015/01/ckohxn5qh001wtoudf5u54sh8/</url>
     <content><![CDATA[<p><em>PIL 图像处理</em></p>
 <span id="more"></span>
 
@@ -830,7 +830,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-17</title>
-    <url>/2015/01/ckniy86ur0020u4xb37852sfp/</url>
+    <url>/2015/01/ckohxn5qj0020toud967e82u3/</url>
     <content><![CDATA[<p><em>Python urllib和cookielib模块</em></p>
 <span id="more"></span>
 
@@ -846,14 +846,14 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> cookielib</span><br><span class="line"></span><br><span class="line">jar = cookielib.CookieJar()</span><br><span class="line">handler = urllib2.HTTPCookieProcessor(jar)</span><br><span class="line">opener = urllib2.build_opener(handler)</span><br><span class="line"></span><br><span class="line">baseurl = <span class="string">&#x27;http://www.pythonchallenge.com/pc/def/linkedlist.php?busynothing=&#x27;</span></span><br><span class="line">num = <span class="string">&#x27;12345&#x27;</span></span><br><span class="line"></span><br><span class="line">info = []</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> _ <span class="keyword">in</span> xrange(<span class="number">118</span>):</span><br><span class="line">	content = opener.<span class="built_in">open</span>(baseurl + num).read()</span><br><span class="line">	num = content.split()[-<span class="number">1</span>]</span><br><span class="line">	info.append(jar._cookies.values()[<span class="number">0</span>][<span class="string">&#x27;/&#x27;</span>][<span class="string">&#x27;info&#x27;</span>].value)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> <span class="string">&#x27;&#x27;</span>.join(info)</span><br></pre></td></tr></table></figure>
 
 <p>输出的是一大段字符串：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">BZh91AY%26SY%94%3A%E2I%00%00%21%19%80P%81%11%00%AFg%9E%A0+%00hE%3DM%B5%23%D0%D4%D1%E2%8D%06%A9%FA%26S%D4%D3%21%A1%EAi7h%9B%9A%2B%BF%60%22%C5WX%E1%ADL%80%E8V%3C%C6%A8%DBH%2632%18%A8x%01%08%21%8DS%0B%C8%AF%96KO%CA2%B0%F1%BD%1Du%A0%86%05%92s%B0%92%C4Bc%F1w%24S%85%09%09C%AE%24%90</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">BZh91AY%26SY%94%3A%E2I%00%00%21%19%80P%81%11%00%AFg%9E%A0+%00hE%3DM%B5%23%D0%D4%D1%E2%8D%06%A9%FA%26S%D4%D3%21%A1%EAi7h%9B%9A%2B%BF%60%22%C5WX%E1%ADL%80%E8V%3C%C6%A8%DBH%2632%18%A8x%01%08%21%8DS%0B%C8%AF%96KO%CA2%B0%F1%BD%1Du%A0%86%05%92s%B0%92%C4Bc%F1w%24S%85%09%09C%AE%24%90</span><br></pre></td></tr></table></figure>
 
 <p>一看就是经过转意的，那么就得转回来。在urllib库里有相应的转意函数：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line">message = <span class="string">&#x27;&#x27;</span>.join(info)</span><br><span class="line">message = urllib.unquote_plus(message)</span><br><span class="line"><span class="built_in">print</span> message</span><br></pre></td></tr></table></figure>
 
 
 <p>再看看输出：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#39;BZh91AY&amp;SY\\x94:\\xe2I\\x00\\x00!\\x19\\x80P\\x81\\x11\\x00\\xafg\\x9e\\xa0\\x00hE&#x3D;M\\xb5#\\xd0\\xd4\\xd1\\xe2\\x8d\\x06\\xa9\\xfa&amp;S\\xd4\\xd3!\\xa1\\xeai7h\\x9b\\x9a+\\xbf&#96;&quot;\\xc5WX\\xe1\\xadL\\x80\\xe8V&lt;\\xc6\\xa8\\xdbH&amp;32\\x18\\xa8x\\x01\\x08!\\x8dS\\x0b\\xc8\\xaf\\x96KO\\xca2\\xb0\\xf1\\xbd\\x1du\\xa0\\x86\\x05\\x92s\\xb0\\x92\\xc4Bc\\xf1w$S\\x85\\t\\tC\\xae$\\x90&#39;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;BZh91AY&amp;SY\\x94:\\xe2I\\x00\\x00!\\x19\\x80P\\x81\\x11\\x00\\xafg\\x9e\\xa0\\x00hE=M\\xb5#\\xd0\\xd4\\xd1\\xe2\\x8d\\x06\\xa9\\xfa&amp;S\\xd4\\xd3!\\xa1\\xeai7h\\x9b\\x9a+\\xbf`&quot;\\xc5WX\\xe1\\xadL\\x80\\xe8V&lt;\\xc6\\xa8\\xdbH&amp;32\\x18\\xa8x\\x01\\x08!\\x8dS\\x0b\\xc8\\xaf\\x96KO\\xca2\\xb0\\xf1\\xbd\\x1du\\xa0\\x86\\x05\\x92s\\xb0\\x92\\xc4Bc\\xf1w$S\\x85\\t\\tC\\xae$\\x90&#x27;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>一种莫名的熟悉感让我想起了之前做过的bz2，于是果断decode。</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span> message.decode(<span class="string">&#x27;bz2&#x27;</span>)</span><br></pre></td></tr></table></figure>
@@ -896,7 +896,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-18</title>
-    <url>/2015/01/ckniy86ut0024u4xbfug60193/</url>
+    <url>/2015/01/ckohxn5ql0024toudfdar4gja/</url>
     <content><![CDATA[<p><em>Python difflib</em></p>
 <span id="more"></span>
 
@@ -939,7 +939,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-19</title>
-    <url>/2015/01/ckniy86uw0028u4xb6jht8sz3/</url>
+    <url>/2015/01/ckohxn5qn0028toudb9bq0ne5/</url>
     <content><![CDATA[<p><em>Python wave 音频处理库</em></p>
 <span id="more"></span>
 
@@ -977,7 +977,7 @@
   </entry>
   <entry>
     <title>Python中两种文件写入方式比较</title>
-    <url>/2015/03/ckniy86uy002cu4xb1lpffda5/</url>
+    <url>/2015/03/ckohxn5qp002ctoudbenc0ri9/</url>
     <content><![CDATA[<p><em>有关Python文件写入的相关问题</em></p>
 <span id="more"></span>
 
@@ -986,7 +986,7 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> clock</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">speedTest</span>(<span class="params">func</span>):</span></span><br><span class="line">	<span class="function"><span class="keyword">def</span> <span class="title">_deco</span>():</span></span><br><span class="line">		startTime = clock()</span><br><span class="line">		func()</span><br><span class="line">		endTime = clock()</span><br><span class="line">		<span class="built_in">print</span> <span class="string">&quot;Cost time is &quot;</span> + <span class="built_in">str</span>(endTime - startTime)</span><br><span class="line">	<span class="keyword">return</span> _deco</span><br><span class="line"></span><br><span class="line"><span class="meta">@speedTest</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">method1</span>():</span></span><br><span class="line">	<span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;a.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">		<span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">1000000</span>):</span><br><span class="line">			fp.write(<span class="string">&quot;Hello world!\\n&quot;</span>)</span><br><span class="line"><span class="meta">@speedTest</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">method2</span>():</span></span><br><span class="line">	<span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;b.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">		<span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">1000000</span>):</span><br><span class="line">			<span class="built_in">print</span> &gt;&gt; fp, <span class="string">&quot;Hello world!&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;write method:&quot;</span></span><br><span class="line">method1()</span><br><span class="line"><span class="built_in">print</span> </span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;&gt;&gt; method:&quot;</span></span><br><span class="line">method2()</span><br></pre></td></tr></table></figure>
 
 <p>最后的结果：</p>
-<img src="/2015/03/ckniy86uy002cu4xb1lpffda5/1.png" class="">
+<img src="/2015/03/ckohxn5qp002ctoudbenc0ri9/1.png" class="">
 
 <p>显然是write方式更快一点。但是为什么呢？</p>
 <p>在python的官方文档里面有这样的一段描述：</p>
@@ -1007,7 +1007,7 @@
   </entry>
   <entry>
     <title>将Python脚本打包为exe文件</title>
-    <url>/2015/02/ckniy86uz002gu4xbcga5coua/</url>
+    <url>/2015/02/ckohxn5qq002gtoudewfye47d/</url>
     <content><![CDATA[<p><em>简单几步将python脚本打包为exe包</em></p>
 <p>第一步：在<a href="https://pypi.python.org/pypi/PyInstaller/2.1">https://pypi.python.org/pypi/PyInstaller/2.1</a> 下载pyinstaller。</p>
 <p>第二步：解压缩，在该目录下命令行中执行python setup.py install。</p>
@@ -1027,7 +1027,7 @@
   </entry>
   <entry>
     <title>段喵教你用20行代码搞定计算方法实验1</title>
-    <url>/2015/03/ckniy86v2002ku4xbal53403k/</url>
+    <url>/2015/03/ckohxn5qs002ktoud2q2h9ze1/</url>
     <content><![CDATA[<p>哈工大《计算方法》实验课实验作业</p>
 <ul>
 <li><p>其实就是想说。。。Python的科学计算库真的很强大。。</p>
@@ -1059,13 +1059,13 @@
   </entry>
   <entry>
     <title>闲的蛋疼系列之那个裙子到底什么颜色</title>
-    <url>/2015/02/ckniy86v4002ou4xbfeo3gk27/</url>
+    <url>/2015/02/ckohxn5qt002otoud2zzu4e16/</url>
     <content><![CDATA[<p><em>有关于那条争议很大的裙子颜色问题</em></p>
 <p><em>用PIL去做一些简单的分析</em></p>
 <p><em>非专业图像处理，可能不是很准确</em></p>
 <span id="more"></span>
 
-<img src="/2015/02/ckniy86v4002ou4xbfeo3gk27/1.jpg" class="">
+<img src="/2015/02/ckohxn5qt002otoud2zzu4e16/1.jpg" class="">
 
 <p>没错就是这个货到底是什么颜色？？</p>
 <p>各种说法层出不穷，我才不会说我看到的就是白金色的呢，但是。。。。是不是因为所谓周围颜色干扰之类的造成的错觉呢。。。。</p>
@@ -1073,22 +1073,22 @@
 <p>我截取的区域是(110,190)和(115,320)为起点的90*50的区域，当然，稍微粗略一点，但是基本已经可以看出问题来了。</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckniy86v4002ou4xbfeo3gk27/2.jpg" class="">
+<img src="/2015/02/ckohxn5qt002otoud2zzu4e16/2.jpg" class="">
 
-<img src="/2015/02/ckniy86v4002ou4xbfeo3gk27/3.jpg" class="">
+<img src="/2015/02/ckohxn5qt002otoud2zzu4e16/3.jpg" class="">
 
 <p>（现在看起来那个深色部分真的是有点像灰褐色了，浅色部分真的是浅蓝色）</p>
 <p>求平均值：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">average</span>(<span class="params">lst,order</span>):</span></span><br><span class="line">	l = [_[order] <span class="keyword">for</span> _ <span class="keyword">in</span> lst]</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">sum</span>(l) / <span class="built_in">len</span>(l)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_data = <span class="built_in">list</span>(bright_part.getdata())</span><br><span class="line">dark_data = <span class="built_in">list</span>(dark_part.getdata())</span><br><span class="line"></span><br><span class="line">average_rgb_of_bright_data = (average(bright_data, <span class="number">0</span>),average(bright_data, <span class="number">1</span>),average(bright_data, <span class="number">2</span>))</span><br><span class="line">average_rgb_of_dark_data = (average(dark_data, <span class="number">0</span>),average(dark_data, <span class="number">1</span>),average(dark_data, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">result = Image.new(im.mode, (<span class="number">400</span>, <span class="number">200</span>), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">result.paste(average_rgb_of_bright_data, (<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">100</span>))</span><br><span class="line">result.paste(average_rgb_of_dark_data, (<span class="number">0</span>,<span class="number">100</span>,<span class="number">400</span>,<span class="number">200</span>))</span><br><span class="line">result.save(<span class="string">&#x27;result.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckniy86v4002ou4xbfeo3gk27/4.jpg" class="">
+<img src="/2015/02/ckohxn5qt002otoud2zzu4e16/4.jpg" class="">
 
 <p>因为是在阳光下亮度比较高一点~~</p>
 <p>我们稍稍吧亮度降低一点然后再看看效果~</p>
 <p>调整亮度：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">average</span>(<span class="params">lst,order</span>):</span></span><br><span class="line">	l = [_[order] <span class="keyword">for</span> _ <span class="keyword">in</span> lst]</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">sum</span>(l) / <span class="built_in">len</span>(l)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_data = <span class="built_in">list</span>(bright_part.getdata())</span><br><span class="line">dark_data = <span class="built_in">list</span>(dark_part.getdata())</span><br><span class="line"></span><br><span class="line">average_rgb_of_bright_data = (average(bright_data, <span class="number">0</span>),average(bright_data, <span class="number">1</span>),average(bright_data, <span class="number">2</span>))</span><br><span class="line">average_rgb_of_dark_data = (average(dark_data, <span class="number">0</span>),average(dark_data, <span class="number">1</span>),average(dark_data, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">result = Image.new(im.mode, (<span class="number">400</span>, <span class="number">200</span>), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">result.paste(average_rgb_of_bright_data, (<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">100</span>))</span><br><span class="line">result.paste(average_rgb_of_dark_data, (<span class="number">0</span>,<span class="number">100</span>,<span class="number">400</span>,<span class="number">200</span>))</span><br><span class="line">result.save(<span class="string">&#x27;result.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">dark_pic = ImageEnhance.Brightness(result).enhance(<span class="number">0.4</span>)</span><br><span class="line">dark_pic.save(<span class="string">&#x27;dark_result.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckniy86v4002ou4xbfeo3gk27/5.jpg" class="">
+<img src="/2015/02/ckohxn5qt002otoud2zzu4e16/5.jpg" class="">
 
 <p>问我刚才在干嘛。。。。看看这篇文章也知道我刚刚从盐缸里爬出来~~XD</p>
 ]]></content>
@@ -1104,7 +1104,7 @@
   </entry>
   <entry>
     <title>Linux下Git Server搭建</title>
-    <url>/2016/09/ckniy86v5002ru4xbgqkz0hqm/</url>
+    <url>/2016/09/ckohxn5qu002rtoud24nxfxm9/</url>
     <content><![CDATA[<p>以Ubuntu系统为例讲解如何搭建一个git服务器</p>
 <p>简单的说步骤如下：</p>
 <ul>
@@ -1154,7 +1154,7 @@
 <p>这样的话在push代码的时候就可以不用在设置这些信息了。</p>
 <p>接下来需要解决的是一个安全性问题，就是需要禁止git用户的shell登录。</p>
 <p>我们只需要将/etc/passwd文件里的</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git:x:1001:1001:,,,:&#x2F;home&#x2F;git:&#x2F;bin&#x2F;bash</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git:x:1001:1001:,,,:/home/git:/bin/bash</span><br></pre></td></tr></table></figure>
 
 <p>后的/bin/bash改为gitshell的路径就可以了。一般是/usr/bin/git-shell</p>
 <p>即修改为：</p>
@@ -1175,7 +1175,7 @@
   </entry>
   <entry>
     <title>Python多进程编程中进程池锁共享问题</title>
-    <url>/2016/08/ckniy86v7002wu4xbg6pm2adk/</url>
+    <url>/2016/08/ckohxn5qv002wtoud53sshuuf/</url>
     <content><![CDATA[<p>Python多进程编程中，资源锁的问题</p>
 <p>进程池可以使我们的编程变得非常简单，但是同时进程池的使用也会造成一些麻烦，比如对于共用锁的处理等。</p>
 <p>这篇文章主要通过两种方法解决共享资源锁的问题：</p>
@@ -1220,7 +1220,7 @@
   </entry>
   <entry>
     <title>京东评论爬虫一则</title>
-    <url>/2016/11/ckniy86v8002zu4xb92j1dqn5/</url>
+    <url>/2016/11/ckohxn5qw002ztoud1qc83ky9/</url>
     <content><![CDATA[<p>双十一又要来了，为剁手党萌做了一点微小的事情</p>
 <ul>
 <li>涉及最简单的页面分析</li>
@@ -1232,14 +1232,14 @@
 <p>每每想到要在网上购买商品，第一个想到的就是要去看看买家们怎么说，但是难以避免的，在页面上一次只能看到10条评论，频繁的翻页操作真的是好麻烦。再者有时候对于（没钱的我）[划掉]选择困难症患者来说总有这么一个闹心事，比如我想买一部手机，我同时看好水果牌的某一款，我也看好大菊花的某两款，我还看好大法的某一款，那么当我逐一看某一款的评论时，都会给我一个感觉“哇，好棒，买买买。”相反在现实里，小伙伴们一起讨论的话就会是另外一番场景了：A：“水果好看。”B：“支持国产。”C：“坚定信仰。”A：“水果做工好。”B：“我用麒麟。”C：“坚定信仰。”通过这样的交替看评论，反而能使人更客观一点。但是我们在一个京东的页面里面显然是不可能看见友商竞品的评论了。我们总不能开好几个标签手动看吧。鉴于此，这点小事是难不倒程序猿的。写个爬虫存起来，想怎么看就怎么看<em>(:зゝ∠)</em></p>
 <p>说干就干，必然还是人生苦短我用python。</p>
 <p>第一步必然是分析页面，随时打开一个评论页面，比如以<code>http://item.jd.com/3717578.html</code>这个地址为例。在第一条评论的位置右键审查元素，可以看到这样的信息：</p>
-<img src="/2016/11/ckniy86v8002zu4xb92j1dqn5/1.png" class="">
+<img src="/2016/11/ckohxn5qw002ztoud1qc83ky9/1.png" class="">
 
 <p>发现很明显，所有的评论内容都是在一个类为<code>p-comment</code>的div中。随手在下面的console中敲一下<code>$(&#39;.p-comment&#39;)</code>一看返回结果刚好是10条评论的数组。一看到这个，不由的让人想到，这下好办了pyquery几乎可以不费什么功夫就把所有的内容抓到了。</p>
 <p>但是根据我的经验，这样的页面一般评论都是异步加载的，可能会有更简单的办法来处理这件事情。比如挖掘一下有没有评论接口什么的。戳回商品信息页面，在Chrome的Developer Tools的Network标签里禁用缓存，刷新页面然后戳一下商品评论，发现又发起了81个请求，那么很有可能评论就藏在这里面。在filter中选择XHR发现居然是空的，那么评论没有直接使用json传回来，一定被藏起来了。这样真的是有点不太友好哇<em>(:зゝ∠)</em></p>
 <p>不过这样的事情难不倒段喵喵，把filter切到js看看这些请求回来的js有没有什么异常。为嘛会想到js呢。对于这个问题可以去查一下JSON到底是什么。往下翻几个就看到了一个请求名字是<code>productPageComments.action</code>戳开一看果然是一个函数调用包着一个大的json。那么我们要找的json就在这里了，可是还得处理一下外面这一层。看起来似乎不太好办，但是再回头看一眼这个请求本身最后带着一个查询参数是<code>callback=fetchJSON_comment98vv2125</code>发现和respose中包着这个json的函数调用名字一样。这样的话，如果我们把这个参数去掉发一个请求试试。</p>
 <p>一个完整的JSON文件get√，看看上面的查询参数，我们只要修改对于的productId就可以得到不同商品的评论了，当然还有page和pageSize参数。分别是评论的第几页和每页的评论数。但是不知道为嘛这个pageSize参数是个咸鱼，不管你填多少都只能拿到10条评论。</p>
 <p>接下来的事情简单了，分析一下json文件，先格式化了，然后简单折叠一下。就可以看到这样的结构了：</p>
-<img src="/2016/11/ckniy86v8002zu4xb92j1dqn5/2.png" class="">
+<img src="/2016/11/ckohxn5qw002ztoud1qc83ky9/2.png" class="">
 
 <p><code>productCommentSummary</code>是产品评论总结，里面有一些好评率，评论总数之类的东西，<code>hotCommentTagStatistics</code>标签信息，<code>maxPage</code>最大页码数，<code>comments</code>评论列表。</p>
 <p>剩下的内容就无比简单了，urllib2和json两个包的使用，为了效率高可以用multiprocessing多进程处理，为了容错和高效维护数据，内容直接写入MySQL就OK了。</p>
@@ -1261,7 +1261,7 @@
   </entry>
   <entry>
     <title>使用nginx+uwsgi部署django应用</title>
-    <url>/2016/08/ckniy86va0034u4xb936z9w56/</url>
+    <url>/2016/08/ckohxn5qy0034toud67xn8wjh/</url>
     <content><![CDATA[<p>简单明了的说明如何在Linux下部署一个Django应用</p>
 <ul>
 <li>这篇文章好像拖了很久的样纸w</li>
@@ -1296,7 +1296,7 @@
 <p>然后在项目目录里创建两个文件：</p>
 <p><code>DEMO.conf</code></p>
 <p>里面写如下内容</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen   80;</span><br><span class="line">    </span><br><span class="line">    server_name www.yumendy.com yumendy.com;</span><br><span class="line">    access_log &#x2F;var&#x2F;log&#x2F;nginx&#x2F;yumendy.com.log ;</span><br><span class="line">    error_log &#x2F;var&#x2F;log&#x2F;nginx&#x2F;yumendy.com.log ;</span><br><span class="line">    </span><br><span class="line">    location &#x2F; &#123;</span><br><span class="line">            uwsgi_pass 127.0.0.1:8800;</span><br><span class="line">            include uwsgi_params;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    location ~&#x2F;static&#x2F; &#123;</span><br><span class="line">            root  &#x2F;var&#x2F;www&#x2F;DEMO&#x2F;;</span><br><span class="line">            index  index.html index.htm;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    location ~&#x2F;media&#x2F; &#123;</span><br><span class="line">            root  &#x2F;var&#x2F;www&#x2F;DEMO&#x2F;;</span><br><span class="line">            index  index.html index.htm;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen   80;</span><br><span class="line">    </span><br><span class="line">    server_name www.yumendy.com yumendy.com;</span><br><span class="line">    access_log /var/log/nginx/yumendy.com.log ;</span><br><span class="line">    error_log /var/log/nginx/yumendy.com.log ;</span><br><span class="line">    </span><br><span class="line">    location / &#123;</span><br><span class="line">            uwsgi_pass 127.0.0.1:8800;</span><br><span class="line">            include uwsgi_params;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    location ~/static/ &#123;</span><br><span class="line">            root  /var/www/DEMO/;</span><br><span class="line">            index  index.html index.htm;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    location ~/media/ &#123;</span><br><span class="line">            root  /var/www/DEMO/;</span><br><span class="line">            index  index.html index.htm;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>这是一个nginx的配置文件，解释一下上面的内容：</p>
 <p>第2行的80是端口号，可以按需修改。</p>
@@ -1360,19 +1360,19 @@
   </entry>
   <entry>
     <title>朋友圈里的九图脚本</title>
-    <url>/2016/10/ckniy86vb0037u4xb7kyk9iml/</url>
+    <url>/2016/10/ckohxn5qz0037toudhg2w5l62/</url>
     <content><![CDATA[<p>特此来拯救挣扎在9图里的孩子们</p>
 <p>明明只有一张图，但是凑不够九张就是好蛋疼，那么这个项目你值得拥有。</p>
 <span id="more"></span>
 
-<img src="/2016/10/ckniy86vb0037u4xb7kyk9iml/1.png" class="">
+<img src="/2016/10/ckohxn5qz0037toudhg2w5l62/1.png" class="">
 
 <p>其实这个项目有点小水。</p>
 <p>其实就是对PIL最简单的应用，主要涉及到切图和算坐标，其实没有什么技术含量，封装成了一个类，可以供其他程序方便的调用。</p>
 <p>如果不懒的话可以写一个界面，但是我比较懒，甚至懒得作为一个功能加到这个博客里。23333不过如果有人愿意的话可以拿去用。</p>
 <p>项目开源在GITHUB上，项目地址：<a href="">https://github.com/yumendy/nine_picture</a></p>
 <p>如果你喜欢这个项目，而且觉得对你有帮助的话，不妨投喂我一下，如果有人投喂的话，我承诺会将这个功能作为一个小小的模块插在这个部落格里，也就是可以实现你上传一张图片，直接得到9张切好的图片。完全在页面上操作。方便爪机用户。：</p>
-<p>投喂宝账户（云养喵系列。。养段喵）：<a href="mailto:&#121;&#x75;&#x6d;&#x65;&#110;&#x64;&#121;&#x40;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#109;">&#121;&#x75;&#x6d;&#x65;&#110;&#x64;&#121;&#x40;&#49;&#54;&#51;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p>投喂宝账户（云养喵系列。。养段喵）：<a href="mailto:&#x79;&#x75;&#x6d;&#x65;&#110;&#x64;&#121;&#x40;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#109;">&#x79;&#x75;&#x6d;&#x65;&#110;&#x64;&#121;&#x40;&#49;&#x36;&#x33;&#x2e;&#x63;&#111;&#109;</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -1386,7 +1386,7 @@
   </entry>
   <entry>
     <title>部落格记</title>
-    <url>/2016/08/ckniy86vc003cu4xbgzcz1cfe/</url>
+    <url>/2016/08/ckohxn5r1003ctoud320rdl7n/</url>
     <content><![CDATA[<p><em>其实就是写写有关这个站点的一些事情</em></p>
 <p><del>好吧。。倒不如说是段喵懒癌康复记</del></p>
 <p>就是一些建站过程中的心得和吐槽w</p>
@@ -1399,7 +1399,7 @@
 <p>于是自己做一个博客的心愿又被自己重拾了起来。于是乎一天半的时间，这个小站就做好了。基于Django和Bootstrap。当然前端的设计是参考了其他同学的博客，感觉自己真的不是一块做设计的料。现在博客的基本功能都已经差不多了。简单的说有了动态的导航栏，富文本的博文系统，分类管理和碎碎念功能。也有一个完整的发布后台。静态文件全部托管在七牛上。而富文本编辑器使用的是Django-ueditor。这个开源项目真的做的非常不错，但是可惜的是开发者已经不再维护了。随着django的更新，这个插件已经不是很好用了。它没有调用Django的Storage系统接口而使用的是直接对磁盘的文件读写功能，造成的直接影响就是和七牛的水土不服。</p>
 <p>两个选择就摆在了我的面前，第一个就是把media文件换给DO服务器，但是想想旧金山服务器的速度实在是不能忍，第二个就是改。纠结再三还是选择了后者。读了读代码发现逻辑还算是清晰。于是偷懒就直接把磁盘写入改为了七牛的存储接口调用。好吧。我承认我也是够懒的，因为我在考虑，如果近期有时间的话。是不是要自己试着移植一下百度的这个神富文本编辑器。</p>
 <p>好吧。突然想吐槽一句。为了这个博客我已经好几天没有上基三了QAQ</p>
-<img src="/2016/08/ckniy86vc003cu4xbgzcz1cfe/20160818224208667.jpg" class="">
+<img src="/2016/08/ckohxn5r1003ctoud320rdl7n/20160818224208667.jpg" class="">
 
 <p>写在最后，希望自己可以把写博客的习惯坚持下去，也欢迎大家有时间多来看看。</p>
 ]]></content>
@@ -1414,7 +1414,7 @@
   </entry>
   <entry>
     <title>逃课日记</title>
-    <url>/2017/01/ckniy86vd003fu4xb2i8d0w1x/</url>
+    <url>/2017/01/ckohxn5r2003ftoud45o8crp5/</url>
     <content><![CDATA[<p><em>读万卷书，行万里路。让自己一点点的成长起来。平心静气，让自己过得精致温暖……</em></p>
 <span id="more"></span>
 
@@ -1428,14 +1428,14 @@
 <p>晚上见到了高中时期的老师。记忆最深刻的还是朱姐说过的一段话。朱姐说一个人对自己要求高了的同时，其实在骨子里对别人的要求也是很高的。对于这一点，从某种角度讲我真的是无可辩驳。想了很久，对自己严苛的同时的确难免对身边的人有同样高的要求，之所以之前一直觉得对别人没有那么高要求，也许真的只是因为关系没有那么密切吧，或者换句话说并没有真正和自己有关，但终有一天，自己会有自己的家庭，会有自己的孩子，到了那个时候又该如何去面对他们呢？严于律己，宽以待人，说起来容易，但做好却真真切切不容易。</p>
 <p>回家后认真思考了一下该怎么去度过这一段不算长的假期。似乎被郑老师说准了。我根本不是一个能闲得下来的人。休息了不到一个月，就闲不住了。</p>
 <p>七月份来到了朝思暮想的成都。在杨哥的公司里实习了两个月，其实从我内心讲，这两个月是我过得最开心的两个月了。</p>
-<img src="/2017/01/ckniy86vd003fu4xb2i8d0w1x/1.jpg" class="">
+<img src="/2017/01/ckohxn5r2003ftoud45o8crp5/1.jpg" class="">
 
-<img src="/2017/01/ckniy86vd003fu4xb2i8d0w1x/0.jpg" class="">
+<img src="/2017/01/ckohxn5r2003ftoud45o8crp5/0.jpg" class="">
 
 <p>初到成都，在杨哥和亮姐帮助下在天鹅湖花园租好了房子。开始了一段属于自己一个人的生活。一个新的环境。</p>
-<img src="/2017/01/ckniy86vd003fu4xb2i8d0w1x/2.jpg" class="">
+<img src="/2017/01/ckohxn5r2003ftoud45o8crp5/2.jpg" class="">
 
-<img src="/2017/01/ckniy86vd003fu4xb2i8d0w1x/4.jpg" class="">
+<img src="/2017/01/ckohxn5r2003ftoud45o8crp5/4.jpg" class="">
 
 <p>其实对于新的环境一开始也是有些不适应的，但是很快就喜欢上了这种高效的生活方式，白天去写代码，晚上可以做些自己喜欢的事情。可以说每天都在做着自己喜欢的事情。说起来生活很简单。虽然只有短短两个月时间，和杨哥接触的多。对生活这件事有了一些新的理解，慢慢理解了生活品质对一个人一辈子的重要性。</p>
 <p>一生说长不长说短不短，有些错过的东西可能就再也不会回来了。有些属于一个时期才会有的感觉，过去了就再也找不回来了。想想小时候最希望的事情是有一台属于自己的电脑，那时候甚至还给自己盘算好了，如果我有一台属于自己的电脑，我要如何分区，我要装多少自己喜欢的游戏，甚至连用什么桌面都已经盘算好了。但是到了如今，真正拿到自己的电脑的时候，昔日的种种幻想什么的早已经不复存在。完全就是简约化的风格，找不回原来的那种快乐了。</p>
@@ -1444,7 +1444,7 @@
 <p>毫不夸张的说就是每天都不开心。最大的收获也许就是每天做一顿中午饭，让自己的厨艺有了不小的进步吧。对于项目相关的事情只能说有苦有乐吧。不便多说。但是单从生活角度讲，最难的日子也算是熬过来了。如果说昔日还在纠结要不要考研，要不要继续念书，其实现在已经基本不再像从前那么纠结了。人一辈子不长不短，还是多用点时间去做些自己喜欢的事情吧。别太委屈自己。</p>
 <p>在北京的日子，有不少挚友寄来的零食和礼物，但是最让我感慨的还是失联送我的一本《一人食》。一人食，一个人也要好好吃饭，一个人，也要过得精致温暖。还是那句话，要好好的生活，不管自己是在什么样的环境下，都要过好自己的日子。虽然很多时候是夹缝中求生存，但是从另一个角度说，即使是这样，也要好好吃饭，也要过得温暖。</p>
 <p>于是乎从一盘麻婆豆腐开始，让自己好好生活。一人食，一个人也要好好吃饭，一个人，也要过得精致温暖。</p>
-<img src="/2017/01/ckniy86vd003fu4xb2i8d0w1x/5.jpg" class="">
+<img src="/2017/01/ckohxn5r2003ftoud45o8crp5/5.jpg" class="">
 
 <p>在北京的日子，在周末有时间的时候偶尔会和已经毕业的王彤师兄聊聊天小聚一下。作为一个工大毕业的老北漂，跟师兄聊天可以说真的学到了很多不一样的东西。也有很多观念上的改变吧。关于未来，关于择业，关于恋爱，关于生活。有些我曾坚守自认为成熟的东西，从另外的角度看来其实有时候也十分幼稚。也许这就是一个成长的过程。</p>
 <p>坚守自己的原则，读万卷书，行万里路。让自己一点点的成长起来。一路走来，磨砺无数，时光慢慢把年轻的棱角都打磨平了。生活的节奏都在自己手里。平心静气，让自己过得精致温暖。</p>
@@ -1461,7 +1461,7 @@
   </entry>
   <entry>
     <title>又一个博客</title>
-    <url>/2019/06/ckniy86vf003ku4xbe9mw3x0o/</url>
+    <url>/2019/06/ckohxn5r4003ktoudcw4n251z/</url>
     <content><![CDATA[<h2 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h2><p>距离上一次写博客又过去很久很久了。</p>
 <p>不得不承认打理博客永远是一个非常烦人的事情，之前在DO上自己做的Django版本的博客，也因为DO的主机被回收而一起丢失了。些许遗憾，但这也是成长必经的一部分。</p>
 <p>总会用一些文字去记录生活，脱离开QQ空间、朋友圈之类的熟人社交，或许会更自在一些。</p>
@@ -1481,7 +1481,7 @@
   </entry>
   <entry>
     <title>好好生活</title>
-    <url>/2020/10/ckniy86vg003nu4xb1i0m8wrj/</url>
+    <url>/2020/10/ckohxn5r5003ntoud5jh31nm4/</url>
     <content><![CDATA[<p><em>当“曾经”不总挂在我们嘴边时，生活就开始了。 ——题记</em></p>
 <h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><p>其实在两个月之前，就有考虑过要写这样一篇文章，但一直苦苦纠结于到底要用一个什么样的标题，却无论如何都没有想到，在两个月之后的今天，最终还是回归到了这样一个俗套的名字上。</p>
 <p>又不是要卖文为生，仅仅就是写给自己的一些文字而已，何必久久纠结于一个标题，又不指望靠着一个标题吸粉。</p>
@@ -1547,17 +1547,17 @@
   </entry>
   <entry>
     <title>湘江边的随感</title>
-    <url>/2020/11/ckniy86vh003su4xb3j8ogc0m/</url>
+    <url>/2020/11/ckohxn5r6003stoud2gabf6s3/</url>
     <content><![CDATA[<p>十一月的江风拂过那一刻，似乎些许凉意。</p>
 <span id="more"></span>
 
-<img src="/2020/11/ckniy86vh003su4xb3j8ogc0m/1.jpg" class="">
+<img src="/2020/11/ckohxn5r6003stoud2gabf6s3/1.jpg" class="">
 
 <p>倚栏远眺，波光映衬着彼岸的万家灯火。街头歌手在以自己独特的音色演绎着张震岳的那一曲《再见》。</p>
 <p>恍惚间，此情此景，似曾相识。有那么一瞬间，世界安静了。</p>
 <p>有多久不曾想起那些日子了。松花江畔，望着夕阳一点点落下，喧闹人群伴着远处歌手的吉他声。</p>
 <p>什么也不做，就是静静的看着。</p>
-<img src="/2020/11/ckniy86vh003su4xb3j8ogc0m/2.jpg" class="">
+<img src="/2020/11/ckohxn5r6003stoud2gabf6s3/2.jpg" class="">
 
 <p>“不可能每一分钟都用的那么有意义，有时候一些时间也是可以用来浪费的。亦或者说，其实这些随心所欲可以挥霍过去，用来取悦自己的时间，才是人生忙忙碌碌过程中最宝贵的东西。”</p>
 <p>人生本来就是没有意义的，我们强行赋予了自己各种“使命”，责任心和各种欲望驱使下不断一遍又一遍催眠自己，告诉自己所做的一切都是值得的。</p>
@@ -1581,7 +1581,7 @@
   </entry>
   <entry>
     <title>聊一聊信息流和读书</title>
-    <url>/2020/11/ckniy86vi003vu4xbahowb5h1/</url>
+    <url>/2020/11/ckohxn5r7003vtoud5hucbbmo/</url>
     <content><![CDATA[<p>偶然在电梯里看到一个四五岁的小朋友在哭着闹着向家长要看抖音的时候，心生感慨，想聊一聊关于以短视频为代表的信息流产品和读书的话题。</p>
 <span id="more"></span>
 
@@ -1616,7 +1616,7 @@
   </entry>
   <entry>
     <title>2020年终随感</title>
-    <url>/2021/01/ckniy86vk0040u4xbc9ht0mxu/</url>
+    <url>/2021/01/ckohxn5r80040toudcxsp22z2/</url>
     <content><![CDATA[<p>“宁静致远” ——题记</p>
 <p>如果说一定要给过去的一年贴上一个标签的话，我会选择“兵荒马乱”。</p>
 <p>一场突如其来的疫情，让生活偏离了“正常”的轨迹。出于本能中对于不确定性的不安，惶恐、不安、焦虑，却又怀着一丝侥幸。期待着疫情过去，却无法让时间停滞。</p>
@@ -1639,7 +1639,7 @@
   </entry>
   <entry>
     <title>python3 共享内存模块简介</title>
-    <url>/2021/04/ckniy86vl0043u4xbhacmccjg/</url>
+    <url>/2021/04/ckohxn5ra0043toud9scl1ibb/</url>
     <content><![CDATA[<h2 id="0x00-概述"><a href="#0x00-概述" class="headerlink" title="0x00. 概述"></a>0x00. 概述</h2><p>前些日子和同事讨论过一个有关Python中共享内存的问题，在这里稍作整理记录一下。</p>
 <span id="more"></span>
 
@@ -1655,11 +1655,11 @@
 
 
 <p><code>worker.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> struct <span class="keyword">import</span> Struct</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shm = shared_memory.SharedMemory(SHM_KEY, <span class="literal">False</span>, <span class="number">8</span> + <span class="number">2048</span>)</span><br><span class="line">        self.buffer = self.shm.buf</span><br><span class="line">        self.struct = Struct(<span class="string">&#x27;II2048s&#x27;</span>)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, s, data = self.struct.unpack_from(self.buffer)</span><br><span class="line">            data = data[:s]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                print(data.decode(<span class="string">&#x27;utf8&#x27;</span>).upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleWorkerAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> struct <span class="keyword">import</span> Struct</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shm = shared_memory.SharedMemory(SHM_KEY, <span class="literal">False</span>, <span class="number">8</span> + <span class="number">2048</span>)</span><br><span class="line">        self.buffer = self.shm.buf</span><br><span class="line">        self.struct = Struct(<span class="string">&#x27;II2048s&#x27;</span>)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, s, data = self.struct.unpack_from(self.buffer)</span><br><span class="line">            data = data[:s]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.decode(<span class="string">&#x27;utf8&#x27;</span>).upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleWorkerAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 <p>在这个例子中，用主进程创建了一个8+2048B的空间并且接受用户输入，并且每次将当前的计数器和输入的字符长度作为元信息写在前8个字节中，用户输入的字符串则通过UTF8编码后写在后面的空间中。</p>
 <p>在子进程中，我们则是读取共享内存区域并且将用户输入转换成大写后输出。</p>
-<img src="/2021/04/ckniy86vl0043u4xbhacmccjg/01.png" class="">
+<img src="/2021/04/ckohxn5ra0043toud9scl1ibb/01.png" class="">
 
 <h2 id="0x03-multiprocessing-shared-memory模块"><a href="#0x03-multiprocessing-shared-memory模块" class="headerlink" title="0x03. multiprocessing.shared_memory模块"></a>0x03. multiprocessing.shared_memory模块</h2><p>在shared_memory模块中，主要有两个类可供使用：</p>
 <ul>
@@ -1679,10 +1679,10 @@
 <p>从根本来讲，其实ShareableList就是根据初始传入的序列来为初始序列的每个元素预留了相应的内存空间并整体申请了一整块内存区域。可以对其中的元素进行修改，但是修改的限制是不能超过初始化时该位置元素的大小。</p>
 <p>由此，可以简化一下上面的例子：</p>
 <p><code>main.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleMainAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList([<span class="number">0</span>, <span class="string">&#x27;&#x27;</span>], name=SHM_KEY)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        print(self.shl.shm.name)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">handle_input</span>(<span class="params">self</span>):</span></span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        self.shl[<span class="number">0</span>] = self.round_counter + <span class="number">1</span></span><br><span class="line">        self.shl[<span class="number">1</span>] = data</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line">        self.shl.shm.unlink()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleMainAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList([<span class="number">0</span>, <span class="string">&#x27;&#x27;</span>], name=SHM_KEY)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        <span class="built_in">print</span>(self.shl.shm.name)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">handle_input</span>(<span class="params">self</span>):</span></span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        self.shl[<span class="number">0</span>] = self.round_counter + <span class="number">1</span></span><br><span class="line">        self.shl[<span class="number">1</span>] = data</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line">        self.shl.shm.unlink()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 <p><code>worker.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=SHM_KEY)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                print(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleWorkerAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=SHM_KEY)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleWorkerAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 <p>在这个优化后的例子中，由于使用了ShareableList对象，当内部存储字符串时，它管理了字符串的长度等信息，因此用户也就无需在元信息中保存数据的长度信息了。</p>
 <h3 id="SharedMemoryManager"><a href="#SharedMemoryManager" class="headerlink" title="SharedMemoryManager"></a>SharedMemoryManager</h3><p>与<code>multiprocessing.Manager</code>类似，都是一个独立的进程对象，SharedMemoryManager（下面简称为SMM）类在用户调用了其实例的<code>start</code>方法后，会启动一个独立的进程用来响应用户的创建共享内存请求，并且管理其创建的共享内存的整个生命周期。</p>
@@ -1691,11 +1691,11 @@
 <p>SMM对象提供了两个方法，<code>SharedMemory</code>和<code>ShareableList</code>，用来创建相应的对象。</p>
 <p>对刚才的例子稍作修饰：</p>
 <p><code>main.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> managers</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleMainAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.smm = managers.SharedMemoryManager()</span><br><span class="line">        self.smm.start()</span><br><span class="line">        self.shl = self.smm.ShareableList([<span class="number">0</span>, <span class="string">&#x27;&#x27;</span>])</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        print(self.shl.shm.name)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">handle_input</span>(<span class="params">self</span>):</span></span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        self.shl[<span class="number">0</span>] = self.round_counter + <span class="number">1</span></span><br><span class="line">        self.shl[<span class="number">1</span>] = data</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.smm.shutdown()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> managers</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleMainAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.smm = managers.SharedMemoryManager()</span><br><span class="line">        self.smm.start()</span><br><span class="line">        self.shl = self.smm.ShareableList([<span class="number">0</span>, <span class="string">&#x27;&#x27;</span>])</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        <span class="built_in">print</span>(self.shl.shm.name)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">handle_input</span>(<span class="params">self</span>):</span></span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        self.shl[<span class="number">0</span>] = self.round_counter + <span class="number">1</span></span><br><span class="line">        self.shl[<span class="number">1</span>] = data</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.smm.shutdown()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 <p><code>worker.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, name</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=name)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                print(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    shm_key = <span class="built_in">input</span>(<span class="string">&#x27;place input shm key:&#x27;</span>)</span><br><span class="line">    app = ShmExampleWorkerAPP(shm_key)</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
-<img src="/2021/04/ckniy86vl0043u4xbhacmccjg/02.png" class="">
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, name</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=name)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    shm_key = <span class="built_in">input</span>(<span class="string">&#x27;place input shm key:&#x27;</span>)</span><br><span class="line">    app = ShmExampleWorkerAPP(shm_key)</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<img src="/2021/04/ckohxn5ra0043toud9scl1ibb/02.png" class="">
 
 <p>在这个例子中，各种操作都比一开始的例子简单了很多。不过由于SHM的实现机制，不能再使用事先约定好SHM_KEY的方式在其他进程中挂在相应的共享内存区域了，只能通过其他方式将创建好的共享内存对象的key传递给其他的进程。</p>
 <h2 id="0x04-几个典型的使用场景"><a href="#0x04-几个典型的使用场景" class="headerlink" title="0x04. 几个典型的使用场景"></a>0x04. 几个典型的使用场景</h2><p>通过上面的例子不难发现，共享内存虽然是非常高效的跨进程通信方案，但是同样使用复杂度也是最高的，需要用户自行控制进程间的同步问题。对于Python应用而言在很多场景下这种复杂度换回的效率提升其实是得不偿失的。</p>
@@ -1725,7 +1725,7 @@
   </entry>
   <entry>
     <title>命令行时钟流工具</title>
-    <url>/2021/01/ckniy86we008ku4xbc2vv9x5h/</url>
+    <url>/2021/01/ckohxn5rb0048toudcn77g2e9/</url>
     <content><![CDATA[<h2 id="0x00-什么是时钟流"><a href="#0x00-什么是时钟流" class="headerlink" title="0x00. 什么是时钟流"></a>0x00. 什么是时钟流</h2><p>在直播领域，通常会使用一路画面中包含当前精确时间画面的视频流结合推送端（主播）和播放端（观众）的画面来判断流的传播延迟，用于问题定位和调优。这样一路特殊的视频流叫做时钟流。</p>
 <p>那么在通常使用的过程中，如果生成一路时钟流呢？最简单的办法是点开windows右下角的时间窗口，捕获整个桌面的画面并使用推流工具推流，就得到了一路时钟流。</p>
 <span id="more"></span>
@@ -1740,7 +1740,7 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageDraw, ImageFont</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gen_clock_image</span>():</span></span><br><span class="line">     im = Image.new(<span class="string">&#x27;1&#x27;</span>, (<span class="number">800</span>, <span class="number">600</span>))</span><br><span class="line">     draw = ImageDraw.ImageDraw(im)</span><br><span class="line">     draw.text((<span class="number">100</span>, <span class="number">100</span>), <span class="built_in">str</span>(datetime.now()), fill=<span class="string">&#x27;white&#x27;</span>, font=ImageFont.truetype(<span class="string">&#x27;arial.ttf&#x27;</span>, <span class="number">30</span>))</span><br><span class="line">     <span class="keyword">return</span> im</span><br><span class="line"></span><br><span class="line">im = gen_clock_image()</span><br><span class="line">im.show()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>于是就可以得到下面的图片了</p>
-<img src="/2021/01/ckniy86we008ku4xbc2vv9x5h/1.png" class="">
+<img src="/2021/01/ckohxn5rb0048toudcn77g2e9/1.png" class="">
 
 <p>那么接下来的工作就是需要按照一定时间来生成图片序列即可。</p>
 <h2 id="0X03-时钟流的推送"><a href="#0X03-时钟流的推送" class="headerlink" title="0X03. 时钟流的推送"></a>0X03. 时钟流的推送</h2><p>命令行推流的工具其实没有什么好纠结的，当然只有大名鼎鼎的ffmpeg。只要在启动的时候进行推流参数的设置即可。需要注意如下的几个参数：</p>
@@ -1761,7 +1761,7 @@
 </ul>
 <p>参数列表差不多就是这些，其中一部分数据在推送的时候通过程序进行设置即可。</p>
 <h2 id="0x04-代码实现"><a href="#0x04-代码实现" class="headerlink" title="0x04. 代码实现"></a>0x04. 代码实现</h2><p><code>ClockVideo.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageDraw, ImageFont</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> subprocess</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ClockVideo</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, width, height, fps, rtmp_path</span>):</span></span><br><span class="line">        self.width = width</span><br><span class="line">        self.height = height</span><br><span class="line">        self.fps = fps</span><br><span class="line">        self.font = ImageFont.truetype(<span class="string">&#x27;arial.ttf&#x27;</span>, <span class="number">30</span>)</span><br><span class="line">        self.rtmp_path = rtmp_path</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">get_ffmpeg_proc</span>(<span class="params">self</span>):</span></span><br><span class="line">        command = [<span class="string">&#x27;ffmpeg&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-y&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-f&#x27;</span>, <span class="string">&#x27;rawvideo&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-vcodec&#x27;</span>, <span class="string">&#x27;rawvideo&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-pix_fmt&#x27;</span>, <span class="string">&#x27;monob&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-s&#x27;</span>, <span class="string">f&#x27;<span class="subst">&#123;self.width&#125;</span>x<span class="subst">&#123;self.height&#125;</span>&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-r&#x27;</span>, <span class="built_in">str</span>(self.fps),</span><br><span class="line">                   <span class="string">&#x27;-i&#x27;</span>, <span class="string">&#x27;-&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-c:v&#x27;</span>, <span class="string">&#x27;libx264&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-s&#x27;</span>, <span class="string">f&#x27;<span class="subst">&#123;self.width&#125;</span>x<span class="subst">&#123;self.height&#125;</span>&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-r&#x27;</span>, <span class="built_in">str</span>(self.fps),</span><br><span class="line">                   <span class="string">&#x27;-f&#x27;</span>, <span class="string">&#x27;flv&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-preset&#x27;</span>, <span class="string">&#x27;ultrafast&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-pix_fmt&#x27;</span>, <span class="string">&#x27;yuv420p&#x27;</span>,</span><br><span class="line">                   self.rtmp_path</span><br><span class="line">                   ]</span><br><span class="line">        <span class="keyword">return</span> subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">gen_clock_image</span>(<span class="params">self, dt</span>):</span></span><br><span class="line">        im = Image.new(<span class="string">&#x27;1&#x27;</span>, (self.width, self.height))</span><br><span class="line">        draw = ImageDraw.ImageDraw(im)</span><br><span class="line">        draw.text((<span class="number">100</span>, <span class="number">100</span>), dt, fill=<span class="string">&#x27;white&#x27;</span>, font=self.font)</span><br><span class="line">        <span class="keyword">return</span> im.tobytes()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        ffmpeg_proc = self.get_ffmpeg_proc()</span><br><span class="line">        real_count = count = <span class="number">0</span></span><br><span class="line">        hz = <span class="number">10</span> ** <span class="number">9</span> / self.fps</span><br><span class="line">        last_print_time_ns = last_output_time_ns = time.time_ns()</span><br><span class="line">        delay_fps = <span class="number">0</span></span><br><span class="line">        change_times = <span class="number">1</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            dt = <span class="built_in">str</span>(datetime.now())</span><br><span class="line">            image = self.gen_clock_image(dt)</span><br><span class="line">            real_count += <span class="number">1</span></span><br><span class="line">            now_time = time.time_ns()</span><br><span class="line">            <span class="keyword">if</span> now_time - last_output_time_ns &gt; hz:</span><br><span class="line">            	<span class="comment"># 通过管道向ffmpeg写入数据</span></span><br><span class="line">                ffmpeg_proc.stdin.write(image)</span><br><span class="line">                count += <span class="number">1</span></span><br><span class="line">                last_output_time_ns = time.time_ns()</span><br><span class="line">            <span class="comment"># 每一秒输出一次统计信息</span></span><br><span class="line">            <span class="keyword">if</span> now_time - last_print_time_ns &gt; <span class="number">10</span> ** <span class="number">9</span>:</span><br><span class="line">                print(<span class="string">f&#x27;dt: <span class="subst">&#123;dt&#125;</span>, gen <span class="subst">&#123;real_count&#125;</span>fps, push <span class="subst">&#123;count&#125;</span>fps, hz: <span class="subst">&#123;hz:<span class="number">.2</span>f&#125;</span>, delay: <span class="subst">&#123;delay_fps:<span class="number">.2</span>f&#125;</span>&#x27;</span>)</span><br><span class="line">                <span class="comment"># fps 矫正</span></span><br><span class="line">                <span class="keyword">if</span> count &lt; self.fps:</span><br><span class="line">                    delay_fps += <span class="number">0.2</span> * change_times</span><br><span class="line">                    hz = <span class="number">10</span> ** <span class="number">9</span> / (self.fps + delay_fps)</span><br><span class="line">                <span class="keyword">elif</span> count &gt; self.fps:</span><br><span class="line">                    delay_fps -= <span class="number">0.1</span> * change_times</span><br><span class="line">                    hz = <span class="number">10</span> ** <span class="number">9</span> / (self.fps + delay_fps)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    change_times = change_times * <span class="number">0.1</span> <span class="keyword">if</span> change_times &gt;= <span class="number">0.001</span> <span class="keyword">else</span> change_times</span><br><span class="line">                real_count = count = <span class="number">0</span></span><br><span class="line">                last_print_time_ns = now_time</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageDraw, ImageFont</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> subprocess</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ClockVideo</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, width, height, fps, rtmp_path</span>):</span></span><br><span class="line">        self.width = width</span><br><span class="line">        self.height = height</span><br><span class="line">        self.fps = fps</span><br><span class="line">        self.font = ImageFont.truetype(<span class="string">&#x27;arial.ttf&#x27;</span>, <span class="number">30</span>)</span><br><span class="line">        self.rtmp_path = rtmp_path</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">get_ffmpeg_proc</span>(<span class="params">self</span>):</span></span><br><span class="line">        command = [<span class="string">&#x27;ffmpeg&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-y&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-f&#x27;</span>, <span class="string">&#x27;rawvideo&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-vcodec&#x27;</span>, <span class="string">&#x27;rawvideo&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-pix_fmt&#x27;</span>, <span class="string">&#x27;monob&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-s&#x27;</span>, <span class="string">f&#x27;<span class="subst">&#123;self.width&#125;</span>x<span class="subst">&#123;self.height&#125;</span>&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-r&#x27;</span>, <span class="built_in">str</span>(self.fps),</span><br><span class="line">                   <span class="string">&#x27;-i&#x27;</span>, <span class="string">&#x27;-&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-c:v&#x27;</span>, <span class="string">&#x27;libx264&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-s&#x27;</span>, <span class="string">f&#x27;<span class="subst">&#123;self.width&#125;</span>x<span class="subst">&#123;self.height&#125;</span>&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-r&#x27;</span>, <span class="built_in">str</span>(self.fps),</span><br><span class="line">                   <span class="string">&#x27;-f&#x27;</span>, <span class="string">&#x27;flv&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-preset&#x27;</span>, <span class="string">&#x27;ultrafast&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-pix_fmt&#x27;</span>, <span class="string">&#x27;yuv420p&#x27;</span>,</span><br><span class="line">                   self.rtmp_path</span><br><span class="line">                   ]</span><br><span class="line">        <span class="keyword">return</span> subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">gen_clock_image</span>(<span class="params">self, dt</span>):</span></span><br><span class="line">        im = Image.new(<span class="string">&#x27;1&#x27;</span>, (self.width, self.height))</span><br><span class="line">        draw = ImageDraw.ImageDraw(im)</span><br><span class="line">        draw.text((<span class="number">100</span>, <span class="number">100</span>), dt, fill=<span class="string">&#x27;white&#x27;</span>, font=self.font)</span><br><span class="line">        <span class="keyword">return</span> im.tobytes()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        ffmpeg_proc = self.get_ffmpeg_proc()</span><br><span class="line">        real_count = count = <span class="number">0</span></span><br><span class="line">        hz = <span class="number">10</span> ** <span class="number">9</span> / self.fps</span><br><span class="line">        last_print_time_ns = last_output_time_ns = time.time_ns()</span><br><span class="line">        delay_fps = <span class="number">0</span></span><br><span class="line">        change_times = <span class="number">1</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            dt = <span class="built_in">str</span>(datetime.now())</span><br><span class="line">            image = self.gen_clock_image(dt)</span><br><span class="line">            real_count += <span class="number">1</span></span><br><span class="line">            now_time = time.time_ns()</span><br><span class="line">            <span class="keyword">if</span> now_time - last_output_time_ns &gt; hz:</span><br><span class="line">            	<span class="comment"># 通过管道向ffmpeg写入数据</span></span><br><span class="line">                ffmpeg_proc.stdin.write(image)</span><br><span class="line">                count += <span class="number">1</span></span><br><span class="line">                last_output_time_ns = time.time_ns()</span><br><span class="line">            <span class="comment"># 每一秒输出一次统计信息</span></span><br><span class="line">            <span class="keyword">if</span> now_time - last_print_time_ns &gt; <span class="number">10</span> ** <span class="number">9</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&#x27;dt: <span class="subst">&#123;dt&#125;</span>, gen <span class="subst">&#123;real_count&#125;</span>fps, push <span class="subst">&#123;count&#125;</span>fps, hz: <span class="subst">&#123;hz:<span class="number">.2</span>f&#125;</span>, delay: <span class="subst">&#123;delay_fps:<span class="number">.2</span>f&#125;</span>&#x27;</span>)</span><br><span class="line">                <span class="comment"># fps 矫正</span></span><br><span class="line">                <span class="keyword">if</span> count &lt; self.fps:</span><br><span class="line">                    delay_fps += <span class="number">0.2</span> * change_times</span><br><span class="line">                    hz = <span class="number">10</span> ** <span class="number">9</span> / (self.fps + delay_fps)</span><br><span class="line">                <span class="keyword">elif</span> count &gt; self.fps:</span><br><span class="line">                    delay_fps -= <span class="number">0.1</span> * change_times</span><br><span class="line">                    hz = <span class="number">10</span> ** <span class="number">9</span> / (self.fps + delay_fps)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    change_times = change_times * <span class="number">0.1</span> <span class="keyword">if</span> change_times &gt;= <span class="number">0.001</span> <span class="keyword">else</span> change_times</span><br><span class="line">                real_count = count = <span class="number">0</span></span><br><span class="line">                last_print_time_ns = now_time</span><br></pre></td></tr></table></figure>
 
 <p><code>main.py</code></p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> ClockVideo <span class="keyword">import</span> ClockVideo</span><br><span class="line"></span><br><span class="line">SIZE = (<span class="number">1920</span>, <span class="number">1080</span>)</span><br><span class="line">FPS = <span class="number">30</span></span><br><span class="line">RTMP_URL = <span class="string">&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ClockVideo(</span><br><span class="line">        *SIZE,</span><br><span class="line">        FPS,</span><br><span class="line">        RTMP_URL</span><br><span class="line">    )</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
@@ -1774,7 +1774,7 @@
 <li>RTMP_URL需要替换为具体的推流地址。</li>
 </ol>
 <p>最后进行推流测试，可以看到如下的输出：</p>
-<img src="/2021/01/ckniy86we008ku4xbc2vv9x5h/2.png" class="">
+<img src="/2021/01/ckohxn5rb0048toudcn77g2e9/2.png" class="">
 
 <p>通过对比终端中打印的时间和拉到流画面上的时间即可知道推流端到播放端延迟情况。</p>
 <h2 id="0x05-小结"><a href="#0x05-小结" class="headerlink" title="0x05. 小结"></a>0x05. 小结</h2><p>这个小工具是在工作中为了解决某个产品海外主播反馈的延迟问题定位时随手开发的。代码很简单，但是可以解决一个非常有趣的实际问题。</p>
