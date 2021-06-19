@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>One more time, one more chance</title>
-    <url>/2014/04/ckpb74p4u0003s5rte5n7ajul/</url>
+    <url>/2014/04/ckq401bwf0003rdpc07cter7a/</url>
     <content><![CDATA[<p><em>一首有故事的歌。据说喜欢的人都是有故事的人。</em></p>
 <span id="more"></span>
 
@@ -91,7 +91,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-00</title>
-    <url>/2014/10/ckpb74p4y0006s5rte3edbkrh/</url>
+    <url>/2014/10/ckq401bwi0006rdpcbw099tq6/</url>
     <content><![CDATA[<p>Python challenge 00</p>
 <p>主要内容：</p>
 <ul>
@@ -118,7 +118,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-01</title>
-    <url>/2014/11/ckpb74p4z0008s5rtbwtghd5m/</url>
+    <url>/2014/11/ckq401bwk0008rdpc2z84bhoz/</url>
     <content><![CDATA[<p><em>Python string库相关内容。</em></p>
 <span id="more"></span>
 
@@ -176,7 +176,7 @@
   </entry>
   <entry>
     <title>The Secret</title>
-    <url>/2014/03/ckpb74p510009s5rtc0gfdc21/</url>
+    <url>/2014/03/ckq401bwl0009rdpc7wth1dde/</url>
     <content><![CDATA[<p><em>一本和生活态度息息相关的书。。。</em></p>
 <span id="more"></span>
 
@@ -217,7 +217,7 @@
   </entry>
   <entry>
     <title>Ubuntu更新时提示/boot空间不足解决方案</title>
-    <url>/2014/10/ckpb74p53000cs5rtg4wz6g0l/</url>
+    <url>/2014/10/ckq401bwn000crdpcg45c51rl/</url>
     <content><![CDATA[<p><em>卸载Linux旧版内核相关</em></p>
 <span id="more"></span>
 
@@ -245,7 +245,7 @@
   </entry>
   <entry>
     <title>无题</title>
-    <url>/2014/11/ckpb74p55000es5rt6s9b7lh2/</url>
+    <url>/2014/11/ckq401bwo000erdpc7h0510mp/</url>
     <content><![CDATA[<p><em>感恩节随感</em></p>
 <span id="more"></span>
 
@@ -270,7 +270,7 @@
   </entry>
   <entry>
     <title>随感（一）</title>
-    <url>/2014/09/ckpb74p56000gs5rteg01a4p5/</url>
+    <url>/2014/09/ckq401bwp000grdpcgdg67ngv/</url>
     <content><![CDATA[<p> <em>就是一篇生活的随感</em></p>
 <span id="more"></span>
 
@@ -303,7 +303,7 @@
   </entry>
   <entry>
     <title>随感（二）</title>
-    <url>/2014/10/ckpb74p58000is5rt48nx399h/</url>
+    <url>/2014/10/ckq401bwq000irdpc82isfxuq/</url>
     <content><![CDATA[<p><em>一篇旅途归来的随感。。</em></p>
 <p>四天的旅途，终究还是要结束了。我现在应该怎么来描述我的心情呢？</p>
 <p>还记得辉导说我是一只装得太满的水杯。</p>
@@ -330,7 +330,7 @@
   </entry>
   <entry>
     <title>OpenWrt ipv6 NAT配置</title>
-    <url>/2015/12/ckpb74p59000ks5rt438j4v19/</url>
+    <url>/2015/12/ckq401bwr000krdpc0koedv38/</url>
     <content><![CDATA[<p>一个折磨了我三年的问题</p>
 <p>通过这篇文章，你可以了解到：</p>
 <ul>
@@ -352,16 +352,16 @@
 </ul>
 <p>这些都是ipv6的支持组件，如果安装正确的话现在路由器已经可以获取到ipv6的地址了，但是还不能分配下去，也不能做路由转发。</p>
 <p>接下来就是比较关键的步骤了，我们先进入接口页面记录下我们获取到的ipv6地址。</p>
-<img src="/2015/12/ckpb74p59000ks5rt438j4v19/1.png" class="">
+<img src="/2015/12/ckq401bwr000krdpc0koedv38/1.png" class="">
 
 <p>这里的前缀的80位是我们以后要用到的，需要记录下来。</p>
 <p>所谓的80位，指的是80个bit也就是你看到的前5节，第五节被我打码了。</p>
 <p>在全局网络选项中的IPv6 ULA前缀设置为刚才记录下的前80位，并写明长度为80.</p>
-<img src="/2015/12/ckpb74p59000ks5rt438j4v19/2.png" class="">
+<img src="/2015/12/ckq401bwr000krdpc0koedv38/2.png" class="">
 
 <p>记录下这个地址，然后点击LAN口编辑，ipv6分配长度改为禁用。</p>
 <p>DHCP高级中设置如图：</p>
-<img src="/2015/12/ckpb74p59000ks5rt438j4v19/3.png" class="">
+<img src="/2015/12/ckq401bwr000krdpc0koedv38/3.png" class="">
 
 <p>现在我们需要给路由器的LAN像ipv4一样设置一个IPV6的地址用来做网关，然后进行NAT转发，不要试图使用上图中的那几个框框设置ipv6的地址，因为我们想往下划分的是一个80位的子网，在这里如果直接设置的话一定会挂掉的，所以我们需要另行其道。</p>
 <p>其实也不是什么复杂的办法，直接在系统-启动项的本地启动脚本中加一行ip配置就可以了。</p>
@@ -372,10 +372,10 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip6tables -P FORWARD  ACCEPT</span><br><span class="line">ip6tables -t nat -I POSTROUTING -s 2001:DA8:B800:1A02:XXXX::/80 -j MASQUERADE</span><br></pre></td></tr></table></figure>
 
 <p>重启路由器，重启电脑，看看效果。</p>
-<img src="/2015/12/ckpb74p59000ks5rt438j4v19/4.png" class="">
+<img src="/2015/12/ckq401bwr000krdpc0koedv38/4.png" class="">
 
 <p>如果还是不放心的话，ping一下试试呗~</p>
-<img src="/2015/12/ckpb74p59000ks5rt438j4v19/5.png" class="">
+<img src="/2015/12/ckq401bwr000krdpc0koedv38/5.png" class="">
 
 <p>嗯~就是这样，可以愉快的在宿舍挂PT惹~~</p>
 ]]></content>
@@ -392,7 +392,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-02</title>
-    <url>/2015/01/ckpb74p5c000ns5rt3a7cf9qe/</url>
+    <url>/2015/01/ckq401bwu000nrdpc7t521jh6/</url>
     <content><![CDATA[<p><em>Python频繁元素统计</em></p>
 <span id="more"></span>
 
@@ -423,7 +423,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-03</title>
-    <url>/2015/01/ckpb74p5e000qs5rt9601eg1v/</url>
+    <url>/2015/01/ckq401bww000qrdpc84nz1qxx/</url>
     <content><![CDATA[<p><em>Python re包的使用</em></p>
 <span id="more"></span>
 
@@ -446,7 +446,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-04</title>
-    <url>/2015/01/ckpb74p5g000ss5rtb3xv04lj/</url>
+    <url>/2015/01/ckq401bwx000srdpc297h5pmg/</url>
     <content><![CDATA[<p><em>Python urllib</em></p>
 <span id="more"></span>
 
@@ -471,7 +471,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-05</title>
-    <url>/2015/01/ckpb74p5i000us5rt7x51bujg/</url>
+    <url>/2015/01/ckq401bwz000urdpc1zw12jvd/</url>
     <content><![CDATA[<p><em>python pickle模块，数据持久化。</em></p>
 <span id="more"></span>
 
@@ -507,7 +507,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-06</title>
-    <url>/2015/01/ckpb74p5j000xs5rtesl6ef9v/</url>
+    <url>/2015/01/ckq401bx1000xrdpcalsl33lq/</url>
     <content><![CDATA[<p><em>python zip相关操作</em></p>
 <span id="more"></span>
 
@@ -544,7 +544,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-07</title>
-    <url>/2015/01/ckpb74p5k000zs5rt3vgg9bmq/</url>
+    <url>/2015/01/ckq401bx2000zrdpc23w4cls8/</url>
     <content><![CDATA[<p><em>Python经典图像处理库PIL的使用</em></p>
 <span id="more"></span>
 
@@ -580,7 +580,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-08</title>
-    <url>/2015/01/ckpb74p5m0014s5rthkj20u19/</url>
+    <url>/2015/01/ckq401bx30014rdpch6sv17h9/</url>
     <content><![CDATA[<p><em>Python bz2 模块</em></p>
 <span id="more"></span>
 
@@ -603,7 +603,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-09</title>
-    <url>/2015/01/ckpb74p5p0017s5rt58bcf2ok/</url>
+    <url>/2015/01/ckq401bx40017rdpc39ew0z8t/</url>
     <content><![CDATA[<p><em>Python zip函数 turtle绘图</em></p>
 <span id="more"></span>
 
@@ -625,7 +625,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-10</title>
-    <url>/2015/01/ckpb74p5r001as5rte43u4uxj/</url>
+    <url>/2015/01/ckq401bx6001ardpc2jmogf7l/</url>
     <content><![CDATA[<p><em>Python找规律</em></p>
 <span id="more"></span>
 
@@ -648,7 +648,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-11</title>
-    <url>/2015/01/ckpb74p5t001ds5rtg2sc1zig/</url>
+    <url>/2015/01/ckq401bx8001drdpc8oi69q8b/</url>
     <content><![CDATA[<p><em>Python PIL图像处理</em></p>
 <span id="more"></span>
 
@@ -678,7 +678,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-12</title>
-    <url>/2015/01/ckpb74p5y001gs5rtg0oa0cu5/</url>
+    <url>/2015/01/ckq401bxd001grdpc2yqe84z8/</url>
     <content><![CDATA[<p><em>Python文件处理</em></p>
 <span id="more"></span>
 
@@ -709,7 +709,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-13</title>
-    <url>/2015/01/ckpb74p61001ks5rtds09f96b/</url>
+    <url>/2015/01/ckq401bxf001krdpcdfu6d3wp/</url>
     <content><![CDATA[<p><em>Python xmlrpclib使用</em></p>
 <span id="more"></span>
 
@@ -746,7 +746,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-14</title>
-    <url>/2015/01/ckpb74p64001os5rtbg5j93qi/</url>
+    <url>/2015/01/ckq401bxh001ordpcfd4j2er7/</url>
     <content><![CDATA[<p><em>Python PIL图像操作</em></p>
 <span id="more"></span>
 
@@ -771,7 +771,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-15</title>
-    <url>/2015/01/ckpb74p66001ss5rt6egi7c0u/</url>
+    <url>/2015/01/ckq401bxj001srdpc3iua3auw/</url>
     <content><![CDATA[<p><em>Python datetime模块</em></p>
 <span id="more"></span>
 
@@ -803,7 +803,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-16</title>
-    <url>/2015/01/ckpb74p69001ws5rt8kvwhkzs/</url>
+    <url>/2015/01/ckq401bxl001wrdpc8d5m8hv3/</url>
     <content><![CDATA[<p><em>PIL 图像处理</em></p>
 <span id="more"></span>
 
@@ -830,7 +830,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-17</title>
-    <url>/2015/01/ckpb74p6b0020s5rtdnvnb6bi/</url>
+    <url>/2015/01/ckq401bxn0020rdpcfq5u0r26/</url>
     <content><![CDATA[<p><em>Python urllib和cookielib模块</em></p>
 <span id="more"></span>
 
@@ -896,7 +896,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-18</title>
-    <url>/2015/01/ckpb74p6e0024s5rt4w6v4ljy/</url>
+    <url>/2015/01/ckq401bxo0024rdpc3a571kn2/</url>
     <content><![CDATA[<p><em>Python difflib</em></p>
 <span id="more"></span>
 
@@ -939,7 +939,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-19</title>
-    <url>/2015/01/ckpb74p6f0028s5rt49si9hj1/</url>
+    <url>/2015/01/ckq401bxq0028rdpccky22azo/</url>
     <content><![CDATA[<p><em>Python wave 音频处理库</em></p>
 <span id="more"></span>
 
@@ -977,7 +977,7 @@
   </entry>
   <entry>
     <title>Python中两种文件写入方式比较</title>
-    <url>/2015/03/ckpb74p6h002cs5rthccrgu94/</url>
+    <url>/2015/03/ckq401bxs002crdpc41sifp54/</url>
     <content><![CDATA[<p><em>有关Python文件写入的相关问题</em></p>
 <span id="more"></span>
 
@@ -986,7 +986,7 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> clock</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">speedTest</span>(<span class="params">func</span>):</span></span><br><span class="line">	<span class="function"><span class="keyword">def</span> <span class="title">_deco</span>():</span></span><br><span class="line">		startTime = clock()</span><br><span class="line">		func()</span><br><span class="line">		endTime = clock()</span><br><span class="line">		<span class="built_in">print</span> <span class="string">&quot;Cost time is &quot;</span> + <span class="built_in">str</span>(endTime - startTime)</span><br><span class="line">	<span class="keyword">return</span> _deco</span><br><span class="line"></span><br><span class="line"><span class="meta">@speedTest</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">method1</span>():</span></span><br><span class="line">	<span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;a.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">		<span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">1000000</span>):</span><br><span class="line">			fp.write(<span class="string">&quot;Hello world!\\n&quot;</span>)</span><br><span class="line"><span class="meta">@speedTest</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">method2</span>():</span></span><br><span class="line">	<span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;b.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">		<span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">1000000</span>):</span><br><span class="line">			<span class="built_in">print</span> &gt;&gt; fp, <span class="string">&quot;Hello world!&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;write method:&quot;</span></span><br><span class="line">method1()</span><br><span class="line"><span class="built_in">print</span> </span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;&gt;&gt; method:&quot;</span></span><br><span class="line">method2()</span><br></pre></td></tr></table></figure>
 
 <p>最后的结果：</p>
-<img src="/2015/03/ckpb74p6h002cs5rthccrgu94/1.png" class="">
+<img src="/2015/03/ckq401bxs002crdpc41sifp54/1.png" class="">
 
 <p>显然是write方式更快一点。但是为什么呢？</p>
 <p>在python的官方文档里面有这样的一段描述：</p>
@@ -1007,7 +1007,7 @@
   </entry>
   <entry>
     <title>将Python脚本打包为exe文件</title>
-    <url>/2015/02/ckpb74p6i002gs5rt9wfe7zae/</url>
+    <url>/2015/02/ckq401bxu002grdpch3wn92n5/</url>
     <content><![CDATA[<p><em>简单几步将python脚本打包为exe包</em></p>
 <p>第一步：在<a href="https://pypi.python.org/pypi/PyInstaller/2.1">https://pypi.python.org/pypi/PyInstaller/2.1</a> 下载pyinstaller。</p>
 <p>第二步：解压缩，在该目录下命令行中执行python setup.py install。</p>
@@ -1027,7 +1027,7 @@
   </entry>
   <entry>
     <title>段喵教你用20行代码搞定计算方法实验1</title>
-    <url>/2015/03/ckpb74p6k002ks5rtgyqe5uye/</url>
+    <url>/2015/03/ckq401bxw002krdpceh9rbbnc/</url>
     <content><![CDATA[<p>哈工大《计算方法》实验课实验作业</p>
 <ul>
 <li><p>其实就是想说。。。Python的科学计算库真的很强大。。</p>
@@ -1059,13 +1059,13 @@
   </entry>
   <entry>
     <title>闲的蛋疼系列之那个裙子到底什么颜色</title>
-    <url>/2015/02/ckpb74p6m002os5rt2kxceyfp/</url>
+    <url>/2015/02/ckq401bxx002ordpc6xdt7uhu/</url>
     <content><![CDATA[<p><em>有关于那条争议很大的裙子颜色问题</em></p>
 <p><em>用PIL去做一些简单的分析</em></p>
 <p><em>非专业图像处理，可能不是很准确</em></p>
 <span id="more"></span>
 
-<img src="/2015/02/ckpb74p6m002os5rt2kxceyfp/1.jpg" class="">
+<img src="/2015/02/ckq401bxx002ordpc6xdt7uhu/1.jpg" class="">
 
 <p>没错就是这个货到底是什么颜色？？</p>
 <p>各种说法层出不穷，我才不会说我看到的就是白金色的呢，但是。。。。是不是因为所谓周围颜色干扰之类的造成的错觉呢。。。。</p>
@@ -1073,22 +1073,22 @@
 <p>我截取的区域是(110,190)和(115,320)为起点的90*50的区域，当然，稍微粗略一点，但是基本已经可以看出问题来了。</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckpb74p6m002os5rt2kxceyfp/2.jpg" class="">
+<img src="/2015/02/ckq401bxx002ordpc6xdt7uhu/2.jpg" class="">
 
-<img src="/2015/02/ckpb74p6m002os5rt2kxceyfp/3.jpg" class="">
+<img src="/2015/02/ckq401bxx002ordpc6xdt7uhu/3.jpg" class="">
 
 <p>（现在看起来那个深色部分真的是有点像灰褐色了，浅色部分真的是浅蓝色）</p>
 <p>求平均值：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">average</span>(<span class="params">lst,order</span>):</span></span><br><span class="line">	l = [_[order] <span class="keyword">for</span> _ <span class="keyword">in</span> lst]</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">sum</span>(l) / <span class="built_in">len</span>(l)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_data = <span class="built_in">list</span>(bright_part.getdata())</span><br><span class="line">dark_data = <span class="built_in">list</span>(dark_part.getdata())</span><br><span class="line"></span><br><span class="line">average_rgb_of_bright_data = (average(bright_data, <span class="number">0</span>),average(bright_data, <span class="number">1</span>),average(bright_data, <span class="number">2</span>))</span><br><span class="line">average_rgb_of_dark_data = (average(dark_data, <span class="number">0</span>),average(dark_data, <span class="number">1</span>),average(dark_data, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">result = Image.new(im.mode, (<span class="number">400</span>, <span class="number">200</span>), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">result.paste(average_rgb_of_bright_data, (<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">100</span>))</span><br><span class="line">result.paste(average_rgb_of_dark_data, (<span class="number">0</span>,<span class="number">100</span>,<span class="number">400</span>,<span class="number">200</span>))</span><br><span class="line">result.save(<span class="string">&#x27;result.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckpb74p6m002os5rt2kxceyfp/4.jpg" class="">
+<img src="/2015/02/ckq401bxx002ordpc6xdt7uhu/4.jpg" class="">
 
 <p>因为是在阳光下亮度比较高一点~~</p>
 <p>我们稍稍吧亮度降低一点然后再看看效果~</p>
 <p>调整亮度：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">average</span>(<span class="params">lst,order</span>):</span></span><br><span class="line">	l = [_[order] <span class="keyword">for</span> _ <span class="keyword">in</span> lst]</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">sum</span>(l) / <span class="built_in">len</span>(l)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_data = <span class="built_in">list</span>(bright_part.getdata())</span><br><span class="line">dark_data = <span class="built_in">list</span>(dark_part.getdata())</span><br><span class="line"></span><br><span class="line">average_rgb_of_bright_data = (average(bright_data, <span class="number">0</span>),average(bright_data, <span class="number">1</span>),average(bright_data, <span class="number">2</span>))</span><br><span class="line">average_rgb_of_dark_data = (average(dark_data, <span class="number">0</span>),average(dark_data, <span class="number">1</span>),average(dark_data, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">result = Image.new(im.mode, (<span class="number">400</span>, <span class="number">200</span>), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">result.paste(average_rgb_of_bright_data, (<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">100</span>))</span><br><span class="line">result.paste(average_rgb_of_dark_data, (<span class="number">0</span>,<span class="number">100</span>,<span class="number">400</span>,<span class="number">200</span>))</span><br><span class="line">result.save(<span class="string">&#x27;result.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">dark_pic = ImageEnhance.Brightness(result).enhance(<span class="number">0.4</span>)</span><br><span class="line">dark_pic.save(<span class="string">&#x27;dark_result.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckpb74p6m002os5rt2kxceyfp/5.jpg" class="">
+<img src="/2015/02/ckq401bxx002ordpc6xdt7uhu/5.jpg" class="">
 
 <p>问我刚才在干嘛。。。。看看这篇文章也知道我刚刚从盐缸里爬出来~~XD</p>
 ]]></content>
@@ -1104,7 +1104,7 @@
   </entry>
   <entry>
     <title>Linux下Git Server搭建</title>
-    <url>/2016/09/ckpb74p6n002rs5rthd6zfeyu/</url>
+    <url>/2016/09/ckq401bxy002rrdpcft69de6s/</url>
     <content><![CDATA[<p>以Ubuntu系统为例讲解如何搭建一个git服务器</p>
 <p>简单的说步骤如下：</p>
 <ul>
@@ -1175,7 +1175,7 @@
   </entry>
   <entry>
     <title>Python多进程编程中进程池锁共享问题</title>
-    <url>/2016/08/ckpb74p6p002ws5rtdp2jgale/</url>
+    <url>/2016/08/ckq401bxz002wrdpc0ho691bv/</url>
     <content><![CDATA[<p>Python多进程编程中，资源锁的问题</p>
 <p>进程池可以使我们的编程变得非常简单，但是同时进程池的使用也会造成一些麻烦，比如对于共用锁的处理等。</p>
 <p>这篇文章主要通过两种方法解决共享资源锁的问题：</p>
@@ -1220,7 +1220,7 @@
   </entry>
   <entry>
     <title>京东评论爬虫一则</title>
-    <url>/2016/11/ckpb74p6r002zs5rtgrawc3ao/</url>
+    <url>/2016/11/ckq401by0002zrdpcd5o39s67/</url>
     <content><![CDATA[<p>双十一又要来了，为剁手党萌做了一点微小的事情</p>
 <ul>
 <li>涉及最简单的页面分析</li>
@@ -1232,14 +1232,14 @@
 <p>每每想到要在网上购买商品，第一个想到的就是要去看看买家们怎么说，但是难以避免的，在页面上一次只能看到10条评论，频繁的翻页操作真的是好麻烦。再者有时候对于（没钱的我）[划掉]选择困难症患者来说总有这么一个闹心事，比如我想买一部手机，我同时看好水果牌的某一款，我也看好大菊花的某两款，我还看好大法的某一款，那么当我逐一看某一款的评论时，都会给我一个感觉“哇，好棒，买买买。”相反在现实里，小伙伴们一起讨论的话就会是另外一番场景了：A：“水果好看。”B：“支持国产。”C：“坚定信仰。”A：“水果做工好。”B：“我用麒麟。”C：“坚定信仰。”通过这样的交替看评论，反而能使人更客观一点。但是我们在一个京东的页面里面显然是不可能看见友商竞品的评论了。我们总不能开好几个标签手动看吧。鉴于此，这点小事是难不倒程序猿的。写个爬虫存起来，想怎么看就怎么看<em>(:зゝ∠)</em></p>
 <p>说干就干，必然还是人生苦短我用python。</p>
 <p>第一步必然是分析页面，随时打开一个评论页面，比如以<code>http://item.jd.com/3717578.html</code>这个地址为例。在第一条评论的位置右键审查元素，可以看到这样的信息：</p>
-<img src="/2016/11/ckpb74p6r002zs5rtgrawc3ao/1.png" class="">
+<img src="/2016/11/ckq401by0002zrdpcd5o39s67/1.png" class="">
 
 <p>发现很明显，所有的评论内容都是在一个类为<code>p-comment</code>的div中。随手在下面的console中敲一下<code>$(&#39;.p-comment&#39;)</code>一看返回结果刚好是10条评论的数组。一看到这个，不由的让人想到，这下好办了pyquery几乎可以不费什么功夫就把所有的内容抓到了。</p>
 <p>但是根据我的经验，这样的页面一般评论都是异步加载的，可能会有更简单的办法来处理这件事情。比如挖掘一下有没有评论接口什么的。戳回商品信息页面，在Chrome的Developer Tools的Network标签里禁用缓存，刷新页面然后戳一下商品评论，发现又发起了81个请求，那么很有可能评论就藏在这里面。在filter中选择XHR发现居然是空的，那么评论没有直接使用json传回来，一定被藏起来了。这样真的是有点不太友好哇<em>(:зゝ∠)</em></p>
 <p>不过这样的事情难不倒段喵喵，把filter切到js看看这些请求回来的js有没有什么异常。为嘛会想到js呢。对于这个问题可以去查一下JSON到底是什么。往下翻几个就看到了一个请求名字是<code>productPageComments.action</code>戳开一看果然是一个函数调用包着一个大的json。那么我们要找的json就在这里了，可是还得处理一下外面这一层。看起来似乎不太好办，但是再回头看一眼这个请求本身最后带着一个查询参数是<code>callback=fetchJSON_comment98vv2125</code>发现和respose中包着这个json的函数调用名字一样。这样的话，如果我们把这个参数去掉发一个请求试试。</p>
 <p>一个完整的JSON文件get√，看看上面的查询参数，我们只要修改对于的productId就可以得到不同商品的评论了，当然还有page和pageSize参数。分别是评论的第几页和每页的评论数。但是不知道为嘛这个pageSize参数是个咸鱼，不管你填多少都只能拿到10条评论。</p>
 <p>接下来的事情简单了，分析一下json文件，先格式化了，然后简单折叠一下。就可以看到这样的结构了：</p>
-<img src="/2016/11/ckpb74p6r002zs5rtgrawc3ao/2.png" class="">
+<img src="/2016/11/ckq401by0002zrdpcd5o39s67/2.png" class="">
 
 <p><code>productCommentSummary</code>是产品评论总结，里面有一些好评率，评论总数之类的东西，<code>hotCommentTagStatistics</code>标签信息，<code>maxPage</code>最大页码数，<code>comments</code>评论列表。</p>
 <p>剩下的内容就无比简单了，urllib2和json两个包的使用，为了效率高可以用multiprocessing多进程处理，为了容错和高效维护数据，内容直接写入MySQL就OK了。</p>
@@ -1261,7 +1261,7 @@
   </entry>
   <entry>
     <title>使用nginx+uwsgi部署django应用</title>
-    <url>/2016/08/ckpb74p6t0034s5rtetw39em2/</url>
+    <url>/2016/08/ckq401by20034rdpch56md5nw/</url>
     <content><![CDATA[<p>简单明了的说明如何在Linux下部署一个Django应用</p>
 <ul>
 <li>这篇文章好像拖了很久的样纸w</li>
@@ -1360,19 +1360,19 @@
   </entry>
   <entry>
     <title>朋友圈里的九图脚本</title>
-    <url>/2016/10/ckpb74p6u0037s5rthnrhf07w/</url>
+    <url>/2016/10/ckq401by30037rdpc4o796i14/</url>
     <content><![CDATA[<p>特此来拯救挣扎在9图里的孩子们</p>
 <p>明明只有一张图，但是凑不够九张就是好蛋疼，那么这个项目你值得拥有。</p>
 <span id="more"></span>
 
-<img src="/2016/10/ckpb74p6u0037s5rthnrhf07w/1.png" class="">
+<img src="/2016/10/ckq401by30037rdpc4o796i14/1.png" class="">
 
 <p>其实这个项目有点小水。</p>
 <p>其实就是对PIL最简单的应用，主要涉及到切图和算坐标，其实没有什么技术含量，封装成了一个类，可以供其他程序方便的调用。</p>
 <p>如果不懒的话可以写一个界面，但是我比较懒，甚至懒得作为一个功能加到这个博客里。23333不过如果有人愿意的话可以拿去用。</p>
 <p>项目开源在GITHUB上，项目地址：<a href="">https://github.com/yumendy/nine_picture</a></p>
 <p>如果你喜欢这个项目，而且觉得对你有帮助的话，不妨投喂我一下，如果有人投喂的话，我承诺会将这个功能作为一个小小的模块插在这个部落格里，也就是可以实现你上传一张图片，直接得到9张切好的图片。完全在页面上操作。方便爪机用户。：</p>
-<p>投喂宝账户（云养喵系列。。养段喵）：<a href="mailto:&#121;&#117;&#x6d;&#x65;&#110;&#100;&#121;&#64;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;">&#121;&#117;&#x6d;&#x65;&#110;&#100;&#121;&#64;&#x31;&#x36;&#51;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+<p>投喂宝账户（云养喵系列。。养段喵）：<a href="mailto:&#121;&#x75;&#x6d;&#x65;&#x6e;&#x64;&#x79;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;">&#121;&#x75;&#x6d;&#x65;&#x6e;&#x64;&#x79;&#64;&#49;&#x36;&#x33;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -1386,7 +1386,7 @@
   </entry>
   <entry>
     <title>部落格记</title>
-    <url>/2016/08/ckpb74p6w003cs5rt5aiu1hf8/</url>
+    <url>/2016/08/ckq401by5003crdpc2m3s0w4o/</url>
     <content><![CDATA[<p><em>其实就是写写有关这个站点的一些事情</em></p>
 <p><del>好吧。。倒不如说是段喵懒癌康复记</del></p>
 <p>就是一些建站过程中的心得和吐槽w</p>
@@ -1399,7 +1399,7 @@
 <p>于是自己做一个博客的心愿又被自己重拾了起来。于是乎一天半的时间，这个小站就做好了。基于Django和Bootstrap。当然前端的设计是参考了其他同学的博客，感觉自己真的不是一块做设计的料。现在博客的基本功能都已经差不多了。简单的说有了动态的导航栏，富文本的博文系统，分类管理和碎碎念功能。也有一个完整的发布后台。静态文件全部托管在七牛上。而富文本编辑器使用的是Django-ueditor。这个开源项目真的做的非常不错，但是可惜的是开发者已经不再维护了。随着django的更新，这个插件已经不是很好用了。它没有调用Django的Storage系统接口而使用的是直接对磁盘的文件读写功能，造成的直接影响就是和七牛的水土不服。</p>
 <p>两个选择就摆在了我的面前，第一个就是把media文件换给DO服务器，但是想想旧金山服务器的速度实在是不能忍，第二个就是改。纠结再三还是选择了后者。读了读代码发现逻辑还算是清晰。于是偷懒就直接把磁盘写入改为了七牛的存储接口调用。好吧。我承认我也是够懒的，因为我在考虑，如果近期有时间的话。是不是要自己试着移植一下百度的这个神富文本编辑器。</p>
 <p>好吧。突然想吐槽一句。为了这个博客我已经好几天没有上基三了QAQ</p>
-<img src="/2016/08/ckpb74p6w003cs5rt5aiu1hf8/20160818224208667.jpg" class="">
+<img src="/2016/08/ckq401by5003crdpc2m3s0w4o/20160818224208667.jpg" class="">
 
 <p>写在最后，希望自己可以把写博客的习惯坚持下去，也欢迎大家有时间多来看看。</p>
 ]]></content>
@@ -1414,7 +1414,7 @@
   </entry>
   <entry>
     <title>逃课日记</title>
-    <url>/2017/01/ckpb74p6y003fs5rt9wv615dv/</url>
+    <url>/2017/01/ckq401by6003frdpcd2g0akgj/</url>
     <content><![CDATA[<p><em>读万卷书，行万里路。让自己一点点的成长起来。平心静气，让自己过得精致温暖……</em></p>
 <span id="more"></span>
 
@@ -1428,14 +1428,14 @@
 <p>晚上见到了高中时期的老师。记忆最深刻的还是朱姐说过的一段话。朱姐说一个人对自己要求高了的同时，其实在骨子里对别人的要求也是很高的。对于这一点，从某种角度讲我真的是无可辩驳。想了很久，对自己严苛的同时的确难免对身边的人有同样高的要求，之所以之前一直觉得对别人没有那么高要求，也许真的只是因为关系没有那么密切吧，或者换句话说并没有真正和自己有关，但终有一天，自己会有自己的家庭，会有自己的孩子，到了那个时候又该如何去面对他们呢？严于律己，宽以待人，说起来容易，但做好却真真切切不容易。</p>
 <p>回家后认真思考了一下该怎么去度过这一段不算长的假期。似乎被郑老师说准了。我根本不是一个能闲得下来的人。休息了不到一个月，就闲不住了。</p>
 <p>七月份来到了朝思暮想的成都。在杨哥的公司里实习了两个月，其实从我内心讲，这两个月是我过得最开心的两个月了。</p>
-<img src="/2017/01/ckpb74p6y003fs5rt9wv615dv/1.jpg" class="">
+<img src="/2017/01/ckq401by6003frdpcd2g0akgj/1.jpg" class="">
 
-<img src="/2017/01/ckpb74p6y003fs5rt9wv615dv/0.jpg" class="">
+<img src="/2017/01/ckq401by6003frdpcd2g0akgj/0.jpg" class="">
 
 <p>初到成都，在杨哥和亮姐帮助下在天鹅湖花园租好了房子。开始了一段属于自己一个人的生活。一个新的环境。</p>
-<img src="/2017/01/ckpb74p6y003fs5rt9wv615dv/2.jpg" class="">
+<img src="/2017/01/ckq401by6003frdpcd2g0akgj/2.jpg" class="">
 
-<img src="/2017/01/ckpb74p6y003fs5rt9wv615dv/4.jpg" class="">
+<img src="/2017/01/ckq401by6003frdpcd2g0akgj/4.jpg" class="">
 
 <p>其实对于新的环境一开始也是有些不适应的，但是很快就喜欢上了这种高效的生活方式，白天去写代码，晚上可以做些自己喜欢的事情。可以说每天都在做着自己喜欢的事情。说起来生活很简单。虽然只有短短两个月时间，和杨哥接触的多。对生活这件事有了一些新的理解，慢慢理解了生活品质对一个人一辈子的重要性。</p>
 <p>一生说长不长说短不短，有些错过的东西可能就再也不会回来了。有些属于一个时期才会有的感觉，过去了就再也找不回来了。想想小时候最希望的事情是有一台属于自己的电脑，那时候甚至还给自己盘算好了，如果我有一台属于自己的电脑，我要如何分区，我要装多少自己喜欢的游戏，甚至连用什么桌面都已经盘算好了。但是到了如今，真正拿到自己的电脑的时候，昔日的种种幻想什么的早已经不复存在。完全就是简约化的风格，找不回原来的那种快乐了。</p>
@@ -1444,7 +1444,7 @@
 <p>毫不夸张的说就是每天都不开心。最大的收获也许就是每天做一顿中午饭，让自己的厨艺有了不小的进步吧。对于项目相关的事情只能说有苦有乐吧。不便多说。但是单从生活角度讲，最难的日子也算是熬过来了。如果说昔日还在纠结要不要考研，要不要继续念书，其实现在已经基本不再像从前那么纠结了。人一辈子不长不短，还是多用点时间去做些自己喜欢的事情吧。别太委屈自己。</p>
 <p>在北京的日子，有不少挚友寄来的零食和礼物，但是最让我感慨的还是失联送我的一本《一人食》。一人食，一个人也要好好吃饭，一个人，也要过得精致温暖。还是那句话，要好好的生活，不管自己是在什么样的环境下，都要过好自己的日子。虽然很多时候是夹缝中求生存，但是从另一个角度说，即使是这样，也要好好吃饭，也要过得温暖。</p>
 <p>于是乎从一盘麻婆豆腐开始，让自己好好生活。一人食，一个人也要好好吃饭，一个人，也要过得精致温暖。</p>
-<img src="/2017/01/ckpb74p6y003fs5rt9wv615dv/5.jpg" class="">
+<img src="/2017/01/ckq401by6003frdpcd2g0akgj/5.jpg" class="">
 
 <p>在北京的日子，在周末有时间的时候偶尔会和已经毕业的王彤师兄聊聊天小聚一下。作为一个工大毕业的老北漂，跟师兄聊天可以说真的学到了很多不一样的东西。也有很多观念上的改变吧。关于未来，关于择业，关于恋爱，关于生活。有些我曾坚守自认为成熟的东西，从另外的角度看来其实有时候也十分幼稚。也许这就是一个成长的过程。</p>
 <p>坚守自己的原则，读万卷书，行万里路。让自己一点点的成长起来。一路走来，磨砺无数，时光慢慢把年轻的棱角都打磨平了。生活的节奏都在自己手里。平心静气，让自己过得精致温暖。</p>
@@ -1461,7 +1461,7 @@
   </entry>
   <entry>
     <title>又一个博客</title>
-    <url>/2019/06/ckpb74p70003ks5rtg7by8fbl/</url>
+    <url>/2019/06/ckq401by8003krdpc9si7b3e4/</url>
     <content><![CDATA[<h2 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h2><p>距离上一次写博客又过去很久很久了。</p>
 <p>不得不承认打理博客永远是一个非常烦人的事情，之前在DO上自己做的Django版本的博客，也因为DO的主机被回收而一起丢失了。些许遗憾，但这也是成长必经的一部分。</p>
 <p>总会用一些文字去记录生活，脱离开QQ空间、朋友圈之类的熟人社交，或许会更自在一些。</p>
@@ -1481,7 +1481,7 @@
   </entry>
   <entry>
     <title>好好生活</title>
-    <url>/2020/10/ckpb74p71003ns5rt9ccg2zm1/</url>
+    <url>/2020/10/ckq401by9003nrdpccnrt23q7/</url>
     <content><![CDATA[<p><em>当“曾经”不总挂在我们嘴边时，生活就开始了。 ——题记</em></p>
 <h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><p>其实在两个月之前，就有考虑过要写这样一篇文章，但一直苦苦纠结于到底要用一个什么样的标题，却无论如何都没有想到，在两个月之后的今天，最终还是回归到了这样一个俗套的名字上。</p>
 <p>又不是要卖文为生，仅仅就是写给自己的一些文字而已，何必久久纠结于一个标题，又不指望靠着一个标题吸粉。</p>
@@ -1547,17 +1547,17 @@
   </entry>
   <entry>
     <title>湘江边的随感</title>
-    <url>/2020/11/ckpb74p73003ss5rt0b2s140x/</url>
+    <url>/2020/11/ckq401bya003srdpcfkw968iv/</url>
     <content><![CDATA[<p>十一月的江风拂过那一刻，似乎些许凉意。</p>
 <span id="more"></span>
 
-<img src="/2020/11/ckpb74p73003ss5rt0b2s140x/1.jpg" class="">
+<img src="/2020/11/ckq401bya003srdpcfkw968iv/1.jpg" class="">
 
 <p>倚栏远眺，波光映衬着彼岸的万家灯火。街头歌手在以自己独特的音色演绎着张震岳的那一曲《再见》。</p>
 <p>恍惚间，此情此景，似曾相识。有那么一瞬间，世界安静了。</p>
 <p>有多久不曾想起那些日子了。松花江畔，望着夕阳一点点落下，喧闹人群伴着远处歌手的吉他声。</p>
 <p>什么也不做，就是静静的看着。</p>
-<img src="/2020/11/ckpb74p73003ss5rt0b2s140x/2.jpg" class="">
+<img src="/2020/11/ckq401bya003srdpcfkw968iv/2.jpg" class="">
 
 <p>“不可能每一分钟都用的那么有意义，有时候一些时间也是可以用来浪费的。亦或者说，其实这些随心所欲可以挥霍过去，用来取悦自己的时间，才是人生忙忙碌碌过程中最宝贵的东西。”</p>
 <p>人生本来就是没有意义的，我们强行赋予了自己各种“使命”，责任心和各种欲望驱使下不断一遍又一遍催眠自己，告诉自己所做的一切都是值得的。</p>
@@ -1581,7 +1581,7 @@
   </entry>
   <entry>
     <title>聊一聊信息流和读书</title>
-    <url>/2020/11/ckpb74p74003vs5rt790rfaco/</url>
+    <url>/2020/11/ckq401byb003vrdpc0t0o5ndc/</url>
     <content><![CDATA[<p>偶然在电梯里看到一个四五岁的小朋友在哭着闹着向家长要看抖音的时候，心生感慨，想聊一聊关于以短视频为代表的信息流产品和读书的话题。</p>
 <span id="more"></span>
 
@@ -1616,7 +1616,7 @@
   </entry>
   <entry>
     <title>2020年终随感</title>
-    <url>/2021/01/ckpb74p760040s5rta6gahs6v/</url>
+    <url>/2021/01/ckq401byc0040rdpc5a6v7r39/</url>
     <content><![CDATA[<p>“宁静致远” ——题记</p>
 <p>如果说一定要给过去的一年贴上一个标签的话，我会选择“兵荒马乱”。</p>
 <p>一场突如其来的疫情，让生活偏离了“正常”的轨迹。出于本能中对于不确定性的不安，惶恐、不安、焦虑，却又怀着一丝侥幸。期待着疫情过去，却无法让时间停滞。</p>
@@ -1639,7 +1639,7 @@
   </entry>
   <entry>
     <title>python3 共享内存模块简介</title>
-    <url>/2021/04/ckpb74p780043s5rt6m4h1fui/</url>
+    <url>/2021/04/ckq401bye0043rdpc2w4rclzz/</url>
     <content><![CDATA[<h2 id="0x00-概述"><a href="#0x00-概述" class="headerlink" title="0x00. 概述"></a>0x00. 概述</h2><p>前些日子和同事讨论过一个有关Python中共享内存的问题，在这里稍作整理记录一下。</p>
 <span id="more"></span>
 
@@ -1659,7 +1659,7 @@
 
 <p>在这个例子中，用主进程创建了一个8+2048B的空间并且接受用户输入，并且每次将当前的计数器和输入的字符长度作为元信息写在前8个字节中，用户输入的字符串则通过UTF8编码后写在后面的空间中。</p>
 <p>在子进程中，我们则是读取共享内存区域并且将用户输入转换成大写后输出。</p>
-<img src="/2021/04/ckpb74p780043s5rt6m4h1fui/01.png" class="">
+<img src="/2021/04/ckq401bye0043rdpc2w4rclzz/01.png" class="">
 
 <h2 id="0x03-multiprocessing-shared-memory模块"><a href="#0x03-multiprocessing-shared-memory模块" class="headerlink" title="0x03. multiprocessing.shared_memory模块"></a>0x03. multiprocessing.shared_memory模块</h2><p>在shared_memory模块中，主要有两个类可供使用：</p>
 <ul>
@@ -1695,7 +1695,7 @@
 
 <p><code>worker.py</code></p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, name</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=name)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    shm_key = <span class="built_in">input</span>(<span class="string">&#x27;place input shm key:&#x27;</span>)</span><br><span class="line">    app = ShmExampleWorkerAPP(shm_key)</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
-<img src="/2021/04/ckpb74p780043s5rt6m4h1fui/02.png" class="">
+<img src="/2021/04/ckq401bye0043rdpc2w4rclzz/02.png" class="">
 
 <p>在这个例子中，各种操作都比一开始的例子简单了很多。不过由于SHM的实现机制，不能再使用事先约定好SHM_KEY的方式在其他进程中挂在相应的共享内存区域了，只能通过其他方式将创建好的共享内存对象的key传递给其他的进程。</p>
 <h2 id="0x04-几个典型的使用场景"><a href="#0x04-几个典型的使用场景" class="headerlink" title="0x04. 几个典型的使用场景"></a>0x04. 几个典型的使用场景</h2><p>通过上面的例子不难发现，共享内存虽然是非常高效的跨进程通信方案，但是同样使用复杂度也是最高的，需要用户自行控制进程间的同步问题。对于Python应用而言在很多场景下这种复杂度换回的效率提升其实是得不偿失的。</p>
@@ -1725,7 +1725,7 @@
   </entry>
   <entry>
     <title>命令行时钟流工具</title>
-    <url>/2021/01/ckpb74p790048s5rt4otv64ak/</url>
+    <url>/2021/01/ckq401bz4008krdpc9dao05r0/</url>
     <content><![CDATA[<h2 id="0x00-什么是时钟流"><a href="#0x00-什么是时钟流" class="headerlink" title="0x00. 什么是时钟流"></a>0x00. 什么是时钟流</h2><p>在直播领域，通常会使用一路画面中包含当前精确时间画面的视频流结合推送端（主播）和播放端（观众）的画面来判断流的传播延迟，用于问题定位和调优。这样一路特殊的视频流叫做时钟流。</p>
 <p>那么在通常使用的过程中，如果生成一路时钟流呢？最简单的办法是点开windows右下角的时间窗口，捕获整个桌面的画面并使用推流工具推流，就得到了一路时钟流。</p>
 <span id="more"></span>
@@ -1740,7 +1740,7 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageDraw, ImageFont</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gen_clock_image</span>():</span></span><br><span class="line">     im = Image.new(<span class="string">&#x27;1&#x27;</span>, (<span class="number">800</span>, <span class="number">600</span>))</span><br><span class="line">     draw = ImageDraw.ImageDraw(im)</span><br><span class="line">     draw.text((<span class="number">100</span>, <span class="number">100</span>), <span class="built_in">str</span>(datetime.now()), fill=<span class="string">&#x27;white&#x27;</span>, font=ImageFont.truetype(<span class="string">&#x27;arial.ttf&#x27;</span>, <span class="number">30</span>))</span><br><span class="line">     <span class="keyword">return</span> im</span><br><span class="line"></span><br><span class="line">im = gen_clock_image()</span><br><span class="line">im.show()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>于是就可以得到下面的图片了</p>
-<img src="/2021/01/ckpb74p790048s5rt4otv64ak/1.png" class="">
+<img src="/2021/01/ckq401bz4008krdpc9dao05r0/1.png" class="">
 
 <p>那么接下来的工作就是需要按照一定时间来生成图片序列即可。</p>
 <h2 id="0X03-时钟流的推送"><a href="#0X03-时钟流的推送" class="headerlink" title="0X03. 时钟流的推送"></a>0X03. 时钟流的推送</h2><p>命令行推流的工具其实没有什么好纠结的，当然只有大名鼎鼎的ffmpeg。只要在启动的时候进行推流参数的设置即可。需要注意如下的几个参数：</p>
@@ -1774,7 +1774,7 @@
 <li>RTMP_URL需要替换为具体的推流地址。</li>
 </ol>
 <p>最后进行推流测试，可以看到如下的输出：</p>
-<img src="/2021/01/ckpb74p790048s5rt4otv64ak/2.png" class="">
+<img src="/2021/01/ckq401bz4008krdpc9dao05r0/2.png" class="">
 
 <p>通过对比终端中打印的时间和拉到流画面上的时间即可知道推流端到播放端延迟情况。</p>
 <h2 id="0x05-小结"><a href="#0x05-小结" class="headerlink" title="0x05. 小结"></a>0x05. 小结</h2><p>这个小工具是在工作中为了解决某个产品海外主播反馈的延迟问题定位时随手开发的。代码很简单，但是可以解决一个非常有趣的实际问题。</p>
