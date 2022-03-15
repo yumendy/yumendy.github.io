@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>One more time, one more chance</title>
-    <url>/2014/04/ckxx09ckb000349qz6b0icdei/</url>
+    <url>/2014/04/cl0rhzovs000372q13hn112dq/</url>
     <content><![CDATA[<p><em>一首有故事的歌。据说喜欢的人都是有故事的人。</em></p>
 <span id="more"></span>
 
@@ -91,7 +91,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-00</title>
-    <url>/2014/10/ckxx09ckf000649qz0wb6brv4/</url>
+    <url>/2014/10/cl0rhzovv000672q157d30gob/</url>
     <content><![CDATA[<p>Python challenge 00</p>
 <p>主要内容：</p>
 <ul>
@@ -118,13 +118,13 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-01</title>
-    <url>/2014/11/ckxx09cki000849qzbvnadj93/</url>
+    <url>/2014/11/cl0rhzovx000872q1hzh78zwg/</url>
     <content><![CDATA[<p><em>Python string库相关内容。</em></p>
 <span id="more"></span>
 
 <p>关卡地址：<a href="">http://www.pythonchallenge.com/pc/def/map.html</a></p>
 <p>这一关其实难度也不大，看一眼本子上写的内容立刻就知道了是一组最简单的替换密码，把字母依次向前推两个就可以得到正确的答案了。最基本的做法是用<code>ord</code>函数和<code>chr</code>函数通过ASCII码的加法可以简单的达到目的。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">change</span>(<span class="params">string</span>):</span></span><br><span class="line">    out = []</span><br><span class="line">    <span class="keyword">for</span> item <span class="keyword">in</span> string:</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">ord</span>(item) &lt;= <span class="built_in">ord</span>(<span class="string">&#x27;x&#x27;</span>) <span class="keyword">and</span> <span class="built_in">ord</span>(item) &gt;= <span class="built_in">ord</span>(<span class="string">&#x27;a&#x27;</span>):</span><br><span class="line">            out.append(<span class="built_in">chr</span>(<span class="built_in">ord</span>(item) + <span class="number">2</span>))</span><br><span class="line">        <span class="keyword">elif</span> item == <span class="string">&#x27;y&#x27;</span>:</span><br><span class="line">            out.append(<span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">        <span class="keyword">elif</span> item == <span class="string">&#x27;z&#x27;</span>:</span><br><span class="line">            out.append(<span class="string">&#x27;b&#x27;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            out.append(item)</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>.join(out)</span><br><span class="line">    </span><br><span class="line">src = raw_input()</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> change(src)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">change</span>(<span class="params">string</span>):</span><br><span class="line">    out = []</span><br><span class="line">    <span class="keyword">for</span> item <span class="keyword">in</span> string:</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">ord</span>(item) &lt;= <span class="built_in">ord</span>(<span class="string">&#x27;x&#x27;</span>) <span class="keyword">and</span> <span class="built_in">ord</span>(item) &gt;= <span class="built_in">ord</span>(<span class="string">&#x27;a&#x27;</span>):</span><br><span class="line">            out.append(<span class="built_in">chr</span>(<span class="built_in">ord</span>(item) + <span class="number">2</span>))</span><br><span class="line">        <span class="keyword">elif</span> item == <span class="string">&#x27;y&#x27;</span>:</span><br><span class="line">            out.append(<span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">        <span class="keyword">elif</span> item == <span class="string">&#x27;z&#x27;</span>:</span><br><span class="line">            out.append(<span class="string">&#x27;b&#x27;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            out.append(item)</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;&#x27;</span>.join(out)</span><br><span class="line">    </span><br><span class="line">src = raw_input()</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> change(src)</span><br></pre></td></tr></table></figure>
 
 <p>但是！！！</p>
 <p>真的需要这么多代码来做这一件事情吗？？</p>
@@ -176,7 +176,7 @@
   </entry>
   <entry>
     <title>The Secret</title>
-    <url>/2014/03/ckxx09ckk000949qz9n7x2tyq/</url>
+    <url>/2014/03/cl0rhzovz000972q1855k895d/</url>
     <content><![CDATA[<p><em>一本和生活态度息息相关的书。。。</em></p>
 <span id="more"></span>
 
@@ -217,7 +217,7 @@
   </entry>
   <entry>
     <title>Ubuntu更新时提示/boot空间不足解决方案</title>
-    <url>/2014/10/ckxx09ckn000c49qzbmwm0eyr/</url>
+    <url>/2014/10/cl0rhzow2000c72q1g4963bb7/</url>
     <content><![CDATA[<p><em>卸载Linux旧版内核相关</em></p>
 <span id="more"></span>
 
@@ -226,7 +226,7 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">dpkg --get-selections |grep linux-image</span><br></pre></td></tr></table></figure>
 
 <p>查看当前启动的内核（理论上讲，除了这个之外其他的都可以卸载了，不过建议保留一两个之前版本）：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">uname -a</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">uname</span> -a</span><br></pre></td></tr></table></figure>
 
 <p>卸载老版本的内核：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get purge linux-image-3.13.0-34-generic <span class="comment"># 卸载linux-image-3.13.0-34-generic内核</span></span><br></pre></td></tr></table></figure>
@@ -245,7 +245,7 @@
   </entry>
   <entry>
     <title>无题</title>
-    <url>/2014/11/ckxx09ckp000e49qz8actab80/</url>
+    <url>/2014/11/cl0rhzow4000e72q142ga8wc5/</url>
     <content><![CDATA[<p><em>感恩节随感</em></p>
 <span id="more"></span>
 
@@ -270,7 +270,7 @@
   </entry>
   <entry>
     <title>随感（一）</title>
-    <url>/2014/09/ckxx09ckr000g49qzgz2i80lb/</url>
+    <url>/2014/09/cl0rhzow5000g72q1hnup1u62/</url>
     <content><![CDATA[<p> <em>就是一篇生活的随感</em></p>
 <span id="more"></span>
 
@@ -303,7 +303,7 @@
   </entry>
   <entry>
     <title>随感（二）</title>
-    <url>/2014/10/ckxx09ckt000i49qzff6s7t3p/</url>
+    <url>/2014/10/cl0rhzow6000i72q1cuep18r6/</url>
     <content><![CDATA[<p><em>一篇旅途归来的随感。。</em></p>
 <p>四天的旅途，终究还是要结束了。我现在应该怎么来描述我的心情呢？</p>
 <p>还记得辉导说我是一只装得太满的水杯。</p>
@@ -330,7 +330,7 @@
   </entry>
   <entry>
     <title>OpenWrt ipv6 NAT配置</title>
-    <url>/2015/12/ckxx09ckv000k49qzhxnu555b/</url>
+    <url>/2015/12/cl0rhzow7000k72q13d591y5j/</url>
     <content><![CDATA[<p>一个折磨了我三年的问题</p>
 <p>通过这篇文章，你可以了解到：</p>
 <ul>
@@ -352,16 +352,16 @@
 </ul>
 <p>这些都是ipv6的支持组件，如果安装正确的话现在路由器已经可以获取到ipv6的地址了，但是还不能分配下去，也不能做路由转发。</p>
 <p>接下来就是比较关键的步骤了，我们先进入接口页面记录下我们获取到的ipv6地址。</p>
-<img src="/2015/12/ckxx09ckv000k49qzhxnu555b/1.png" class="">
+<img src="/2015/12/cl0rhzow7000k72q13d591y5j/1.png" class="">
 
 <p>这里的前缀的80位是我们以后要用到的，需要记录下来。</p>
 <p>所谓的80位，指的是80个bit也就是你看到的前5节，第五节被我打码了。</p>
 <p>在全局网络选项中的IPv6 ULA前缀设置为刚才记录下的前80位，并写明长度为80.</p>
-<img src="/2015/12/ckxx09ckv000k49qzhxnu555b/2.png" class="">
+<img src="/2015/12/cl0rhzow7000k72q13d591y5j/2.png" class="">
 
 <p>记录下这个地址，然后点击LAN口编辑，ipv6分配长度改为禁用。</p>
 <p>DHCP高级中设置如图：</p>
-<img src="/2015/12/ckxx09ckv000k49qzhxnu555b/3.png" class="">
+<img src="/2015/12/cl0rhzow7000k72q13d591y5j/3.png" class="">
 
 <p>现在我们需要给路由器的LAN像ipv4一样设置一个IPV6的地址用来做网关，然后进行NAT转发，不要试图使用上图中的那几个框框设置ipv6的地址，因为我们想往下划分的是一个80位的子网，在这里如果直接设置的话一定会挂掉的，所以我们需要另行其道。</p>
 <p>其实也不是什么复杂的办法，直接在系统-启动项的本地启动脚本中加一行ip配置就可以了。</p>
@@ -372,10 +372,10 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ip6tables -P FORWARD  ACCEPT</span><br><span class="line">ip6tables -t nat -I POSTROUTING -s 2001:DA8:B800:1A02:XXXX::/80 -j MASQUERADE</span><br></pre></td></tr></table></figure>
 
 <p>重启路由器，重启电脑，看看效果。</p>
-<img src="/2015/12/ckxx09ckv000k49qzhxnu555b/4.png" class="">
+<img src="/2015/12/cl0rhzow7000k72q13d591y5j/4.png" class="">
 
 <p>如果还是不放心的话，ping一下试试呗~</p>
-<img src="/2015/12/ckxx09ckv000k49qzhxnu555b/5.png" class="">
+<img src="/2015/12/cl0rhzow7000k72q13d591y5j/5.png" class="">
 
 <p>嗯~就是这样，可以愉快的在宿舍挂PT惹~~</p>
 ]]></content>
@@ -392,7 +392,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-02</title>
-    <url>/2015/01/ckxx09ckx000n49qz31h1cjo9/</url>
+    <url>/2015/01/cl0rhzow9000n72q1eyfvfrra/</url>
     <content><![CDATA[<p><em>Python频繁元素统计</em></p>
 <span id="more"></span>
 
@@ -423,7 +423,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-03</title>
-    <url>/2015/01/ckxx09cky000q49qzdaku0coa/</url>
+    <url>/2015/01/cl0rhzowa000q72q10n0s9l14/</url>
     <content><![CDATA[<p><em>Python re包的使用</em></p>
 <span id="more"></span>
 
@@ -446,7 +446,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-04</title>
-    <url>/2015/01/ckxx09cl0000s49qzhlzo1hql/</url>
+    <url>/2015/01/cl0rhzowc000s72q1ghp82lqy/</url>
     <content><![CDATA[<p><em>Python urllib</em></p>
 <span id="more"></span>
 
@@ -471,7 +471,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-05</title>
-    <url>/2015/01/ckxx09cl8000u49qz9spncj8e/</url>
+    <url>/2015/01/cl0rhzowe000u72q12yoy637z/</url>
     <content><![CDATA[<p><em>python pickle模块，数据持久化。</em></p>
 <span id="more"></span>
 
@@ -507,7 +507,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-06</title>
-    <url>/2015/01/ckxx09cla000x49qzatgz60vo/</url>
+    <url>/2015/01/cl0rhzowf000x72q1azuye08q/</url>
     <content><![CDATA[<p><em>python zip相关操作</em></p>
 <span id="more"></span>
 
@@ -544,7 +544,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-07</title>
-    <url>/2015/01/ckxx09cla000z49qz162kceth/</url>
+    <url>/2015/01/cl0rhzowg000z72q1d6gr3og2/</url>
     <content><![CDATA[<p><em>Python经典图像处理库PIL的使用</em></p>
 <span id="more"></span>
 
@@ -580,7 +580,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-08</title>
-    <url>/2015/01/ckxx09clc001449qz1ek90dw7/</url>
+    <url>/2015/01/cl0rhzowj001472q1dkcybxk8/</url>
     <content><![CDATA[<p><em>Python bz2 模块</em></p>
 <span id="more"></span>
 
@@ -603,7 +603,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-09</title>
-    <url>/2015/01/ckxx09cld001749qzastx7y4t/</url>
+    <url>/2015/01/cl0rhzowk001772q11s5v7fe3/</url>
     <content><![CDATA[<p><em>Python zip函数 turtle绘图</em></p>
 <span id="more"></span>
 
@@ -625,13 +625,13 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-10</title>
-    <url>/2015/01/ckxx09cle001a49qzdd6malvj/</url>
+    <url>/2015/01/cl0rhzowm001a72q1fgskfbwt/</url>
     <content><![CDATA[<p><em>Python找规律</em></p>
 <span id="more"></span>
 
 <p>关卡地址：<a href="">http://www.pythonchallenge.com/pc/return/bull.html</a></p>
 <p>这一关就是一个找规律然后写数字的题，没有什么难度，唯一蛋疼的就是那个找规律。。。其实我看了半天没看出他的规律是什么，然后就度娘了，发现其实就是一个简单的字符统计。然后问数列中第31个元素的长度，这个就很水了，随便写一个字符统计，循环调用然后添加进列表作为下一个的输入就ok了。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">nextnum</span>(<span class="params">num</span>):</span></span><br><span class="line">	temp = <span class="string">&#x27;0&#x27;</span></span><br><span class="line">	result = <span class="string">&#x27;&#x27;</span></span><br><span class="line">	counter = <span class="number">0</span></span><br><span class="line">	str_num = <span class="built_in">str</span>(num)</span><br><span class="line">	<span class="keyword">for</span> ch <span class="keyword">in</span> str_num:</span><br><span class="line">		<span class="keyword">if</span> ch != temp:</span><br><span class="line">			result += <span class="built_in">str</span>(counter)</span><br><span class="line">			result += temp</span><br><span class="line">			temp = ch</span><br><span class="line">			counter = <span class="number">1</span></span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			counter += <span class="number">1</span></span><br><span class="line">	result += <span class="built_in">str</span>(counter)</span><br><span class="line">	result += temp</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">int</span>(result)</span><br><span class="line"></span><br><span class="line">lst = [<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">0</span>,<span class="number">30</span>):</span><br><span class="line">	lst.append(nextnum(lst[x]))</span><br><span class="line"><span class="built_in">print</span> <span class="built_in">len</span>(<span class="built_in">str</span>(lst[<span class="number">30</span>]))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">nextnum</span>(<span class="params">num</span>):</span><br><span class="line">	temp = <span class="string">&#x27;0&#x27;</span></span><br><span class="line">	result = <span class="string">&#x27;&#x27;</span></span><br><span class="line">	counter = <span class="number">0</span></span><br><span class="line">	str_num = <span class="built_in">str</span>(num)</span><br><span class="line">	<span class="keyword">for</span> ch <span class="keyword">in</span> str_num:</span><br><span class="line">		<span class="keyword">if</span> ch != temp:</span><br><span class="line">			result += <span class="built_in">str</span>(counter)</span><br><span class="line">			result += temp</span><br><span class="line">			temp = ch</span><br><span class="line">			counter = <span class="number">1</span></span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			counter += <span class="number">1</span></span><br><span class="line">	result += <span class="built_in">str</span>(counter)</span><br><span class="line">	result += temp</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">int</span>(result)</span><br><span class="line"></span><br><span class="line">lst = [<span class="number">1</span>]</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">0</span>,<span class="number">30</span>):</span><br><span class="line">	lst.append(nextnum(lst[x]))</span><br><span class="line"><span class="built_in">print</span> <span class="built_in">len</span>(<span class="built_in">str</span>(lst[<span class="number">30</span>]))</span><br></pre></td></tr></table></figure>
 
 <p>最后得到的答案是：<strong>5808</strong></p>
 <p>（不禁想弱弱的黑一下C，这样的问题就蛋疼了吧。233333，人生苦短，我用Python）</p>
@@ -648,7 +648,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-11</title>
-    <url>/2015/01/ckxx09clf001d49qzfg16fk56/</url>
+    <url>/2015/01/cl0rhzowo001d72q10kdgeg2x/</url>
     <content><![CDATA[<p><em>Python PIL图像处理</em></p>
 <span id="more"></span>
 
@@ -678,7 +678,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-12</title>
-    <url>/2015/01/ckxx09clh001g49qz5iioh3i1/</url>
+    <url>/2015/01/cl0rhzowq001g72q10jt5bsbk/</url>
     <content><![CDATA[<p><em>Python文件处理</em></p>
 <span id="more"></span>
 
@@ -709,7 +709,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-13</title>
-    <url>/2015/01/ckxx09clj001k49qzh5zmgkjh/</url>
+    <url>/2015/01/cl0rhzows001k72q161vv07ho/</url>
     <content><![CDATA[<p><em>Python xmlrpclib使用</em></p>
 <span id="more"></span>
 
@@ -746,7 +746,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-14</title>
-    <url>/2015/01/ckxx09cll001o49qz5zxo8hio/</url>
+    <url>/2015/01/cl0rhzowu001o72q1cdha1v93/</url>
     <content><![CDATA[<p><em>Python PIL图像操作</em></p>
 <span id="more"></span>
 
@@ -771,7 +771,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-15</title>
-    <url>/2015/01/ckxx09cln001s49qzdt4c30uf/</url>
+    <url>/2015/01/cl0rhzoww001s72q14xlheift/</url>
     <content><![CDATA[<p><em>Python datetime模块</em></p>
 <span id="more"></span>
 
@@ -803,7 +803,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-16</title>
-    <url>/2015/01/ckxx09clp001w49qz30k865zl/</url>
+    <url>/2015/01/cl0rhzowy001w72q14jvjh9d5/</url>
     <content><![CDATA[<p><em>PIL 图像处理</em></p>
 <span id="more"></span>
 
@@ -830,7 +830,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-17</title>
-    <url>/2015/01/ckxx09cls002049qz84rp6utu/</url>
+    <url>/2015/01/cl0rhzox0002072q19cipdjfa/</url>
     <content><![CDATA[<p><em>Python urllib和cookielib模块</em></p>
 <span id="more"></span>
 
@@ -896,7 +896,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-18</title>
-    <url>/2015/01/ckxx09clu002449qzcwk40yz2/</url>
+    <url>/2015/01/cl0rhzox1002472q14yzw5fe5/</url>
     <content><![CDATA[<p><em>Python difflib</em></p>
 <span id="more"></span>
 
@@ -939,7 +939,7 @@
   </entry>
   <entry>
     <title>Python Challenge攻略-19</title>
-    <url>/2015/01/ckxx09clv002849qzc8d137q7/</url>
+    <url>/2015/01/cl0rhzox3002872q1fjbtf1mr/</url>
     <content><![CDATA[<p><em>Python wave 音频处理库</em></p>
 <span id="more"></span>
 
@@ -977,16 +977,16 @@
   </entry>
   <entry>
     <title>Python中两种文件写入方式比较</title>
-    <url>/2015/03/ckxx09clx002c49qz3e8b6r2j/</url>
+    <url>/2015/03/cl0rhzox5002c72q12g9odxe0/</url>
     <content><![CDATA[<p><em>有关Python文件写入的相关问题</em></p>
 <span id="more"></span>
 
 <p>在python中对一个文件的写入提供了两种方式，一种就是最常规的write方式，还有一种就是使用print&gt;&gt;方式。这两种方式的区别是什么呢？哪一个更快呢？</p>
 <p>简单进行一个测试：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> clock</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">speedTest</span>(<span class="params">func</span>):</span></span><br><span class="line">	<span class="function"><span class="keyword">def</span> <span class="title">_deco</span>():</span></span><br><span class="line">		startTime = clock()</span><br><span class="line">		func()</span><br><span class="line">		endTime = clock()</span><br><span class="line">		<span class="built_in">print</span> <span class="string">&quot;Cost time is &quot;</span> + <span class="built_in">str</span>(endTime - startTime)</span><br><span class="line">	<span class="keyword">return</span> _deco</span><br><span class="line"></span><br><span class="line"><span class="meta">@speedTest</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">method1</span>():</span></span><br><span class="line">	<span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;a.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">		<span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">1000000</span>):</span><br><span class="line">			fp.write(<span class="string">&quot;Hello world!\\n&quot;</span>)</span><br><span class="line"><span class="meta">@speedTest</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">method2</span>():</span></span><br><span class="line">	<span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;b.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">		<span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">1000000</span>):</span><br><span class="line">			<span class="built_in">print</span> &gt;&gt; fp, <span class="string">&quot;Hello world!&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;write method:&quot;</span></span><br><span class="line">method1()</span><br><span class="line"><span class="built_in">print</span> </span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;&gt;&gt; method:&quot;</span></span><br><span class="line">method2()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> clock</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">speedTest</span>(<span class="params">func</span>):</span><br><span class="line">	<span class="keyword">def</span> <span class="title function_">_deco</span>():</span><br><span class="line">		startTime = clock()</span><br><span class="line">		func()</span><br><span class="line">		endTime = clock()</span><br><span class="line">		<span class="built_in">print</span> <span class="string">&quot;Cost time is &quot;</span> + <span class="built_in">str</span>(endTime - startTime)</span><br><span class="line">	<span class="keyword">return</span> _deco</span><br><span class="line"></span><br><span class="line"><span class="meta">@speedTest</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">method1</span>():</span><br><span class="line">	<span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;a.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">		<span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">1000000</span>):</span><br><span class="line">			fp.write(<span class="string">&quot;Hello world!\\n&quot;</span>)</span><br><span class="line"><span class="meta">@speedTest</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">method2</span>():</span><br><span class="line">	<span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;b.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">		<span class="keyword">for</span> x <span class="keyword">in</span> xrange(<span class="number">1000000</span>):</span><br><span class="line">			<span class="built_in">print</span> &gt;&gt; fp, <span class="string">&quot;Hello world!&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;write method:&quot;</span></span><br><span class="line">method1()</span><br><span class="line"><span class="built_in">print</span> </span><br><span class="line"><span class="built_in">print</span> <span class="string">&quot;&gt;&gt; method:&quot;</span></span><br><span class="line">method2()</span><br></pre></td></tr></table></figure>
 
 <p>最后的结果：</p>
-<img src="/2015/03/ckxx09clx002c49qz3e8b6r2j/1.png" class="">
+<img src="/2015/03/cl0rhzox5002c72q12g9odxe0/1.png" class="">
 
 <p>显然是write方式更快一点。但是为什么呢？</p>
 <p>在python的官方文档里面有这样的一段描述：</p>
@@ -1007,7 +1007,7 @@
   </entry>
   <entry>
     <title>将Python脚本打包为exe文件</title>
-    <url>/2015/02/ckxx09cm8002g49qza4ny825o/</url>
+    <url>/2015/02/cl0rhzox7002g72q18uul4aan/</url>
     <content><![CDATA[<p><em>简单几步将python脚本打包为exe包</em></p>
 <p>第一步：在<a href="https://pypi.python.org/pypi/PyInstaller/2.1">https://pypi.python.org/pypi/PyInstaller/2.1</a> 下载pyinstaller。</p>
 <p>第二步：解压缩，在该目录下命令行中执行python setup.py install。</p>
@@ -1027,7 +1027,7 @@
   </entry>
   <entry>
     <title>段喵教你用20行代码搞定计算方法实验1</title>
-    <url>/2015/03/ckxx09cma002k49qzfi7z9s2c/</url>
+    <url>/2015/03/cl0rhzox9002k72q15nzy460s/</url>
     <content><![CDATA[<p>哈工大《计算方法》实验课实验作业</p>
 <ul>
 <li><p>其实就是想说。。。Python的科学计算库真的很强大。。</p>
@@ -1041,7 +1041,7 @@
 <p>不过值得一提的是，感觉实验课还是多少有点意思的，想想今早上课的时候老师还在说建议大家用用高级语言来编程完成实验，而不要用matlab，在他看来matlab不能称作一门语言，而是一个软件~~顿时感觉有一点点无语，既然不让用matlab（喂喂，说的好像你会用似的），那么就用我大python来搞定吧。</p>
 <p>早有耳闻python非常适合用来做科学计算，没想到真的很方便。我们主要用到的是两个库，一个是numpy还有一个是scipy，其实光看名字也知道是用来干嘛的了。</p>
 <p>先上代码，然后再逐行解释一下：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="comment"># 引入必要的包</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> scipy.interpolate <span class="keyword">import</span> lagrange <span class="comment">#看到了吗？拉格朗日就是一个函数</span></span><br><span class="line"><span class="comment"># 下面定义两个列表，一个是题目中给定点的个数，另一个是所求点的x坐标</span></span><br><span class="line">n_list = [<span class="number">5</span>, <span class="number">10</span>, <span class="number">20</span>]</span><br><span class="line">request_list = [-<span class="number">0.95</span>, -<span class="number">0.05</span>, <span class="number">0.05</span>, <span class="number">0.95</span>]</span><br><span class="line"><span class="comment"># 题目中的函数表达式</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span>(<span class="params">x</span>):</span></span><br><span class="line">	<span class="keyword">return</span> np.e ** x</span><br><span class="line"><span class="comment"># 打开一个文件用来写入结果</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;1.3.2.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">	<span class="comment">#遍历列表n_list来完成n种情况的写入</span></span><br><span class="line">	<span class="keyword">for</span> n <span class="keyword">in</span> n_list:</span><br><span class="line">		<span class="comment">#由于一开始题目给出点的x坐标不均匀是一个关于n和k的余弦函数，所以构建一个列表来装这些值</span></span><br><span class="line">		x = []</span><br><span class="line">		<span class="keyword">for</span> k <span class="keyword">in</span> xrange(n + <span class="number">1</span>):</span><br><span class="line">			x.append(np.cos(((<span class="number">2</span> * k + <span class="number">1</span>) * np.pi) / (<span class="number">2</span> * (n + <span class="number">1</span>))))</span><br><span class="line">		<span class="comment"># 构建函数表达式，用numpy内置的array方法把普通的列表转换成float64的数组来提高精确度，此时返回的y是一个相应结果的数组</span></span><br><span class="line">		y = np.e ** np.array(x)</span><br><span class="line">		<span class="comment"># 下面这一行的意思就是用x和y构建一个拉格朗日插值多项式。f就变成了一个可调用的多项式。</span></span><br><span class="line">		f = lagrange(x, y)</span><br><span class="line">		<span class="built_in">print</span>&gt;&gt;fp, n, <span class="string">&#x27;:&#x27;</span></span><br><span class="line">		<span class="comment"># 接下来就是打印结果了</span></span><br><span class="line">		<span class="keyword">for</span> _ <span class="keyword">in</span> request_list:</span><br><span class="line">			true = fun(_)</span><br><span class="line">			inter = f(_)</span><br><span class="line">			<span class="built_in">print</span>&gt;&gt;fp, <span class="string">&#x27;%f: true: %.12f interpolate: %.12f delta: %.12f&#x27;</span> % (_, true, inter, true - inter)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="comment"># 引入必要的包</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> scipy.interpolate <span class="keyword">import</span> lagrange <span class="comment">#看到了吗？拉格朗日就是一个函数</span></span><br><span class="line"><span class="comment"># 下面定义两个列表，一个是题目中给定点的个数，另一个是所求点的x坐标</span></span><br><span class="line">n_list = [<span class="number">5</span>, <span class="number">10</span>, <span class="number">20</span>]</span><br><span class="line">request_list = [-<span class="number">0.95</span>, -<span class="number">0.05</span>, <span class="number">0.05</span>, <span class="number">0.95</span>]</span><br><span class="line"><span class="comment"># 题目中的函数表达式</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">fun</span>(<span class="params">x</span>):</span><br><span class="line">	<span class="keyword">return</span> np.e ** x</span><br><span class="line"><span class="comment"># 打开一个文件用来写入结果</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;1.3.2.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> fp:</span><br><span class="line">	<span class="comment">#遍历列表n_list来完成n种情况的写入</span></span><br><span class="line">	<span class="keyword">for</span> n <span class="keyword">in</span> n_list:</span><br><span class="line">		<span class="comment">#由于一开始题目给出点的x坐标不均匀是一个关于n和k的余弦函数，所以构建一个列表来装这些值</span></span><br><span class="line">		x = []</span><br><span class="line">		<span class="keyword">for</span> k <span class="keyword">in</span> xrange(n + <span class="number">1</span>):</span><br><span class="line">			x.append(np.cos(((<span class="number">2</span> * k + <span class="number">1</span>) * np.pi) / (<span class="number">2</span> * (n + <span class="number">1</span>))))</span><br><span class="line">		<span class="comment"># 构建函数表达式，用numpy内置的array方法把普通的列表转换成float64的数组来提高精确度，此时返回的y是一个相应结果的数组</span></span><br><span class="line">		y = np.e ** np.array(x)</span><br><span class="line">		<span class="comment"># 下面这一行的意思就是用x和y构建一个拉格朗日插值多项式。f就变成了一个可调用的多项式。</span></span><br><span class="line">		f = lagrange(x, y)</span><br><span class="line">		<span class="built_in">print</span>&gt;&gt;fp, n, <span class="string">&#x27;:&#x27;</span></span><br><span class="line">		<span class="comment"># 接下来就是打印结果了</span></span><br><span class="line">		<span class="keyword">for</span> _ <span class="keyword">in</span> request_list:</span><br><span class="line">			true = fun(_)</span><br><span class="line">			inter = f(_)</span><br><span class="line">			<span class="built_in">print</span>&gt;&gt;fp, <span class="string">&#x27;%f: true: %.12f interpolate: %.12f delta: %.12f&#x27;</span> % (_, true, inter, true - inter)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>每错就是这么简单~其他几个题目和这个解决方法完全一样，相比之下更简单。换换参数就可以了喵。</p>
 <p>老师总不会说python也不是高级语言了吧~~23333</p>
@@ -1059,13 +1059,13 @@
   </entry>
   <entry>
     <title>闲的蛋疼系列之那个裙子到底什么颜色</title>
-    <url>/2015/02/ckxx09cmb002o49qz9vol031n/</url>
+    <url>/2015/02/cl0rhzoxb002o72q1bv890c40/</url>
     <content><![CDATA[<p><em>有关于那条争议很大的裙子颜色问题</em></p>
 <p><em>用PIL去做一些简单的分析</em></p>
 <p><em>非专业图像处理，可能不是很准确</em></p>
 <span id="more"></span>
 
-<img src="/2015/02/ckxx09cmb002o49qz9vol031n/1.jpg" class="">
+<img src="/2015/02/cl0rhzoxb002o72q1bv890c40/1.jpg" class="">
 
 <p>没错就是这个货到底是什么颜色？？</p>
 <p>各种说法层出不穷，我才不会说我看到的就是白金色的呢，但是。。。。是不是因为所谓周围颜色干扰之类的造成的错觉呢。。。。</p>
@@ -1073,22 +1073,22 @@
 <p>我截取的区域是(110,190)和(115,320)为起点的90*50的区域，当然，稍微粗略一点，但是基本已经可以看出问题来了。</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckxx09cmb002o49qz9vol031n/2.jpg" class="">
+<img src="/2015/02/cl0rhzoxb002o72q1bv890c40/2.jpg" class="">
 
-<img src="/2015/02/ckxx09cmb002o49qz9vol031n/3.jpg" class="">
+<img src="/2015/02/cl0rhzoxb002o72q1bv890c40/3.jpg" class="">
 
 <p>（现在看起来那个深色部分真的是有点像灰褐色了，浅色部分真的是浅蓝色）</p>
 <p>求平均值：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">average</span>(<span class="params">lst,order</span>):</span></span><br><span class="line">	l = [_[order] <span class="keyword">for</span> _ <span class="keyword">in</span> lst]</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">sum</span>(l) / <span class="built_in">len</span>(l)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_data = <span class="built_in">list</span>(bright_part.getdata())</span><br><span class="line">dark_data = <span class="built_in">list</span>(dark_part.getdata())</span><br><span class="line"></span><br><span class="line">average_rgb_of_bright_data = (average(bright_data, <span class="number">0</span>),average(bright_data, <span class="number">1</span>),average(bright_data, <span class="number">2</span>))</span><br><span class="line">average_rgb_of_dark_data = (average(dark_data, <span class="number">0</span>),average(dark_data, <span class="number">1</span>),average(dark_data, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">result = Image.new(im.mode, (<span class="number">400</span>, <span class="number">200</span>), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">result.paste(average_rgb_of_bright_data, (<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">100</span>))</span><br><span class="line">result.paste(average_rgb_of_dark_data, (<span class="number">0</span>,<span class="number">100</span>,<span class="number">400</span>,<span class="number">200</span>))</span><br><span class="line">result.save(<span class="string">&#x27;result.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">average</span>(<span class="params">lst,order</span>):</span><br><span class="line">	l = [_[order] <span class="keyword">for</span> _ <span class="keyword">in</span> lst]</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">sum</span>(l) / <span class="built_in">len</span>(l)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_data = <span class="built_in">list</span>(bright_part.getdata())</span><br><span class="line">dark_data = <span class="built_in">list</span>(dark_part.getdata())</span><br><span class="line"></span><br><span class="line">average_rgb_of_bright_data = (average(bright_data, <span class="number">0</span>),average(bright_data, <span class="number">1</span>),average(bright_data, <span class="number">2</span>))</span><br><span class="line">average_rgb_of_dark_data = (average(dark_data, <span class="number">0</span>),average(dark_data, <span class="number">1</span>),average(dark_data, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">result = Image.new(im.mode, (<span class="number">400</span>, <span class="number">200</span>), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">result.paste(average_rgb_of_bright_data, (<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">100</span>))</span><br><span class="line">result.paste(average_rgb_of_dark_data, (<span class="number">0</span>,<span class="number">100</span>,<span class="number">400</span>,<span class="number">200</span>))</span><br><span class="line">result.save(<span class="string">&#x27;result.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckxx09cmb002o49qz9vol031n/4.jpg" class="">
+<img src="/2015/02/cl0rhzoxb002o72q1bv890c40/4.jpg" class="">
 
 <p>因为是在阳光下亮度比较高一点~~</p>
 <p>我们稍稍吧亮度降低一点然后再看看效果~</p>
 <p>调整亮度：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">average</span>(<span class="params">lst,order</span>):</span></span><br><span class="line">	l = [_[order] <span class="keyword">for</span> _ <span class="keyword">in</span> lst]</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">sum</span>(l) / <span class="built_in">len</span>(l)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_data = <span class="built_in">list</span>(bright_part.getdata())</span><br><span class="line">dark_data = <span class="built_in">list</span>(dark_part.getdata())</span><br><span class="line"></span><br><span class="line">average_rgb_of_bright_data = (average(bright_data, <span class="number">0</span>),average(bright_data, <span class="number">1</span>),average(bright_data, <span class="number">2</span>))</span><br><span class="line">average_rgb_of_dark_data = (average(dark_data, <span class="number">0</span>),average(dark_data, <span class="number">1</span>),average(dark_data, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">result = Image.new(im.mode, (<span class="number">400</span>, <span class="number">200</span>), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">result.paste(average_rgb_of_bright_data, (<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">100</span>))</span><br><span class="line">result.paste(average_rgb_of_dark_data, (<span class="number">0</span>,<span class="number">100</span>,<span class="number">400</span>,<span class="number">200</span>))</span><br><span class="line">result.save(<span class="string">&#x27;result.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">dark_pic = ImageEnhance.Brightness(result).enhance(<span class="number">0.4</span>)</span><br><span class="line">dark_pic.save(<span class="string">&#x27;dark_result.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageEnhance</span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的宽和高</span></span><br><span class="line">WIDTH = <span class="number">90</span></span><br><span class="line">HEIGHT = <span class="number">50</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#截取区域的起始坐标</span></span><br><span class="line">BRIGHT_X = <span class="number">110</span></span><br><span class="line">BRIGHT_Y = <span class="number">190</span></span><br><span class="line">DARK_X = <span class="number">115</span></span><br><span class="line">DARK_Y = <span class="number">320</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">average</span>(<span class="params">lst,order</span>):</span><br><span class="line">	l = [_[order] <span class="keyword">for</span> _ <span class="keyword">in</span> lst]</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">sum</span>(l) / <span class="built_in">len</span>(l)</span><br><span class="line"></span><br><span class="line">im = Image.<span class="built_in">open</span>(<span class="string">&#x27;test.jpg&#x27;</span>,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line">dark_part = Image.new(im.mode, (WIDTH, HEIGHT), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">bright_part.paste(im.crop((BRIGHT_X, BRIGHT_Y, BRIGHT_X + WIDTH, BRIGHT_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line">dark_part.paste(im.crop((DARK_X, DARK_Y, DARK_X + WIDTH, DARK_Y +HEIGHT)), (<span class="number">0</span>, <span class="number">0</span>))</span><br><span class="line"></span><br><span class="line">bright_part.save(<span class="string">&#x27;bright.jpg&#x27;</span>)</span><br><span class="line">dark_part.save(<span class="string">&#x27;dark.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">bright_data = <span class="built_in">list</span>(bright_part.getdata())</span><br><span class="line">dark_data = <span class="built_in">list</span>(dark_part.getdata())</span><br><span class="line"></span><br><span class="line">average_rgb_of_bright_data = (average(bright_data, <span class="number">0</span>),average(bright_data, <span class="number">1</span>),average(bright_data, <span class="number">2</span>))</span><br><span class="line">average_rgb_of_dark_data = (average(dark_data, <span class="number">0</span>),average(dark_data, <span class="number">1</span>),average(dark_data, <span class="number">2</span>))</span><br><span class="line"></span><br><span class="line">result = Image.new(im.mode, (<span class="number">400</span>, <span class="number">200</span>), <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">result.paste(average_rgb_of_bright_data, (<span class="number">0</span>,<span class="number">0</span>,<span class="number">400</span>,<span class="number">100</span>))</span><br><span class="line">result.paste(average_rgb_of_dark_data, (<span class="number">0</span>,<span class="number">100</span>,<span class="number">400</span>,<span class="number">200</span>))</span><br><span class="line">result.save(<span class="string">&#x27;result.jpg&#x27;</span>)</span><br><span class="line"></span><br><span class="line">dark_pic = ImageEnhance.Brightness(result).enhance(<span class="number">0.4</span>)</span><br><span class="line">dark_pic.save(<span class="string">&#x27;dark_result.jpg&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
-<img src="/2015/02/ckxx09cmb002o49qz9vol031n/5.jpg" class="">
+<img src="/2015/02/cl0rhzoxb002o72q1bv890c40/5.jpg" class="">
 
 <p>问我刚才在干嘛。。。。看看这篇文章也知道我刚刚从盐缸里爬出来~~XD</p>
 ]]></content>
@@ -1104,7 +1104,7 @@
   </entry>
   <entry>
     <title>Linux下Git Server搭建</title>
-    <url>/2016/09/ckxx09cmd002r49qz14w40id2/</url>
+    <url>/2016/09/cl0rhzoxc002r72q1afl13cl5/</url>
     <content><![CDATA[<p>以Ubuntu系统为例讲解如何搭建一个git服务器</p>
 <p>简单的说步骤如下：</p>
 <ul>
@@ -1142,7 +1142,7 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo git init --bare test.git</span><br></pre></td></tr></table></figure>
 
 <p>这样GIT就创建了一个裸仓库，接下来我们把这个仓库的owner改为git</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo chown -R git:git test.git</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">chown</span> -R git:git test.git</span><br></pre></td></tr></table></figure>
 
 <p>这样的话客户端已经可以正常通过clone命令来克隆仓库了。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@192.168.1.xxx:/var/git/test.git</span><br></pre></td></tr></table></figure>
@@ -1175,7 +1175,7 @@
   </entry>
   <entry>
     <title>Python多进程编程中进程池锁共享问题</title>
-    <url>/2016/08/ckxx09cmf002w49qz7ql6ed4r/</url>
+    <url>/2016/08/cl0rhzoxf002w72q14f6f46cx/</url>
     <content><![CDATA[<p>Python多进程编程中，资源锁的问题</p>
 <p>进程池可以使我们的编程变得非常简单，但是同时进程池的使用也会造成一些麻烦，比如对于共用锁的处理等。</p>
 <p>这篇文章主要通过两种方法解决共享资源锁的问题：</p>
@@ -1189,7 +1189,7 @@
 <p>下面以一个具体的栗子来说明。</p>
 <p>比如我现在有一个数据列表我想通过多进程的方式将里面的数据发送到指定的API并且在日志文件中记录每次请求所用的时间。</p>
 <p>我们最容易想到的解决办法就是把锁作为一个参数传进去：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> Pool, Lock</span><br><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> clock</span><br><span class="line"><span class="keyword">from</span> functools <span class="keyword">import</span> partial</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">send_request</span>(<span class="params">lock, data</span>):</span></span><br><span class="line">	api_url = <span class="string">&#x27;http://api.xxxx.com/?data=%s&#x27;</span></span><br><span class="line">	start_time = clock()</span><br><span class="line">	<span class="built_in">print</span> urllib2.urlopen(api_url % data).read()</span><br><span class="line">	end_time = clock()</span><br><span class="line">	lock.acquire()</span><br><span class="line">	whit <span class="built_in">open</span>(<span class="string">&#x27;request.log&#x27;</span>, <span class="string">&#x27;a+&#x27;</span>) <span class="keyword">as</span> logs:</span><br><span class="line">		logs.write(<span class="string">&#x27;request %s cost: %s\</span></span><br><span class="line"><span class="string">&#x27;</span> % (data, end_time - start_time))</span><br><span class="line">	lock.release()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">	data_list = [<span class="string">&#x27;data1&#x27;</span>, <span class="string">&#x27;data2&#x27;</span>, <span class="string">&#x27;data3&#x27;</span>]</span><br><span class="line">	pool = Pool(<span class="number">8</span>)</span><br><span class="line">	lock = Lock()</span><br><span class="line">	partial_send_request(send_request, lock=lock)</span><br><span class="line">	pool.<span class="built_in">map</span>(partial_send_request, data_list)</span><br><span class="line">	pool.close()</span><br><span class="line">	pool.join()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> Pool, Lock</span><br><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> clock</span><br><span class="line"><span class="keyword">from</span> functools <span class="keyword">import</span> partial</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">send_request</span>(<span class="params">lock, data</span>):</span><br><span class="line">	api_url = <span class="string">&#x27;http://api.xxxx.com/?data=%s&#x27;</span></span><br><span class="line">	start_time = clock()</span><br><span class="line">	<span class="built_in">print</span> urllib2.urlopen(api_url % data).read()</span><br><span class="line">	end_time = clock()</span><br><span class="line">	lock.acquire()</span><br><span class="line">	whit <span class="built_in">open</span>(<span class="string">&#x27;request.log&#x27;</span>, <span class="string">&#x27;a+&#x27;</span>) <span class="keyword">as</span> logs:</span><br><span class="line">		logs.write(<span class="string">&#x27;request %s cost: %s\</span></span><br><span class="line"><span class="string">&#x27;</span> % (data, end_time - start_time))</span><br><span class="line">	lock.release()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">	data_list = [<span class="string">&#x27;data1&#x27;</span>, <span class="string">&#x27;data2&#x27;</span>, <span class="string">&#x27;data3&#x27;</span>]</span><br><span class="line">	pool = Pool(<span class="number">8</span>)</span><br><span class="line">	lock = Lock()</span><br><span class="line">	partial_send_request(send_request, lock=lock)</span><br><span class="line">	pool.<span class="built_in">map</span>(partial_send_request, data_list)</span><br><span class="line">	pool.close()</span><br><span class="line">	pool.join()</span><br></pre></td></tr></table></figure>
 
 <p>在这样的情况下，lock作为一个不可直接打包的资源是没有办法作为一个参数直接给Pool的map方法里的函数传参的。</p>
 <p>会出现一个运行时错误：</p>
@@ -1204,7 +1204,7 @@
 <p>这是第一种方法，但是对于仅仅需要一个日志写入锁就用一个Manager显的十分重了。这种方式其实是需要一个专门的进程去处理Manager服务。所有的加锁和释放锁的操作都是通过IPC传递给Manager服务的。</p>
 <p>第二种解决思路就是通过initializer参数在Pool对象创建时传递Lock对象。这种方式将Lock对象变为了所有子进程的全局对象。</p>
 <p>代码可以作如下修改：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">send_request</span>(<span class="params">data</span>):</span></span><br><span class="line">	api_url = <span class="string">&#x27;http://api.xxxx.com/?data=%s&#x27;</span></span><br><span class="line">	start_time = clock()</span><br><span class="line">	<span class="built_in">print</span> urllib2.urlopen(api_url % data).read()</span><br><span class="line">	end_time = clock()</span><br><span class="line">	lock.acquire()</span><br><span class="line">	whit <span class="built_in">open</span>(<span class="string">&#x27;request.log&#x27;</span>, <span class="string">&#x27;a+&#x27;</span>) <span class="keyword">as</span> logs:</span><br><span class="line">		logs.write(<span class="string">&#x27;request %s cost: %s\n&#x27;</span> % (data, end_time - start_time))</span><br><span class="line">	lock.release()</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">init</span>(<span class="params">l</span>):</span></span><br><span class="line">	<span class="keyword">global</span> lock</span><br><span class="line">	lock = l</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">	data_list = [<span class="string">&#x27;data1&#x27;</span>, <span class="string">&#x27;data2&#x27;</span>, <span class="string">&#x27;data3&#x27;</span>]</span><br><span class="line">	lock = Lock()</span><br><span class="line">	pool = Pool(<span class="number">8</span>, initializer=init, initargs=(lock,))</span><br><span class="line">	pool.<span class="built_in">map</span>(send_request, data_list)</span><br><span class="line">	pool.close()</span><br><span class="line">	pool.join()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">send_request</span>(<span class="params">data</span>):</span><br><span class="line">	api_url = <span class="string">&#x27;http://api.xxxx.com/?data=%s&#x27;</span></span><br><span class="line">	start_time = clock()</span><br><span class="line">	<span class="built_in">print</span> urllib2.urlopen(api_url % data).read()</span><br><span class="line">	end_time = clock()</span><br><span class="line">	lock.acquire()</span><br><span class="line">	whit <span class="built_in">open</span>(<span class="string">&#x27;request.log&#x27;</span>, <span class="string">&#x27;a+&#x27;</span>) <span class="keyword">as</span> logs:</span><br><span class="line">		logs.write(<span class="string">&#x27;request %s cost: %s\n&#x27;</span> % (data, end_time - start_time))</span><br><span class="line">	lock.release()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">init</span>(<span class="params">l</span>):</span><br><span class="line">	<span class="keyword">global</span> lock</span><br><span class="line">	lock = l</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">	data_list = [<span class="string">&#x27;data1&#x27;</span>, <span class="string">&#x27;data2&#x27;</span>, <span class="string">&#x27;data3&#x27;</span>]</span><br><span class="line">	lock = Lock()</span><br><span class="line">	pool = Pool(<span class="number">8</span>, initializer=init, initargs=(lock,))</span><br><span class="line">	pool.<span class="built_in">map</span>(send_request, data_list)</span><br><span class="line">	pool.close()</span><br><span class="line">	pool.join()</span><br></pre></td></tr></table></figure>
 
 <p>这样的修改就没有使用偏函数的必要了。</p>
 ]]></content>
@@ -1220,7 +1220,7 @@
   </entry>
   <entry>
     <title>京东评论爬虫一则</title>
-    <url>/2016/11/ckxx09cmg002z49qz6jcr99fb/</url>
+    <url>/2016/11/cl0rhzoxg002z72q12ly27qcn/</url>
     <content><![CDATA[<p>双十一又要来了，为剁手党萌做了一点微小的事情</p>
 <ul>
 <li>涉及最简单的页面分析</li>
@@ -1232,19 +1232,19 @@
 <p>每每想到要在网上购买商品，第一个想到的就是要去看看买家们怎么说，但是难以避免的，在页面上一次只能看到10条评论，频繁的翻页操作真的是好麻烦。再者有时候对于（没钱的我）[划掉]选择困难症患者来说总有这么一个闹心事，比如我想买一部手机，我同时看好水果牌的某一款，我也看好大菊花的某两款，我还看好大法的某一款，那么当我逐一看某一款的评论时，都会给我一个感觉“哇，好棒，买买买。”相反在现实里，小伙伴们一起讨论的话就会是另外一番场景了：A：“水果好看。”B：“支持国产。”C：“坚定信仰。”A：“水果做工好。”B：“我用麒麟。”C：“坚定信仰。”通过这样的交替看评论，反而能使人更客观一点。但是我们在一个京东的页面里面显然是不可能看见友商竞品的评论了。我们总不能开好几个标签手动看吧。鉴于此，这点小事是难不倒程序猿的。写个爬虫存起来，想怎么看就怎么看<em>(:зゝ∠)</em></p>
 <p>说干就干，必然还是人生苦短我用python。</p>
 <p>第一步必然是分析页面，随时打开一个评论页面，比如以<code>http://item.jd.com/3717578.html</code>这个地址为例。在第一条评论的位置右键审查元素，可以看到这样的信息：</p>
-<img src="/2016/11/ckxx09cmg002z49qz6jcr99fb/1.png" class="">
+<img src="/2016/11/cl0rhzoxg002z72q12ly27qcn/1.png" class="">
 
 <p>发现很明显，所有的评论内容都是在一个类为<code>p-comment</code>的div中。随手在下面的console中敲一下<code>$(&#39;.p-comment&#39;)</code>一看返回结果刚好是10条评论的数组。一看到这个，不由的让人想到，这下好办了pyquery几乎可以不费什么功夫就把所有的内容抓到了。</p>
 <p>但是根据我的经验，这样的页面一般评论都是异步加载的，可能会有更简单的办法来处理这件事情。比如挖掘一下有没有评论接口什么的。戳回商品信息页面，在Chrome的Developer Tools的Network标签里禁用缓存，刷新页面然后戳一下商品评论，发现又发起了81个请求，那么很有可能评论就藏在这里面。在filter中选择XHR发现居然是空的，那么评论没有直接使用json传回来，一定被藏起来了。这样真的是有点不太友好哇<em>(:зゝ∠)</em></p>
 <p>不过这样的事情难不倒段喵喵，把filter切到js看看这些请求回来的js有没有什么异常。为嘛会想到js呢。对于这个问题可以去查一下JSON到底是什么。往下翻几个就看到了一个请求名字是<code>productPageComments.action</code>戳开一看果然是一个函数调用包着一个大的json。那么我们要找的json就在这里了，可是还得处理一下外面这一层。看起来似乎不太好办，但是再回头看一眼这个请求本身最后带着一个查询参数是<code>callback=fetchJSON_comment98vv2125</code>发现和respose中包着这个json的函数调用名字一样。这样的话，如果我们把这个参数去掉发一个请求试试。</p>
 <p>一个完整的JSON文件get√，看看上面的查询参数，我们只要修改对于的productId就可以得到不同商品的评论了，当然还有page和pageSize参数。分别是评论的第几页和每页的评论数。但是不知道为嘛这个pageSize参数是个咸鱼，不管你填多少都只能拿到10条评论。</p>
 <p>接下来的事情简单了，分析一下json文件，先格式化了，然后简单折叠一下。就可以看到这样的结构了：</p>
-<img src="/2016/11/ckxx09cmg002z49qz6jcr99fb/2.png" class="">
+<img src="/2016/11/cl0rhzoxg002z72q12ly27qcn/2.png" class="">
 
 <p><code>productCommentSummary</code>是产品评论总结，里面有一些好评率，评论总数之类的东西，<code>hotCommentTagStatistics</code>标签信息，<code>maxPage</code>最大页码数，<code>comments</code>评论列表。</p>
 <p>剩下的内容就无比简单了，urllib2和json两个包的使用，为了效率高可以用multiprocessing多进程处理，为了容错和高效维护数据，内容直接写入MySQL就OK了。</p>
 <p>多的不用说了，直接上代码了w</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> MySQLdb</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> Pool</span><br><span class="line"></span><br><span class="line"><span class="comment"># db config</span></span><br><span class="line">HOST = <span class="string">&quot;127.0.0.1&quot;</span></span><br><span class="line">PORT = <span class="number">3306</span></span><br><span class="line">USERNAME = <span class="string">&#x27;admin&#x27;</span></span><br><span class="line">PASSWORD = <span class="string">&#x27;test&#x27;</span></span><br><span class="line">DB = <span class="string">&#x27;jd_comment&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># project config</span></span><br><span class="line"></span><br><span class="line">MAX_PAGE = <span class="number">9999</span></span><br><span class="line">PROCESS_NUM = <span class="number">8</span></span><br><span class="line">product_id_list = [<span class="number">3717578</span>, <span class="number">1856584</span>, <span class="number">3110721</span>, <span class="number">2473905</span>, <span class="number">2978567</span>, <span class="number">3742076</span>, <span class="number">2777805</span>, <span class="number">1750526</span>, <span class="number">10429992152</span>, <span class="number">2203531</span>]</span><br><span class="line"></span><br><span class="line">_url_template = <span class="string">&#x27;http://sclub.jd.com/comment/productPageComments.action?productId=%s&amp;score=0&amp;sortType=3&amp;page=%s&amp;pageSize=10&#x27;</span></span><br><span class="line">_sql_template = <span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">INSERT INTO items(product_id, product_name, score, content) VALUES (%s, %s, %s, %s);</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line">con = MySQLdb.connect(host=HOST, port=PORT, user=USERNAME, passwd=PASSWORD, charset=<span class="string">&#x27;utf8&#x27;</span>)</span><br><span class="line">cur = con.cursor()</span><br><span class="line">con.select_db(DB)</span><br><span class="line"></span><br><span class="line">err = <span class="built_in">open</span>(<span class="string">&#x27;err.log&#x27;</span>, <span class="string">&#x27;w&#x27;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_project_comments_by_id</span>(<span class="params">project_id</span>):</span></span><br><span class="line">    first_page_data = get_page(<span class="number">0</span>, project_id)</span><br><span class="line">    total_pages = first_page_data.get(<span class="string">&#x27;maxPage&#x27;</span>, <span class="number">1</span>) <span class="keyword">if</span> first_page_data.get(<span class="string">&#x27;maxPage&#x27;</span>, <span class="number">1</span>) &lt; MAX_PAGE <span class="keyword">else</span> MAX_PAGE</span><br><span class="line">    save_page_to_db(first_page_data)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> page_number <span class="keyword">in</span> xrange(<span class="number">1</span>, total_pages):</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            data = get_page(page_number, project_id)</span><br><span class="line">            save_page_to_db(data)</span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save_page_to_db</span>(<span class="params">data</span>):</span></span><br><span class="line">    comments_list = get_comments_list(data)</span><br><span class="line">    save_comments_list_to_db(comments_list)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_page</span>(<span class="params">page_number, project_id</span>):</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">return</span> json.load(urllib2.urlopen(_url_template % (project_id, page_number)), encoding=<span class="string">&#x27;gbk&#x27;</span>)</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_comments_list</span>(<span class="params">data</span>):</span></span><br><span class="line">    comments_list = data.get(<span class="string">&#x27;comments&#x27;</span>, [])</span><br><span class="line">    <span class="keyword">return</span> [[item.get(<span class="string">&#x27;referenceId&#x27;</span>, <span class="string">&#x27;&#x27;</span>), item.get(<span class="string">&#x27;referenceName&#x27;</span>, <span class="string">&#x27;&#x27;</span>), item.get(<span class="string">&#x27;score&#x27;</span>, <span class="number">0</span>), item.get(<span class="string">&#x27;content&#x27;</span>, <span class="string">&#x27;&#x27;</span>)]</span><br><span class="line">            <span class="keyword">for</span> item <span class="keyword">in</span> comments_list]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save_comments_list_to_db</span>(<span class="params">comments_list</span>):</span></span><br><span class="line">    <span class="built_in">map</span>(save_to_db, comments_list)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save_to_db</span>(<span class="params">args_list</span>):</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        sql = _sql_template % <span class="built_in">tuple</span>(<span class="built_in">map</span>(<span class="keyword">lambda</span> x: <span class="string">&quot;\\&#x27;%s\\&#x27;&quot;</span> % x, args_list))</span><br><span class="line">        cur.execute(sql)</span><br><span class="line">        con.commit()</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        processing_pool = Pool(PROCESS_NUM)</span><br><span class="line">        processing_pool.<span class="built_in">map</span>(get_project_comments_by_id, product_id_list)</span><br><span class="line">        processing_pool.close()</span><br><span class="line">        processing_pool.join()</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line">    <span class="keyword">finally</span>:</span><br><span class="line">        cur.close()</span><br><span class="line">        con.close()</span><br><span class="line">        err.close()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib2</span><br><span class="line"><span class="keyword">import</span> MySQLdb</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> Pool</span><br><span class="line"></span><br><span class="line"><span class="comment"># db config</span></span><br><span class="line">HOST = <span class="string">&quot;127.0.0.1&quot;</span></span><br><span class="line">PORT = <span class="number">3306</span></span><br><span class="line">USERNAME = <span class="string">&#x27;admin&#x27;</span></span><br><span class="line">PASSWORD = <span class="string">&#x27;test&#x27;</span></span><br><span class="line">DB = <span class="string">&#x27;jd_comment&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># project config</span></span><br><span class="line"></span><br><span class="line">MAX_PAGE = <span class="number">9999</span></span><br><span class="line">PROCESS_NUM = <span class="number">8</span></span><br><span class="line">product_id_list = [<span class="number">3717578</span>, <span class="number">1856584</span>, <span class="number">3110721</span>, <span class="number">2473905</span>, <span class="number">2978567</span>, <span class="number">3742076</span>, <span class="number">2777805</span>, <span class="number">1750526</span>, <span class="number">10429992152</span>, <span class="number">2203531</span>]</span><br><span class="line"></span><br><span class="line">_url_template = <span class="string">&#x27;http://sclub.jd.com/comment/productPageComments.action?productId=%s&amp;score=0&amp;sortType=3&amp;page=%s&amp;pageSize=10&#x27;</span></span><br><span class="line">_sql_template = <span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">INSERT INTO items(product_id, product_name, score, content) VALUES (%s, %s, %s, %s);</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line">con = MySQLdb.connect(host=HOST, port=PORT, user=USERNAME, passwd=PASSWORD, charset=<span class="string">&#x27;utf8&#x27;</span>)</span><br><span class="line">cur = con.cursor()</span><br><span class="line">con.select_db(DB)</span><br><span class="line"></span><br><span class="line">err = <span class="built_in">open</span>(<span class="string">&#x27;err.log&#x27;</span>, <span class="string">&#x27;w&#x27;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_project_comments_by_id</span>(<span class="params">project_id</span>):</span><br><span class="line">    first_page_data = get_page(<span class="number">0</span>, project_id)</span><br><span class="line">    total_pages = first_page_data.get(<span class="string">&#x27;maxPage&#x27;</span>, <span class="number">1</span>) <span class="keyword">if</span> first_page_data.get(<span class="string">&#x27;maxPage&#x27;</span>, <span class="number">1</span>) &lt; MAX_PAGE <span class="keyword">else</span> MAX_PAGE</span><br><span class="line">    save_page_to_db(first_page_data)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> page_number <span class="keyword">in</span> xrange(<span class="number">1</span>, total_pages):</span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            data = get_page(page_number, project_id)</span><br><span class="line">            save_page_to_db(data)</span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">save_page_to_db</span>(<span class="params">data</span>):</span><br><span class="line">    comments_list = get_comments_list(data)</span><br><span class="line">    save_comments_list_to_db(comments_list)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_page</span>(<span class="params">page_number, project_id</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">return</span> json.load(urllib2.urlopen(_url_template % (project_id, page_number)), encoding=<span class="string">&#x27;gbk&#x27;</span>)</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_comments_list</span>(<span class="params">data</span>):</span><br><span class="line">    comments_list = data.get(<span class="string">&#x27;comments&#x27;</span>, [])</span><br><span class="line">    <span class="keyword">return</span> [[item.get(<span class="string">&#x27;referenceId&#x27;</span>, <span class="string">&#x27;&#x27;</span>), item.get(<span class="string">&#x27;referenceName&#x27;</span>, <span class="string">&#x27;&#x27;</span>), item.get(<span class="string">&#x27;score&#x27;</span>, <span class="number">0</span>), item.get(<span class="string">&#x27;content&#x27;</span>, <span class="string">&#x27;&#x27;</span>)]</span><br><span class="line">            <span class="keyword">for</span> item <span class="keyword">in</span> comments_list]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">save_comments_list_to_db</span>(<span class="params">comments_list</span>):</span><br><span class="line">    <span class="built_in">map</span>(save_to_db, comments_list)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">save_to_db</span>(<span class="params">args_list</span>):</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        sql = _sql_template % <span class="built_in">tuple</span>(<span class="built_in">map</span>(<span class="keyword">lambda</span> x: <span class="string">&quot;\\&#x27;%s\\&#x27;&quot;</span> % x, args_list))</span><br><span class="line">        cur.execute(sql)</span><br><span class="line">        con.commit()</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line"></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        processing_pool = Pool(PROCESS_NUM)</span><br><span class="line">        processing_pool.<span class="built_in">map</span>(get_project_comments_by_id, product_id_list)</span><br><span class="line">        processing_pool.close()</span><br><span class="line">        processing_pool.join()</span><br><span class="line">    <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">        <span class="built_in">print</span> &gt;&gt; err, e</span><br><span class="line">    <span class="keyword">finally</span>:</span><br><span class="line">        cur.close()</span><br><span class="line">        con.close()</span><br><span class="line">        err.close()</span><br></pre></td></tr></table></figure>
 
 <p>代码放在GITHUB上，如果你觉得不错的话，欢迎点赞投喂w</p>
 <p><a href="">https://github.com/yumendy/jd_comments_spyder</a></p>
@@ -1261,7 +1261,7 @@
   </entry>
   <entry>
     <title>使用nginx+uwsgi部署django应用</title>
-    <url>/2016/08/ckxx09cmi003449qz2blt6any/</url>
+    <url>/2016/08/cl0rhzoxi003472q17t1q2prx/</url>
     <content><![CDATA[<p>简单明了的说明如何在Linux下部署一个Django应用</p>
 <ul>
 <li>这篇文章好像拖了很久的样纸w</li>
@@ -1324,7 +1324,7 @@
 <li>部署</li>
 </ol>
 <p>进入/etc/nginx/site-enable/目录下执行如下命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo ln -s /var/www/DEMO/DEMO.conf</span><br><span class="line">sudo service nginx restart</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">ln</span> -s /var/www/DEMO/DEMO.conf</span><br><span class="line">sudo service nginx restart</span><br></pre></td></tr></table></figure>
 
 <p>进入/var/www/DEMO/目录，执行如下命令</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo python manage.py collectstatic</span><br><span class="line">sudo uwsgi -x DEMO.xml</span><br></pre></td></tr></table></figure>
@@ -1360,19 +1360,19 @@
   </entry>
   <entry>
     <title>朋友圈里的九图脚本</title>
-    <url>/2016/10/ckxx09cmj003749qz9f2n088w/</url>
+    <url>/2016/10/cl0rhzoxj003772q1gi4n8s0p/</url>
     <content><![CDATA[<p>特此来拯救挣扎在9图里的孩子们</p>
 <p>明明只有一张图，但是凑不够九张就是好蛋疼，那么这个项目你值得拥有。</p>
 <span id="more"></span>
 
-<img src="/2016/10/ckxx09cmj003749qz9f2n088w/1.png" class="">
+<img src="/2016/10/cl0rhzoxj003772q1gi4n8s0p/1.png" class="">
 
 <p>其实这个项目有点小水。</p>
 <p>其实就是对PIL最简单的应用，主要涉及到切图和算坐标，其实没有什么技术含量，封装成了一个类，可以供其他程序方便的调用。</p>
 <p>如果不懒的话可以写一个界面，但是我比较懒，甚至懒得作为一个功能加到这个博客里。23333不过如果有人愿意的话可以拿去用。</p>
 <p>项目开源在GITHUB上，项目地址：<a href="">https://github.com/yumendy/nine_picture</a></p>
 <p>如果你喜欢这个项目，而且觉得对你有帮助的话，不妨投喂我一下，如果有人投喂的话，我承诺会将这个功能作为一个小小的模块插在这个部落格里，也就是可以实现你上传一张图片，直接得到9张切好的图片。完全在页面上操作。方便爪机用户。：</p>
-<p>投喂宝账户（云养喵系列。。养段喵）：<a href="mailto:&#x79;&#x75;&#x6d;&#101;&#x6e;&#100;&#121;&#64;&#x31;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;">&#x79;&#x75;&#x6d;&#101;&#x6e;&#100;&#121;&#64;&#x31;&#x36;&#51;&#x2e;&#99;&#111;&#x6d;</a></p>
+<p>投喂宝账户（云养喵系列。。养段喵）：<a href="mailto:&#x79;&#x75;&#109;&#101;&#110;&#100;&#121;&#x40;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#x6d;">&#x79;&#x75;&#109;&#101;&#110;&#100;&#121;&#x40;&#49;&#x36;&#51;&#46;&#99;&#x6f;&#x6d;</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -1386,7 +1386,7 @@
   </entry>
   <entry>
     <title>部落格记</title>
-    <url>/2016/08/ckxx09cmm003c49qz5lple2lf/</url>
+    <url>/2016/08/cl0rhzoxm003c72q19q5r5918/</url>
     <content><![CDATA[<p><em>其实就是写写有关这个站点的一些事情</em></p>
 <p><del>好吧。。倒不如说是段喵懒癌康复记</del></p>
 <p>就是一些建站过程中的心得和吐槽w</p>
@@ -1399,7 +1399,7 @@
 <p>于是自己做一个博客的心愿又被自己重拾了起来。于是乎一天半的时间，这个小站就做好了。基于Django和Bootstrap。当然前端的设计是参考了其他同学的博客，感觉自己真的不是一块做设计的料。现在博客的基本功能都已经差不多了。简单的说有了动态的导航栏，富文本的博文系统，分类管理和碎碎念功能。也有一个完整的发布后台。静态文件全部托管在七牛上。而富文本编辑器使用的是Django-ueditor。这个开源项目真的做的非常不错，但是可惜的是开发者已经不再维护了。随着django的更新，这个插件已经不是很好用了。它没有调用Django的Storage系统接口而使用的是直接对磁盘的文件读写功能，造成的直接影响就是和七牛的水土不服。</p>
 <p>两个选择就摆在了我的面前，第一个就是把media文件换给DO服务器，但是想想旧金山服务器的速度实在是不能忍，第二个就是改。纠结再三还是选择了后者。读了读代码发现逻辑还算是清晰。于是偷懒就直接把磁盘写入改为了七牛的存储接口调用。好吧。我承认我也是够懒的，因为我在考虑，如果近期有时间的话。是不是要自己试着移植一下百度的这个神富文本编辑器。</p>
 <p>好吧。突然想吐槽一句。为了这个博客我已经好几天没有上基三了QAQ</p>
-<img src="/2016/08/ckxx09cmm003c49qz5lple2lf/20160818224208667.jpg" class="">
+<img src="/2016/08/cl0rhzoxm003c72q19q5r5918/20160818224208667.jpg" class="">
 
 <p>写在最后，希望自己可以把写博客的习惯坚持下去，也欢迎大家有时间多来看看。</p>
 ]]></content>
@@ -1414,7 +1414,7 @@
   </entry>
   <entry>
     <title>逃课日记</title>
-    <url>/2017/01/ckxx09cmn003f49qz2k4c42i4/</url>
+    <url>/2017/01/cl0rhzoxn003f72q13ub8dmlq/</url>
     <content><![CDATA[<p><em>读万卷书，行万里路。让自己一点点的成长起来。平心静气，让自己过得精致温暖……</em></p>
 <span id="more"></span>
 
@@ -1428,14 +1428,14 @@
 <p>晚上见到了高中时期的老师。记忆最深刻的还是朱姐说过的一段话。朱姐说一个人对自己要求高了的同时，其实在骨子里对别人的要求也是很高的。对于这一点，从某种角度讲我真的是无可辩驳。想了很久，对自己严苛的同时的确难免对身边的人有同样高的要求，之所以之前一直觉得对别人没有那么高要求，也许真的只是因为关系没有那么密切吧，或者换句话说并没有真正和自己有关，但终有一天，自己会有自己的家庭，会有自己的孩子，到了那个时候又该如何去面对他们呢？严于律己，宽以待人，说起来容易，但做好却真真切切不容易。</p>
 <p>回家后认真思考了一下该怎么去度过这一段不算长的假期。似乎被郑老师说准了。我根本不是一个能闲得下来的人。休息了不到一个月，就闲不住了。</p>
 <p>七月份来到了朝思暮想的成都。在杨哥的公司里实习了两个月，其实从我内心讲，这两个月是我过得最开心的两个月了。</p>
-<img src="/2017/01/ckxx09cmn003f49qz2k4c42i4/1.jpg" class="">
+<img src="/2017/01/cl0rhzoxn003f72q13ub8dmlq/1.jpg" class="">
 
-<img src="/2017/01/ckxx09cmn003f49qz2k4c42i4/0.jpg" class="">
+<img src="/2017/01/cl0rhzoxn003f72q13ub8dmlq/0.jpg" class="">
 
 <p>初到成都，在杨哥和亮姐帮助下在天鹅湖花园租好了房子。开始了一段属于自己一个人的生活。一个新的环境。</p>
-<img src="/2017/01/ckxx09cmn003f49qz2k4c42i4/2.jpg" class="">
+<img src="/2017/01/cl0rhzoxn003f72q13ub8dmlq/2.jpg" class="">
 
-<img src="/2017/01/ckxx09cmn003f49qz2k4c42i4/4.jpg" class="">
+<img src="/2017/01/cl0rhzoxn003f72q13ub8dmlq/4.jpg" class="">
 
 <p>其实对于新的环境一开始也是有些不适应的，但是很快就喜欢上了这种高效的生活方式，白天去写代码，晚上可以做些自己喜欢的事情。可以说每天都在做着自己喜欢的事情。说起来生活很简单。虽然只有短短两个月时间，和杨哥接触的多。对生活这件事有了一些新的理解，慢慢理解了生活品质对一个人一辈子的重要性。</p>
 <p>一生说长不长说短不短，有些错过的东西可能就再也不会回来了。有些属于一个时期才会有的感觉，过去了就再也找不回来了。想想小时候最希望的事情是有一台属于自己的电脑，那时候甚至还给自己盘算好了，如果我有一台属于自己的电脑，我要如何分区，我要装多少自己喜欢的游戏，甚至连用什么桌面都已经盘算好了。但是到了如今，真正拿到自己的电脑的时候，昔日的种种幻想什么的早已经不复存在。完全就是简约化的风格，找不回原来的那种快乐了。</p>
@@ -1444,7 +1444,7 @@
 <p>毫不夸张的说就是每天都不开心。最大的收获也许就是每天做一顿中午饭，让自己的厨艺有了不小的进步吧。对于项目相关的事情只能说有苦有乐吧。不便多说。但是单从生活角度讲，最难的日子也算是熬过来了。如果说昔日还在纠结要不要考研，要不要继续念书，其实现在已经基本不再像从前那么纠结了。人一辈子不长不短，还是多用点时间去做些自己喜欢的事情吧。别太委屈自己。</p>
 <p>在北京的日子，有不少挚友寄来的零食和礼物，但是最让我感慨的还是失联送我的一本《一人食》。一人食，一个人也要好好吃饭，一个人，也要过得精致温暖。还是那句话，要好好的生活，不管自己是在什么样的环境下，都要过好自己的日子。虽然很多时候是夹缝中求生存，但是从另一个角度说，即使是这样，也要好好吃饭，也要过得温暖。</p>
 <p>于是乎从一盘麻婆豆腐开始，让自己好好生活。一人食，一个人也要好好吃饭，一个人，也要过得精致温暖。</p>
-<img src="/2017/01/ckxx09cmn003f49qz2k4c42i4/5.jpg" class="">
+<img src="/2017/01/cl0rhzoxn003f72q13ub8dmlq/5.jpg" class="">
 
 <p>在北京的日子，在周末有时间的时候偶尔会和已经毕业的王彤师兄聊聊天小聚一下。作为一个工大毕业的老北漂，跟师兄聊天可以说真的学到了很多不一样的东西。也有很多观念上的改变吧。关于未来，关于择业，关于恋爱，关于生活。有些我曾坚守自认为成熟的东西，从另外的角度看来其实有时候也十分幼稚。也许这就是一个成长的过程。</p>
 <p>坚守自己的原则，读万卷书，行万里路。让自己一点点的成长起来。一路走来，磨砺无数，时光慢慢把年轻的棱角都打磨平了。生活的节奏都在自己手里。平心静气，让自己过得精致温暖。</p>
@@ -1461,7 +1461,7 @@
   </entry>
   <entry>
     <title>又一个博客</title>
-    <url>/2019/06/ckxx09cmp003k49qz69dj84d4/</url>
+    <url>/2019/06/cl0rhzoxp003k72q15dwr458c/</url>
     <content><![CDATA[<h2 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h2><p>距离上一次写博客又过去很久很久了。</p>
 <p>不得不承认打理博客永远是一个非常烦人的事情，之前在DO上自己做的Django版本的博客，也因为DO的主机被回收而一起丢失了。些许遗憾，但这也是成长必经的一部分。</p>
 <p>总会用一些文字去记录生活，脱离开QQ空间、朋友圈之类的熟人社交，或许会更自在一些。</p>
@@ -1481,7 +1481,7 @@
   </entry>
   <entry>
     <title>好好生活</title>
-    <url>/2020/10/ckxx09cmp003n49qz5nu28v5t/</url>
+    <url>/2020/10/cl0rhzoxq003n72q19j9d0p9d/</url>
     <content><![CDATA[<p><em>当“曾经”不总挂在我们嘴边时，生活就开始了。 ——题记</em></p>
 <h2 id="0x00"><a href="#0x00" class="headerlink" title="0x00"></a>0x00</h2><p>其实在两个月之前，就有考虑过要写这样一篇文章，但一直苦苦纠结于到底要用一个什么样的标题，却无论如何都没有想到，在两个月之后的今天，最终还是回归到了这样一个俗套的名字上。</p>
 <p>又不是要卖文为生，仅仅就是写给自己的一些文字而已，何必久久纠结于一个标题，又不指望靠着一个标题吸粉。</p>
@@ -1547,17 +1547,17 @@
   </entry>
   <entry>
     <title>湘江边的随感</title>
-    <url>/2020/11/ckxx09cmq003s49qz197a4zxr/</url>
+    <url>/2020/11/cl0rhzoxr003s72q18b8zfs9t/</url>
     <content><![CDATA[<p>十一月的江风拂过那一刻，似乎些许凉意。</p>
 <span id="more"></span>
 
-<img src="/2020/11/ckxx09cmq003s49qz197a4zxr/1.jpg" class="">
+<img src="/2020/11/cl0rhzoxr003s72q18b8zfs9t/1.jpg" class="">
 
 <p>倚栏远眺，波光映衬着彼岸的万家灯火。街头歌手在以自己独特的音色演绎着张震岳的那一曲《再见》。</p>
 <p>恍惚间，此情此景，似曾相识。有那么一瞬间，世界安静了。</p>
 <p>有多久不曾想起那些日子了。松花江畔，望着夕阳一点点落下，喧闹人群伴着远处歌手的吉他声。</p>
 <p>什么也不做，就是静静的看着。</p>
-<img src="/2020/11/ckxx09cmq003s49qz197a4zxr/2.jpg" class="">
+<img src="/2020/11/cl0rhzoxr003s72q18b8zfs9t/2.jpg" class="">
 
 <p>“不可能每一分钟都用的那么有意义，有时候一些时间也是可以用来浪费的。亦或者说，其实这些随心所欲可以挥霍过去，用来取悦自己的时间，才是人生忙忙碌碌过程中最宝贵的东西。”</p>
 <p>人生本来就是没有意义的，我们强行赋予了自己各种“使命”，责任心和各种欲望驱使下不断一遍又一遍催眠自己，告诉自己所做的一切都是值得的。</p>
@@ -1581,7 +1581,7 @@
   </entry>
   <entry>
     <title>聊一聊信息流和读书</title>
-    <url>/2020/11/ckxx09cmr003v49qz9l7m0vbq/</url>
+    <url>/2020/11/cl0rhzoxt003v72q1da3r0oss/</url>
     <content><![CDATA[<p>偶然在电梯里看到一个四五岁的小朋友在哭着闹着向家长要看抖音的时候，心生感慨，想聊一聊关于以短视频为代表的信息流产品和读书的话题。</p>
 <span id="more"></span>
 
@@ -1616,7 +1616,7 @@
   </entry>
   <entry>
     <title>2020年终随感</title>
-    <url>/2021/01/ckxx09cms004049qzcgr2aoli/</url>
+    <url>/2021/01/cl0rhzoxu004072q18ws98pjk/</url>
     <content><![CDATA[<p>“宁静致远” ——题记</p>
 <p>如果说一定要给过去的一年贴上一个标签的话，我会选择“兵荒马乱”。</p>
 <p>一场突如其来的疫情，让生活偏离了“正常”的轨迹。出于本能中对于不确定性的不安，惶恐、不安、焦虑，却又怀着一丝侥幸。期待着疫情过去，却无法让时间停滞。</p>
@@ -1639,7 +1639,7 @@
   </entry>
   <entry>
     <title>ES字段类型简介</title>
-    <url>/2021/07/ckxx09cmt004349qzfs97dx1z/</url>
+    <url>/2021/07/cl0rhzoxw004372q15p6l213n/</url>
     <content><![CDATA[<h2 id="0x00-映射"><a href="#0x00-映射" class="headerlink" title="0x00. 映射"></a>0x00. 映射</h2><p>ES虽然不是传统的关系型数据库，但其依然具备字段类型和映射的属性。而映射的主要作用是定义文档(document)中字段的数据类型，决定了数据如何存储和索引。</p>
 <p>字段类型可以通过ES动态指定，也可以通过模板指定。通过模板指定后若有新增字段也可以由ES动态指定。</p>
 <p>通常在数据比较明确可控的情况下，通过模板来明确指定字段的数据类型，可以优化存储，并且便于进行一些特殊的查询。</p>
@@ -1648,18 +1648,18 @@
 <h2 id="0x01-常用的字段类型"><a href="#0x01-常用的字段类型" class="headerlink" title="0x01. 常用的字段类型"></a>0x01. 常用的字段类型</h2><h3 id="别名类型-Alias-field-type"><a href="#别名类型-Alias-field-type" class="headerlink" title="别名类型(Alias field type)"></a>别名类型(Alias field type)</h3><p>别名字段是为文档中已有的字段创建一个别名。别名可以用于查询、聚合和排序等。但是别名不可用于写入或更新请求。别名的指向字段也不可以是<code>copy_to</code>或多重字段。</p>
 <p>别名字段由于不存在于文档原文中，因此在原文字段过滤中不会生效。</p>
 <p>在mapping中指定别名字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;alias&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;path&quot;</span>: <span class="string">&quot;target_name&quot;</span> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;alias&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;path&quot;</span><span class="punctuation">:</span> <span class="string">&quot;target_name&quot;</span> </span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <p>其中<code>field_name</code>为新的别名字段，而其中的<code>path</code>字段则为目标字段。</p>
 <h3 id="数组类型-Arrays"><a href="#数组类型-Arrays" class="headerlink" title="数组类型(Arrays)"></a>数组类型(Arrays)</h3><p>在ES中不存在一个特定的数组类型的数据类型，在ES中，任意一个字段都可以包含 0个或多个值，但是这些字段都必须是相同类型。</p>
 <p>对于列表类型字段不需要提前特别指定。在查询过程中，若是命中列表中其中一个词条，则该文档会被选中。</p>
 <h3 id="二进制类型-Binary-field-type"><a href="#二进制类型-Binary-field-type" class="headerlink" title="二进制类型(Binary field type)"></a>二进制类型(Binary field type)</h3><p>二进制类型字段接受使用Base64编码的二进制数据。默认不会被存储也不能进行检索。</p>
 <p>在mapping中指定二进制字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;binary&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;binary&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="布尔类型-Boolean-field-type"><a href="#布尔类型-Boolean-field-type" class="headerlink" title="布尔类型(Boolean field type)"></a>布尔类型(Boolean field type)</h3><p>布尔类型接受Json中的<code>true</code>和<code>false</code>值，也接受代表true和false的字符串。</p>
 <p>在mapping中指定二进制字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;boolean&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;boolean&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="日期类型-Date-field-type"><a href="#日期类型-Date-field-type" class="headerlink" title="日期类型(Date field type)"></a>日期类型(Date field type)</h3><p>JSON中没有日期类型，在ES中可以使用几种不同的方式表示：</p>
 <ul>
@@ -1669,7 +1669,7 @@
 </ul>
 <p>在ES内部，日期类型若包含时区则会被转换为一个UTC时区的毫秒时间戳进行储存。对时间类型的查询在内部均会被转换为long类型的范围查询。</p>
 <p>在mapping中指定日期字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;date&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;format&quot;</span>: <span class="string">&quot;yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;date&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;format&quot;</span><span class="punctuation">:</span> <span class="string">&quot;yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <p>其中的<code>format</code>字段表示时间格式，可以同时指定多种格式。</p>
 <h3 id="地理坐标点类型-Geo-point-field-type"><a href="#地理坐标点类型-Geo-point-field-type" class="headerlink" title="地理坐标点类型(Geo-point field type)"></a>地理坐标点类型(Geo-point field type)</h3><p>地理坐标点类型字段支持经纬度对。可以用于做如下类型的查询：</p>
@@ -1680,16 +1680,16 @@
 <li>根据距离排序文档。</li>
 </ul>
 <p>在mapping中指定二进制字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;geo_point&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;geo_point&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="IP类型-IP-field-type"><a href="#IP类型-IP-field-type" class="headerlink" title="IP类型(IP field type)"></a>IP类型(IP field type)</h3><p>IP字段类型可以用于存储IPv4或IPv6地址。</p>
 <p>在mapping中指定IP字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;ip&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;ip&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <p>IP字段可以用IP和子网前缀长度的方式来进行查询。</p>
 <h3 id="关键字类型-Keyword-type"><a href="#关键字类型-Keyword-type" class="headerlink" title="关键字类型(Keyword type)"></a>关键字类型(Keyword type)</h3><p>通常用于储存结构化数据，例如ID、邮件地址、域名之类的信息。关键字类型不用于全文检索，主要用于排序、聚合和词条查询。</p>
 <p>在mapping中指定关键字字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;keyword&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;keyword&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <p>数字字段类型映射：</p>
 <p>并不是所有的数字字段都应当被映射为数字类型。ES使用数字字段进行range查询。而keyword类型更适合用于词条查询和聚合。对于一个数字字段是否要映射为keyword类型可以从几个角度来考虑：</p>
@@ -1704,18 +1704,18 @@
 <li>unsigned_long</li>
 </ul>
 <p>在mapping中指定数值字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;keyword&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;keyword&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <p>在选择数值类型的选择上，应该尽可能根据数值范围选择较小的类型，可以加速查询，节约存储空间。</p>
 <h3 id="对象类型-Object-field-type"><a href="#对象类型-Object-field-type" class="headerlink" title="对象类型(Object field type)"></a>对象类型(Object field type)</h3><p>ES中支持嵌套对象，在存储和索引时，结构会拍平，因此无需特意指定对象类型。</p>
 <h3 id="区间类型-Range-field-types"><a href="#区间类型-Range-field-types" class="headerlink" title="区间类型(Range field types)"></a>区间类型(Range field types)</h3><p>区间类型代表一个上界和下界之间连续的值。可被用于查询和有限的聚合查询。支持直方图聚合以及独立值个数。</p>
 <p>在mapping中指定区间字段的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;integer_range&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;integer_range&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <p>对于区间类型可以进行term查询，只要查询的值在区间范围内，相应的文档就会被选中。</p>
 <h3 id="文本类型-Text-field-type"><a href="#文本类型-Text-field-type" class="headerlink" title="文本类型(Text field type)"></a>文本类型(Text field type)</h3><p>文本类型主要用来索引全文字段，例如电子邮件的全文、产品描述等。内容会被传递给分词器进行分词处理，转换为一系列词条，并用来作为文档的索引。ES通过这些词条可以快速检索到这些全文文档。文本字段不能用于排序和聚合。</p>
 <p>在mapping中指定文本类型的方法：</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;field_name&quot;</span>: &#123;</span><br><span class="line">  <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;text&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;field_name&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;text&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
 
 <p>需要注意的是text类型的字段会被进行分词处理，因此会比较消耗写入性能。如果无需分词查询的字段则应当尽量使用Keyword类型来减少性能消耗。</p>
 <p>对于既需要分词处理的又需要聚合的文本字段，可以使用多重字段。</p>
@@ -1733,7 +1733,7 @@
   </entry>
   <entry>
     <title>python3 共享内存模块简介</title>
-    <url>/2021/04/ckxx09cmu004849qzcm007fxu/</url>
+    <url>/2021/04/cl0rhzoxx004872q14ysc9spk/</url>
     <content><![CDATA[<h2 id="0x00-概述"><a href="#0x00-概述" class="headerlink" title="0x00. 概述"></a>0x00. 概述</h2><p>前些日子和同事讨论过一个有关Python中共享内存的问题，在这里稍作整理记录一下。</p>
 <span id="more"></span>
 
@@ -1744,16 +1744,16 @@
 <h2 id="0x02-一个Python共享内存的例子"><a href="#0x02-一个Python共享内存的例子" class="headerlink" title="0x02. 一个Python共享内存的例子"></a>0x02. 一个Python共享内存的例子</h2><p>shared_memory模块是Python3.8版本中新提供的一个模块。可以方便的使用和管理共享内存。该模块中的共享内存使用的是System V类型。</p>
 <p>首先我们先看一个简短的例子。</p>
 <p><code>main.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> struct <span class="keyword">import</span> Struct, pack_into</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleMainAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shm = shared_memory.SharedMemory(SHM_KEY, <span class="literal">True</span>, <span class="number">8</span> + <span class="number">2048</span>)</span><br><span class="line">        self.buffer = self.shm.buf</span><br><span class="line">        pack_into(<span class="string">&#x27;I&#x27;</span>, self.buffer, <span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">        self.struct = Struct(<span class="string">&#x27;II2048s&#x27;</span>)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">handle_input</span>(<span class="params">self</span>):</span></span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        encode_data = data.encode(<span class="string">&#x27;utf8&#x27;</span>)</span><br><span class="line">        data_length = <span class="built_in">len</span>(encode_data)</span><br><span class="line">        self.struct.pack_into(self.buffer, <span class="number">0</span>, self.round_counter + <span class="number">1</span>, data_length, encode_data)</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.shm.close()</span><br><span class="line">        self.shm.unlink()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> struct <span class="keyword">import</span> Struct, pack_into</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ShmExampleMainAPP</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        self.shm = shared_memory.SharedMemory(SHM_KEY, <span class="literal">True</span>, <span class="number">8</span> + <span class="number">2048</span>)</span><br><span class="line">        self.buffer = self.shm.buf</span><br><span class="line">        pack_into(<span class="string">&#x27;I&#x27;</span>, self.buffer, <span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">        self.struct = Struct(<span class="string">&#x27;II2048s&#x27;</span>)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">handle_input</span>(<span class="params">self</span>):</span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        encode_data = data.encode(<span class="string">&#x27;utf8&#x27;</span>)</span><br><span class="line">        data_length = <span class="built_in">len</span>(encode_data)</span><br><span class="line">        self.struct.pack_into(self.buffer, <span class="number">0</span>, self.round_counter + <span class="number">1</span>, data_length, encode_data)</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.shm.close()</span><br><span class="line">        self.shm.unlink()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 
 
 <p><code>worker.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> struct <span class="keyword">import</span> Struct</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shm = shared_memory.SharedMemory(SHM_KEY, <span class="literal">False</span>, <span class="number">8</span> + <span class="number">2048</span>)</span><br><span class="line">        self.buffer = self.shm.buf</span><br><span class="line">        self.struct = Struct(<span class="string">&#x27;II2048s&#x27;</span>)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, s, data = self.struct.unpack_from(self.buffer)</span><br><span class="line">            data = data[:s]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.decode(<span class="string">&#x27;utf8&#x27;</span>).upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleWorkerAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> struct <span class="keyword">import</span> Struct</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ShmExampleWorkerAPP</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        self.shm = shared_memory.SharedMemory(SHM_KEY, <span class="literal">False</span>, <span class="number">8</span> + <span class="number">2048</span>)</span><br><span class="line">        self.buffer = self.shm.buf</span><br><span class="line">        self.struct = Struct(<span class="string">&#x27;II2048s&#x27;</span>)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__del__</span>(<span class="params">self</span>):</span><br><span class="line">        self.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, s, data = self.struct.unpack_from(self.buffer)</span><br><span class="line">            data = data[:s]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.decode(<span class="string">&#x27;utf8&#x27;</span>).upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleWorkerAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 <p>在这个例子中，用主进程创建了一个8+2048B的空间并且接受用户输入，并且每次将当前的计数器和输入的字符长度作为元信息写在前8个字节中，用户输入的字符串则通过UTF8编码后写在后面的空间中。</p>
 <p>在子进程中，我们则是读取共享内存区域并且将用户输入转换成大写后输出。</p>
-<img src="/2021/04/ckxx09cmu004849qzcm007fxu/01.png" class="">
+<img src="/2021/04/cl0rhzoxx004872q14ysc9spk/01.png" class="">
 
 <h2 id="0x03-multiprocessing-shared-memory模块"><a href="#0x03-multiprocessing-shared-memory模块" class="headerlink" title="0x03. multiprocessing.shared_memory模块"></a>0x03. multiprocessing.shared_memory模块</h2><p>在shared_memory模块中，主要有两个类可供使用：</p>
 <ul>
@@ -1773,10 +1773,10 @@
 <p>从根本来讲，其实ShareableList就是根据初始传入的序列来为初始序列的每个元素预留了相应的内存空间并整体申请了一整块内存区域。可以对其中的元素进行修改，但是修改的限制是不能超过初始化时该位置元素的大小。</p>
 <p>由此，可以简化一下上面的例子：</p>
 <p><code>main.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleMainAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList([<span class="number">0</span>, <span class="string">&#x27;&#x27;</span>], name=SHM_KEY)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        <span class="built_in">print</span>(self.shl.shm.name)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">handle_input</span>(<span class="params">self</span>):</span></span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        self.shl[<span class="number">0</span>] = self.round_counter + <span class="number">1</span></span><br><span class="line">        self.shl[<span class="number">1</span>] = data</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line">        self.shl.shm.unlink()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ShmExampleMainAPP</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        self.shl = shared_memory.ShareableList([<span class="number">0</span>, <span class="string">&#x27;&#x27;</span>], name=SHM_KEY)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        <span class="built_in">print</span>(self.shl.shm.name)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">handle_input</span>(<span class="params">self</span>):</span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        self.shl[<span class="number">0</span>] = self.round_counter + <span class="number">1</span></span><br><span class="line">        self.shl[<span class="number">1</span>] = data</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line">        self.shl.shm.unlink()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 <p><code>worker.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=SHM_KEY)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleWorkerAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line">SHM_KEY = <span class="string">&#x27;PY_SHM_EXAMPLE&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ShmExampleWorkerAPP</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=SHM_KEY)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__del__</span>(<span class="params">self</span>):</span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleWorkerAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 <p>在这个优化后的例子中，由于使用了ShareableList对象，当内部存储字符串时，它管理了字符串的长度等信息，因此用户也就无需在元信息中保存数据的长度信息了。</p>
 <h3 id="SharedMemoryManager"><a href="#SharedMemoryManager" class="headerlink" title="SharedMemoryManager"></a>SharedMemoryManager</h3><p>与<code>multiprocessing.Manager</code>类似，都是一个独立的进程对象，SharedMemoryManager（下面简称为SMM）类在用户调用了其实例的<code>start</code>方法后，会启动一个独立的进程用来响应用户的创建共享内存请求，并且管理其创建的共享内存的整个生命周期。</p>
@@ -1785,11 +1785,11 @@
 <p>SMM对象提供了两个方法，<code>SharedMemory</code>和<code>ShareableList</code>，用来创建相应的对象。</p>
 <p>对刚才的例子稍作修饰：</p>
 <p><code>main.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> managers</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleMainAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.smm = managers.SharedMemoryManager()</span><br><span class="line">        self.smm.start()</span><br><span class="line">        self.shl = self.smm.ShareableList([<span class="number">0</span>, <span class="string">&#x27;&#x27;</span>])</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        <span class="built_in">print</span>(self.shl.shm.name)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">handle_input</span>(<span class="params">self</span>):</span></span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        self.shl[<span class="number">0</span>] = self.round_counter + <span class="number">1</span></span><br><span class="line">        self.shl[<span class="number">1</span>] = data</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.smm.shutdown()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> managers</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ShmExampleMainAPP</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        self.smm = managers.SharedMemoryManager()</span><br><span class="line">        self.smm.start()</span><br><span class="line">        self.shl = self.smm.ShareableList([<span class="number">0</span>, <span class="string">&#x27;&#x27;</span>])</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line">        <span class="built_in">print</span>(self.shl.shm.name)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">handle_input</span>(<span class="params">self</span>):</span><br><span class="line">        data = <span class="built_in">input</span>(<span class="string">&quot;place input data:&quot;</span>)</span><br><span class="line">        self.shl[<span class="number">0</span>] = self.round_counter + <span class="number">1</span></span><br><span class="line">        self.shl[<span class="number">1</span>] = data</span><br><span class="line">        self.round_counter += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self.handle_input()</span><br><span class="line">            <span class="keyword">except</span> KeyboardInterrupt:</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        self.smm.shutdown()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ShmExampleMainAPP()</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
 
 <p><code>worker.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ShmExampleWorkerAPP</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, name</span>):</span></span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=name)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__del__</span>(<span class="params">self</span>):</span></span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    shm_key = <span class="built_in">input</span>(<span class="string">&#x27;place input shm key:&#x27;</span>)</span><br><span class="line">    app = ShmExampleWorkerAPP(shm_key)</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
-<img src="/2021/04/ckxx09cmu004849qzcm007fxu/02.png" class="">
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> multiprocessing <span class="keyword">import</span> shared_memory</span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ShmExampleWorkerAPP</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, name</span>):</span><br><span class="line">        self.shl = shared_memory.ShareableList(<span class="literal">None</span>, name=name)</span><br><span class="line">        self.round_counter = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__del__</span>(<span class="params">self</span>):</span><br><span class="line">        self.shl.shm.close()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            r, data = self.shl[<span class="number">0</span>], self.shl[<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> r != self.round_counter:</span><br><span class="line">                <span class="built_in">print</span>(data.upper())</span><br><span class="line">                self.round_counter = r</span><br><span class="line">            sleep(<span class="number">0.5</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    shm_key = <span class="built_in">input</span>(<span class="string">&#x27;place input shm key:&#x27;</span>)</span><br><span class="line">    app = ShmExampleWorkerAPP(shm_key)</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
+<img src="/2021/04/cl0rhzoxx004872q14ysc9spk/02.png" class="">
 
 <p>在这个例子中，各种操作都比一开始的例子简单了很多。不过由于SHM的实现机制，不能再使用事先约定好SHM_KEY的方式在其他进程中挂在相应的共享内存区域了，只能通过其他方式将创建好的共享内存对象的key传递给其他的进程。</p>
 <h2 id="0x04-几个典型的使用场景"><a href="#0x04-几个典型的使用场景" class="headerlink" title="0x04. 几个典型的使用场景"></a>0x04. 几个典型的使用场景</h2><p>通过上面的例子不难发现，共享内存虽然是非常高效的跨进程通信方案，但是同样使用复杂度也是最高的，需要用户自行控制进程间的同步问题。对于Python应用而言在很多场景下这种复杂度换回的效率提升其实是得不偿失的。</p>
@@ -1819,7 +1819,7 @@
   </entry>
   <entry>
     <title>命令行时钟流工具</title>
-    <url>/2021/01/ckxx09cmv004b49qzhv0e69bd/</url>
+    <url>/2021/01/cl0rhzoxz004b72q1c79phh5h/</url>
     <content><![CDATA[<h2 id="0x00-什么是时钟流"><a href="#0x00-什么是时钟流" class="headerlink" title="0x00. 什么是时钟流"></a>0x00. 什么是时钟流</h2><p>在直播领域，通常会使用一路画面中包含当前精确时间画面的视频流结合推送端（主播）和播放端（观众）的画面来判断流的传播延迟，用于问题定位和调优。这样一路特殊的视频流叫做时钟流。</p>
 <p>那么在通常使用的过程中，如果生成一路时钟流呢？最简单的办法是点开windows右下角的时间窗口，捕获整个桌面的画面并使用推流工具推流，就得到了一路时钟流。</p>
 <span id="more"></span>
@@ -1831,10 +1831,10 @@
 <h2 id="0x02-时钟流的生成"><a href="#0x02-时钟流的生成" class="headerlink" title="0x02. 时钟流的生成"></a>0x02. 时钟流的生成</h2><p>想要得到一路时钟流，在纯命令行的系统里面，是不能奢望通过捕获的方式获得一路流了。那么就必须通过程序生成的方式获取一路流。</p>
 <p>如何生成一路流呢？进一步思考，可以想到，其实一路流的本质就是按照一定的速度（帧率）将画面推送出去，那么只要能按照规定的帧率生成足够数量的单幅画面并且保证画面上包含时间信息就OK了。</p>
 <p>那么现在只需要解决生成单幅画面的问题即可。说到生成单幅画面，最容易想到的方式就是用PIL直接绘图即可。为了中间尽可能减少处理过程，只用生成黑色背景白色文字的二值化图像即可。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageDraw, ImageFont</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gen_clock_image</span>():</span></span><br><span class="line">     im = Image.new(<span class="string">&#x27;1&#x27;</span>, (<span class="number">800</span>, <span class="number">600</span>))</span><br><span class="line">     draw = ImageDraw.ImageDraw(im)</span><br><span class="line">     draw.text((<span class="number">100</span>, <span class="number">100</span>), <span class="built_in">str</span>(datetime.now()), fill=<span class="string">&#x27;white&#x27;</span>, font=ImageFont.truetype(<span class="string">&#x27;arial.ttf&#x27;</span>, <span class="number">30</span>))</span><br><span class="line">     <span class="keyword">return</span> im</span><br><span class="line"></span><br><span class="line">im = gen_clock_image()</span><br><span class="line">im.show()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageDraw, ImageFont</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">gen_clock_image</span>():</span><br><span class="line">     im = Image.new(<span class="string">&#x27;1&#x27;</span>, (<span class="number">800</span>, <span class="number">600</span>))</span><br><span class="line">     draw = ImageDraw.ImageDraw(im)</span><br><span class="line">     draw.text((<span class="number">100</span>, <span class="number">100</span>), <span class="built_in">str</span>(datetime.now()), fill=<span class="string">&#x27;white&#x27;</span>, font=ImageFont.truetype(<span class="string">&#x27;arial.ttf&#x27;</span>, <span class="number">30</span>))</span><br><span class="line">     <span class="keyword">return</span> im</span><br><span class="line"></span><br><span class="line">im = gen_clock_image()</span><br><span class="line">im.show()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>于是就可以得到下面的图片了</p>
-<img src="/2021/01/ckxx09cmv004b49qzhv0e69bd/1.png" class="">
+<img src="/2021/01/cl0rhzoxz004b72q1c79phh5h/1.png" class="">
 
 <p>那么接下来的工作就是需要按照一定时间来生成图片序列即可。</p>
 <h2 id="0X03-时钟流的推送"><a href="#0X03-时钟流的推送" class="headerlink" title="0X03. 时钟流的推送"></a>0X03. 时钟流的推送</h2><p>命令行推流的工具其实没有什么好纠结的，当然只有大名鼎鼎的ffmpeg。只要在启动的时候进行推流参数的设置即可。需要注意如下的几个参数：</p>
@@ -1855,7 +1855,7 @@
 </ul>
 <p>参数列表差不多就是这些，其中一部分数据在推送的时候通过程序进行设置即可。</p>
 <h2 id="0x04-代码实现"><a href="#0x04-代码实现" class="headerlink" title="0x04. 代码实现"></a>0x04. 代码实现</h2><p><code>ClockVideo.py</code></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageDraw, ImageFont</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> subprocess</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ClockVideo</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, width, height, fps, rtmp_path</span>):</span></span><br><span class="line">        self.width = width</span><br><span class="line">        self.height = height</span><br><span class="line">        self.fps = fps</span><br><span class="line">        self.font = ImageFont.truetype(<span class="string">&#x27;arial.ttf&#x27;</span>, <span class="number">30</span>)</span><br><span class="line">        self.rtmp_path = rtmp_path</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">get_ffmpeg_proc</span>(<span class="params">self</span>):</span></span><br><span class="line">        command = [<span class="string">&#x27;ffmpeg&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-y&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-f&#x27;</span>, <span class="string">&#x27;rawvideo&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-vcodec&#x27;</span>, <span class="string">&#x27;rawvideo&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-pix_fmt&#x27;</span>, <span class="string">&#x27;monob&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-s&#x27;</span>, <span class="string">f&#x27;<span class="subst">&#123;self.width&#125;</span>x<span class="subst">&#123;self.height&#125;</span>&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-r&#x27;</span>, <span class="built_in">str</span>(self.fps),</span><br><span class="line">                   <span class="string">&#x27;-i&#x27;</span>, <span class="string">&#x27;-&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-c:v&#x27;</span>, <span class="string">&#x27;libx264&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-s&#x27;</span>, <span class="string">f&#x27;<span class="subst">&#123;self.width&#125;</span>x<span class="subst">&#123;self.height&#125;</span>&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-r&#x27;</span>, <span class="built_in">str</span>(self.fps),</span><br><span class="line">                   <span class="string">&#x27;-f&#x27;</span>, <span class="string">&#x27;flv&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-preset&#x27;</span>, <span class="string">&#x27;ultrafast&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-pix_fmt&#x27;</span>, <span class="string">&#x27;yuv420p&#x27;</span>,</span><br><span class="line">                   self.rtmp_path</span><br><span class="line">                   ]</span><br><span class="line">        <span class="keyword">return</span> subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">gen_clock_image</span>(<span class="params">self, dt</span>):</span></span><br><span class="line">        im = Image.new(<span class="string">&#x27;1&#x27;</span>, (self.width, self.height))</span><br><span class="line">        draw = ImageDraw.ImageDraw(im)</span><br><span class="line">        draw.text((<span class="number">100</span>, <span class="number">100</span>), dt, fill=<span class="string">&#x27;white&#x27;</span>, font=self.font)</span><br><span class="line">        <span class="keyword">return</span> im.tobytes()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span>(<span class="params">self</span>):</span></span><br><span class="line">        ffmpeg_proc = self.get_ffmpeg_proc()</span><br><span class="line">        real_count = count = <span class="number">0</span></span><br><span class="line">        hz = <span class="number">10</span> ** <span class="number">9</span> / self.fps</span><br><span class="line">        last_print_time_ns = last_output_time_ns = time.time_ns()</span><br><span class="line">        delay_fps = <span class="number">0</span></span><br><span class="line">        change_times = <span class="number">1</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            dt = <span class="built_in">str</span>(datetime.now())</span><br><span class="line">            image = self.gen_clock_image(dt)</span><br><span class="line">            real_count += <span class="number">1</span></span><br><span class="line">            now_time = time.time_ns()</span><br><span class="line">            <span class="keyword">if</span> now_time - last_output_time_ns &gt; hz:</span><br><span class="line">            	<span class="comment"># 通过管道向ffmpeg写入数据</span></span><br><span class="line">                ffmpeg_proc.stdin.write(image)</span><br><span class="line">                count += <span class="number">1</span></span><br><span class="line">                last_output_time_ns = time.time_ns()</span><br><span class="line">            <span class="comment"># 每一秒输出一次统计信息</span></span><br><span class="line">            <span class="keyword">if</span> now_time - last_print_time_ns &gt; <span class="number">10</span> ** <span class="number">9</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&#x27;dt: <span class="subst">&#123;dt&#125;</span>, gen <span class="subst">&#123;real_count&#125;</span>fps, push <span class="subst">&#123;count&#125;</span>fps, hz: <span class="subst">&#123;hz:<span class="number">.2</span>f&#125;</span>, delay: <span class="subst">&#123;delay_fps:<span class="number">.2</span>f&#125;</span>&#x27;</span>)</span><br><span class="line">                <span class="comment"># fps 矫正</span></span><br><span class="line">                <span class="keyword">if</span> count &lt; self.fps:</span><br><span class="line">                    delay_fps += <span class="number">0.2</span> * change_times</span><br><span class="line">                    hz = <span class="number">10</span> ** <span class="number">9</span> / (self.fps + delay_fps)</span><br><span class="line">                <span class="keyword">elif</span> count &gt; self.fps:</span><br><span class="line">                    delay_fps -= <span class="number">0.1</span> * change_times</span><br><span class="line">                    hz = <span class="number">10</span> ** <span class="number">9</span> / (self.fps + delay_fps)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    change_times = change_times * <span class="number">0.1</span> <span class="keyword">if</span> change_times &gt;= <span class="number">0.001</span> <span class="keyword">else</span> change_times</span><br><span class="line">                real_count = count = <span class="number">0</span></span><br><span class="line">                last_print_time_ns = now_time</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageDraw, ImageFont</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> subprocess</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">ClockVideo</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, width, height, fps, rtmp_path</span>):</span><br><span class="line">        self.width = width</span><br><span class="line">        self.height = height</span><br><span class="line">        self.fps = fps</span><br><span class="line">        self.font = ImageFont.truetype(<span class="string">&#x27;arial.ttf&#x27;</span>, <span class="number">30</span>)</span><br><span class="line">        self.rtmp_path = rtmp_path</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">get_ffmpeg_proc</span>(<span class="params">self</span>):</span><br><span class="line">        command = [<span class="string">&#x27;ffmpeg&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-y&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-f&#x27;</span>, <span class="string">&#x27;rawvideo&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-vcodec&#x27;</span>, <span class="string">&#x27;rawvideo&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-pix_fmt&#x27;</span>, <span class="string">&#x27;monob&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-s&#x27;</span>, <span class="string">f&#x27;<span class="subst">&#123;self.width&#125;</span>x<span class="subst">&#123;self.height&#125;</span>&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-r&#x27;</span>, <span class="built_in">str</span>(self.fps),</span><br><span class="line">                   <span class="string">&#x27;-i&#x27;</span>, <span class="string">&#x27;-&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-c:v&#x27;</span>, <span class="string">&#x27;libx264&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-s&#x27;</span>, <span class="string">f&#x27;<span class="subst">&#123;self.width&#125;</span>x<span class="subst">&#123;self.height&#125;</span>&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-r&#x27;</span>, <span class="built_in">str</span>(self.fps),</span><br><span class="line">                   <span class="string">&#x27;-f&#x27;</span>, <span class="string">&#x27;flv&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-preset&#x27;</span>, <span class="string">&#x27;ultrafast&#x27;</span>,</span><br><span class="line">                   <span class="string">&#x27;-pix_fmt&#x27;</span>, <span class="string">&#x27;yuv420p&#x27;</span>,</span><br><span class="line">                   self.rtmp_path</span><br><span class="line">                   ]</span><br><span class="line">        <span class="keyword">return</span> subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">gen_clock_image</span>(<span class="params">self, dt</span>):</span><br><span class="line">        im = Image.new(<span class="string">&#x27;1&#x27;</span>, (self.width, self.height))</span><br><span class="line">        draw = ImageDraw.ImageDraw(im)</span><br><span class="line">        draw.text((<span class="number">100</span>, <span class="number">100</span>), dt, fill=<span class="string">&#x27;white&#x27;</span>, font=self.font)</span><br><span class="line">        <span class="keyword">return</span> im.tobytes()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">run</span>(<span class="params">self</span>):</span><br><span class="line">        ffmpeg_proc = self.get_ffmpeg_proc()</span><br><span class="line">        real_count = count = <span class="number">0</span></span><br><span class="line">        hz = <span class="number">10</span> ** <span class="number">9</span> / self.fps</span><br><span class="line">        last_print_time_ns = last_output_time_ns = time.time_ns()</span><br><span class="line">        delay_fps = <span class="number">0</span></span><br><span class="line">        change_times = <span class="number">1</span></span><br><span class="line">        <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">            dt = <span class="built_in">str</span>(datetime.now())</span><br><span class="line">            image = self.gen_clock_image(dt)</span><br><span class="line">            real_count += <span class="number">1</span></span><br><span class="line">            now_time = time.time_ns()</span><br><span class="line">            <span class="keyword">if</span> now_time - last_output_time_ns &gt; hz:</span><br><span class="line">            	<span class="comment"># 通过管道向ffmpeg写入数据</span></span><br><span class="line">                ffmpeg_proc.stdin.write(image)</span><br><span class="line">                count += <span class="number">1</span></span><br><span class="line">                last_output_time_ns = time.time_ns()</span><br><span class="line">            <span class="comment"># 每一秒输出一次统计信息</span></span><br><span class="line">            <span class="keyword">if</span> now_time - last_print_time_ns &gt; <span class="number">10</span> ** <span class="number">9</span>:</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&#x27;dt: <span class="subst">&#123;dt&#125;</span>, gen <span class="subst">&#123;real_count&#125;</span>fps, push <span class="subst">&#123;count&#125;</span>fps, hz: <span class="subst">&#123;hz:<span class="number">.2</span>f&#125;</span>, delay: <span class="subst">&#123;delay_fps:<span class="number">.2</span>f&#125;</span>&#x27;</span>)</span><br><span class="line">                <span class="comment"># fps 矫正</span></span><br><span class="line">                <span class="keyword">if</span> count &lt; self.fps:</span><br><span class="line">                    delay_fps += <span class="number">0.2</span> * change_times</span><br><span class="line">                    hz = <span class="number">10</span> ** <span class="number">9</span> / (self.fps + delay_fps)</span><br><span class="line">                <span class="keyword">elif</span> count &gt; self.fps:</span><br><span class="line">                    delay_fps -= <span class="number">0.1</span> * change_times</span><br><span class="line">                    hz = <span class="number">10</span> ** <span class="number">9</span> / (self.fps + delay_fps)</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    change_times = change_times * <span class="number">0.1</span> <span class="keyword">if</span> change_times &gt;= <span class="number">0.001</span> <span class="keyword">else</span> change_times</span><br><span class="line">                real_count = count = <span class="number">0</span></span><br><span class="line">                last_print_time_ns = now_time</span><br></pre></td></tr></table></figure>
 
 <p><code>main.py</code></p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> ClockVideo <span class="keyword">import</span> ClockVideo</span><br><span class="line"></span><br><span class="line">SIZE = (<span class="number">1920</span>, <span class="number">1080</span>)</span><br><span class="line">FPS = <span class="number">30</span></span><br><span class="line">RTMP_URL = <span class="string">&#x27;&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app = ClockVideo(</span><br><span class="line">        *SIZE,</span><br><span class="line">        FPS,</span><br><span class="line">        RTMP_URL</span><br><span class="line">    )</span><br><span class="line">    app.run()</span><br></pre></td></tr></table></figure>
@@ -1868,7 +1868,7 @@
 <li>RTMP_URL需要替换为具体的推流地址。</li>
 </ol>
 <p>最后进行推流测试，可以看到如下的输出：</p>
-<img src="/2021/01/ckxx09cmv004b49qzhv0e69bd/2.png" class="">
+<img src="/2021/01/cl0rhzoxz004b72q1c79phh5h/2.png" class="">
 
 <p>通过对比终端中打印的时间和拉到流画面上的时间即可知道推流端到播放端延迟情况。</p>
 <h2 id="0x05-小结"><a href="#0x05-小结" class="headerlink" title="0x05. 小结"></a>0x05. 小结</h2><p>这个小工具是在工作中为了解决某个产品海外主播反馈的延迟问题定位时随手开发的。代码很简单，但是可以解决一个非常有趣的实际问题。</p>
@@ -1895,7 +1895,7 @@
   </entry>
   <entry>
     <title>致站台</title>
-    <url>/2021/11/ckxx09cmw004g49qzg6973fm0/</url>
+    <url>/2021/11/cl0rhzoy0004g72q125st8j3d/</url>
     <content><![CDATA[<p>写在前面的话：</p>
 <p>十年前，去离家千里外的省城读高中，从此故乡只有冬夏再无春秋，一次归家返校后有感而发写下了这篇文章。有感于父爱无言，总是默默在背后支持我的每一次前行，纵使自己受尽委屈。</p>
 <p>上月初，父亲在外骑行不幸罹难，恍恍惚一个月已经过去了，似梦似醒。翻出旧文，以表哀思。</p>
@@ -1945,7 +1945,7 @@
   </entry>
   <entry>
     <title>香辣鱿鱼虾干锅</title>
-    <url>/2021/09/ckxx09cmx004j49qz4jnke7ay/</url>
+    <url>/2021/09/cl0rhzoy1004j72q1hbcp7o15/</url>
     <content><![CDATA[<h2 id="0x00-回忆"><a href="#0x00-回忆" class="headerlink" title="0x00. 回忆"></a>0x00. 回忆</h2><p>在开设博客的第一天，就想过要分享一些烹饪的点滴。但是又因为懒惰，一直未曾动笔。这次借着参加部门的“心动厨房”活动，终于是有了第一篇美食笔记，没错，严格来说算不得菜谱，就是一篇做菜时的笔记。</p>
 <span id="more"></span>
 
@@ -1955,14 +1955,14 @@
 <p>年岁渐长，转眼间离乡在外十载有余，每每面对这道菜，便知余光中《乡愁》中的用词浅浅、感情深深。</p>
 <h2 id="0x01-备料"><a href="#0x01-备料" class="headerlink" title="0x01. 备料"></a>0x01. 备料</h2><p>说起鱿鱼虾的主料，那么自然是鱿鱼和虾。鱿鱼在烹制后会缩水，再加上自身含水量比较大，通常在准备时会略多些，3~4人份，三条大鱿鱼外加一斤多点的虾足以。而对于虾的种类则没有太多要求。有活虾自是最好，冻虾也未尝不可，对于这样一道口味较重的菜肴，丰俭由人。</p>
 <p>辅料的选择其实没有固定的套路，通常在外面的店里更多的作用是为了撑起锅子，不显得太过寒酸，至今记得以前店里卖的八两鱿鱼八两虾便是大锅。我个人比较喜欢用青笋和薯条作为最基本的配菜，青笋经过烫煮后留有清香，可以缓解干锅油腻和厚重的口味，而绿叶蔬菜太过于吸油和软烂，不论口感还是卖相都要差些，因此青笋算是配菜中的最佳选择。薯条经过油炸后会变得疏松，垫在锅底吸收酱汁后便是全部精华的所在。若是食客多时，还会适当加一些年糕或者魔芋豆腐之类，吸满汤汁后也是极为美味的。</p>
-<img src="/2021/09/ckxx09cmx004j49qz4jnke7ay/1.jpeg" class="">
+<img src="/2021/09/cl0rhzoy1004j72q1hbcp7o15/1.jpeg" class="">
 
 <p>在这一次的制作中，在常规的配菜之外，我又额外的准备了一份鱼豆腐。</p>
 <p>鱿鱼清洗干净，青笋去皮只留笋芯，冷冻的薯条无需解冻，直接装盘即可，虾子的处理会稍显繁琐，需要认真的用厨房剪剪去虾脚、虾枪和虾须，最好把虾头虾眼之前的部分全部剪去。这些细小的部分在后期的油炸过程中非常容易焦糊，影响整体的口味。</p>
 <p>最后莫要忘了准备几瓣大蒜，姜片和小米辣。</p>
 <h2 id="0x02-切配"><a href="#0x02-切配" class="headerlink" title="0x02. 切配"></a>0x02. 切配</h2><p>基本的材料备齐之后，就可以准备进行切配工作了。起锅烧油，适当多些，我们用来炸薯条，另一个灶眼则起锅烧水，准备用来烫煮辅料。</p>
 <p>油温70度左右就可以将薯条下锅了，维持温度小火慢炸。用筷子轻轻将薯条相互分开避免粘连。注意一次下锅的不要太多，另外就是薯条淀粉含量高，非常容易粘锅，建议可以使用不锈钢的油炸锅进行炸制，或者空气炸锅也好。</p>
-<img src="/2021/09/ckxx09cmx004j49qz4jnke7ay/2.jpeg" class="">
+<img src="/2021/09/cl0rhzoy1004j72q1hbcp7o15/2.jpeg" class="">
 
 <p>薯条炸好需要一点时间，在这个空档里面我们首先要把青笋切小滚刀块，鱼豆腐对角切开。灶上的水开再丢一小勺盐打底，滴入几滴清油后下入青笋块转中火烫煮。</p>
 <p>同时可以开始处理虾，先前已经基本洗净，只需要进行开背去虾线即可。</p>
@@ -1970,28 +1970,28 @@
 <p>在切花刀的中间需要注意通常一锅炸不下薯条的话可以捞出炸第二锅了，笋煮到可以轻松插入筷子便可以捞出。下入鱼豆腐继续烫煮。</p>
 <p>如果时间把握的不错的话，第二锅的薯条和鱼豆腐应该差不多可以同时出锅，此时鱿鱼花刀也应该切好了。</p>
 <p>薯条需要炸到通体金黄，外壳要硬，如果用筷子夹起来还是软塌塌的是不行的。</p>
-<img src="/2021/09/ckxx09cmx004j49qz4jnke7ay/3.jpeg" class="">
+<img src="/2021/09/cl0rhzoy1004j72q1hbcp7o15/3.jpeg" class="">
 
 <p>油锅关火，开水锅转大火。倒入刚才切好的鱿鱼片进行烫煮，水开后立刻捞出，不能久煮，否则鱿鱼口感就和吃橡胶别无二致。</p>
-<img src="/2021/09/ckxx09cmx004j49qz4jnke7ay/4.jpeg" class="">
+<img src="/2021/09/cl0rhzoy1004j72q1hbcp7o15/4.jpeg" class="">
 
 <h2 id="0x03-炒制"><a href="#0x03-炒制" class="headerlink" title="0x03. 炒制"></a>0x03. 炒制</h2><p>前期的准备工作基本就都完成了，炒制的工作建议放在开饭前进行，若是太早，炒好后虾壳回潮，味道就会差一些了。</p>
 <p>起锅烧油，可以略微多一些，油温100度左右的时候可以快速下薯条复炸一下，维持薯条酥脆的口感，快速捞出，待油温稍微再稍微升高，立刻下入虾子转中火，一面定型后翻过面炸第二面，注意一定不要火太大，否则虾壳很容易炸糊，会让整道菜都带有一点苦味，就翻车了。</p>
-<img src="/2021/09/ckxx09cmx004j49qz4jnke7ay/5.jpeg" class="">
+<img src="/2021/09/cl0rhzoy1004j72q1hbcp7o15/5.jpeg" class="">
 
 <p>另一面也炸定型之后，捞出开大火升温，复炸，迅速捞出，这一步主要目的是为了让虾壳变得酥脆，可以在吃虾的时候不用剥壳。炸虾的时候有一个小小的细节，可以在第一面基本炸好的时候用锅铲按一下虾头，这样会煎出虾油，味道整体会好很多。</p>
-<img src="/2021/09/ckxx09cmx004j49qz4jnke7ay/6.jpeg" class="">
+<img src="/2021/09/cl0rhzoy1004j72q1hbcp7o15/6.jpeg" class="">
 
 <p>外酥里嫩的开背虾出锅！</p>
 <p>锅底留油略多一点较好，适当打一下浮渣，重新开火，下入一小把花椒、一个八角、两片香叶和一小块桂皮，转小火慢慢煎一下，待香料出香后捞出弃用。接着下入两汤匙郫县豆瓣、蒜瓣、姜片、小米辣和适量干辣椒小小火慢炒出红油，这一步一定一定火要小，豆瓣易糊，如果炸糊了，这锅料油就基本废了。炒出红油后下入炸好的虾和焯过水的鱿鱼，转大火翻炒，保证酱汁能均匀接触到食材。</p>
 <p>转小火调味，一勺砂糖，一勺鸡精，半勺花椒粉和小半勺盐，一大勺生抽从锅边淋入，再次转大火翻炒几下关火即可。</p>
 <p>如果锅里主料少的话关火后可以把青笋、鱼豆腐等辅料放在锅里一起再翻两下，使得辅料更容易入味。如果主料多的话则不用这步，因为放进来也翻不了，所以一开始做料油的时候就不能吝啬，否则装盘后辅料味道会寡淡很多。</p>
 <p>如果对自己调味没有太大把握的话，上面的各种步骤可以使用半块火锅底料代替，即，下火锅底料，炒化，下主料，翻炒，出锅。</p>
-<img src="/2021/09/ckxx09cmx004j49qz4jnke7ay/7.jpeg" class="">
+<img src="/2021/09/cl0rhzoy1004j72q1hbcp7o15/7.jpeg" class="">
 
 <h2 id="0x04-出菜"><a href="#0x04-出菜" class="headerlink" title="0x04. 出菜"></a>0x04. 出菜</h2><p>先前的配菜都可以倒入容器中垫底，从锅中将鱿鱼虾和酱汁倒入容器里，撒上一层小葱花和白芝麻，点缀几根香菜便可出菜了。</p>
 <p>这里必须要夸一下大宇锅的颜值，使得这个锅被我用来当容器的时刻远远大于被我当做锅来用的时候。</p>
-<img src="/2021/09/ckxx09cmx004j49qz4jnke7ay/8.jpeg" class="">
+<img src="/2021/09/cl0rhzoy1004j72q1hbcp7o15/8.jpeg" class="">
 
 <h2 id="0x05-后记"><a href="#0x05-后记" class="headerlink" title="0x05. 后记"></a>0x05. 后记</h2><p>一份简简单单的香辣鱿鱼虾就完成了，适合亲友小聚，一份鱿鱼虾奉上，香辣开胃。快速消灭完干锅后加入火锅底料和开水就可以继续涮煮其他食材，热热闹闹又不嫌寡淡。</p>
 <p>出门在外，一个人也要记得好好吃饭。</p>
@@ -2007,7 +2007,7 @@
   </entry>
   <entry>
     <title>2021年终随感</title>
-    <url>/2022/01/ckxx09cmz004o49qzf9qbgbf9/</url>
+    <url>/2022/01/cl0rhzoy2004o72q1f51nbqmm/</url>
     <content><![CDATA[<p>转眼间一年又过来了。</p>
 <p>有所失，有所得。每当到了一年要结束回首过去的时候，不自觉的都会去慨叹一年过得太快了，总是留下太多的遗憾。</p>
 <p>在一年前，我写下了“积跬步，至千里”，希望自己能积累点滴，让自己的生活变得更充实一些。</p>
